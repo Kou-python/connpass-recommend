@@ -1,0 +1,14 @@
+{
+  "min_accepted": 100,
+  "fetch_days": 30,
+  "keywords": [
+    "AI", "LLM", "ChatGPT", "Claude", "RAG", "生成AI", "エージェント",
+    "React", "Next.js", "TypeScript", "フロントエンド", "Web",
+    "プロダクトマネジメント", "PdM", "プロダクトマネージャー", "UX"
+  ],
+  "categories": {
+    "AI": ["AI", "LLM", "ChatGPT", "Claude", "RAG", "生成AI", "エージェント"],
+    "フロント": ["React", "Next.js", "TypeScript", "フロントエンド", "Web"],
+    "PdM": ["プロダクトマネジメント", "PdM", "プロダクトマネージャー", "UX"]
+  }
+}
