@@ -11,7 +11,8 @@
       "matched_keywords": ["AI", "エージェント"],
       "matched_categories": ["AI"],
       "url": "https://connpass.com/event/100001/",
-      "order_url": "https://connpass.com/event/100001/order/"
+      "order_url": "https://connpass.com/event/100001/order/",
+      "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=640&h=360&fit=crop"
     },
     {
       "event_id": 100002,
@@ -23,7 +24,8 @@
       "matched_keywords": ["Next.js"],
       "matched_categories": ["フロント"],
       "url": "https://connpass.com/event/100002/",
-      "order_url": "https://connpass.com/event/100002/order/"
+      "order_url": "https://connpass.com/event/100002/order/",
+      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=640&h=360&fit=crop"
     },
     {
       "event_id": 100003,
@@ -35,7 +37,8 @@
       "matched_keywords": ["PdM", "プロダクトマネジメント"],
       "matched_categories": ["PdM"],
       "url": "https://connpass.com/event/100003/",
-      "order_url": "https://connpass.com/event/100003/order/"
+      "order_url": "https://connpass.com/event/100003/order/",
+      "image_url": ""
     }
   ]
 }

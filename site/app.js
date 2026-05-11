@@ -95,23 +95,34 @@ function buildCard(event) {
     .map((k) => `<span class="event-tag">#${escapeHtml(k)}</span>`)
     .join('');
 
+  const thumb = event.image_url
+    ? `<img src="${escapeAttr(event.image_url)}" alt="" loading="lazy"
+            onerror="this.remove()" />`
+    : `<span>${escapeHtml((event.title || '?').trim().charAt(0))}</span>`;
+
   card.innerHTML = `
-    <h2>
-      <a href="${escapeAttr(event.url)}" target="_blank" rel="noopener">
-        ${escapeHtml(event.title)}
-      </a>
-    </h2>
-    <p class="event-meta">
-      <span>${formatDate(event.started_at)}</span>
-      <span>${escapeHtml(place)}</span>
-      <span>👥 ${event.accepted}/${escapeHtml(String(limit))}</span>
-    </p>
-    <div class="event-tags">${tags}</div>
-    <a class="apply-button"
-       href="${escapeAttr(event.order_url)}"
-       target="_blank" rel="noopener">
-      申込む →
+    <a class="event-thumb" href="${escapeAttr(event.url)}"
+       target="_blank" rel="noopener" aria-hidden="true">
+      ${thumb}
     </a>
+    <div class="event-card-body">
+      <h2>
+        <a href="${escapeAttr(event.url)}" target="_blank" rel="noopener">
+          ${escapeHtml(event.title)}
+        </a>
+      </h2>
+      <p class="event-meta">
+        <span>${formatDate(event.started_at)}</span>
+        <span>${escapeHtml(place)}</span>
+        <span>👥 ${event.accepted}/${escapeHtml(String(limit))}</span>
+      </p>
+      <div class="event-tags">${tags}</div>
+      <a class="apply-button"
+         href="${escapeAttr(event.order_url)}"
+         target="_blank" rel="noopener">
+        申込む →
+      </a>
+    </div>
   `;
   return card;
 }

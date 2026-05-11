@@ -97,6 +97,7 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
             "matched_categories": matched_categories,
             "url": event.get("url", f"https://connpass.com/event/{event_id}/"),
             "order_url": f"https://connpass.com/event/{event_id}/order/",
+            "image_url": event.get("image_url") or "",
         })
 
     filtered.sort(key=lambda e: e["accepted"], reverse=True)
