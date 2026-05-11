@@ -7,6 +7,18 @@
 """
 from __future__ import annotations
 
+import json
+import os
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import requests
+
+API_URL = "https://connpass.com/api/v2/events/"
+JST = timezone(timedelta(hours=9))
+
 
 def filter_events(events: list[dict], config: dict) -> list[dict]:
     """API レスポンスをフィルタ＆ソートし、フロント向けの形に整形する。
@@ -89,3 +101,79 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
 
     filtered.sort(key=lambda e: e["accepted"], reverse=True)
     return filtered
+
+
+def fetch_events(api_key: str, days: int) -> list[dict]:
+    """今後 days 日分のイベントを connpass API から取得する。
+
+    ymd パラメータを日付ごとに指定して取得し、重複を排除する。
+    レート制限対策として各リクエスト間に 1 秒スリープする。
+    """
+    today = datetime.now(JST).date()
+    all_events: dict[int, dict] = {}
+
+    for offset in range(days):
+        target_date = today + timedelta(days=offset)
+        ymd = target_date.strftime("%Y%m%d")
+        start = 1
+        while True:
+            params = {"ymd": ymd, "count": 100, "start": start}
+            response = requests.get(
+                API_URL,
+                params=params,
+                headers={"X-API-Key": api_key},
+                timeout=30,
+            )
+            response.raise_for_status()
+            payload = response.json()
+            events = payload.get("events", [])
+            for event in events:
+                all_events[event["id"]] = event
+
+            results_returned = payload.get("results_returned", len(events))
+            results_available = payload.get("results_available", 0)
+            if start + results_returned > results_available or results_returned == 0:
+                break
+            start += results_returned
+            time.sleep(1)
+        time.sleep(1)
+
+    return list(all_events.values())
+
+
+def save_events(events: list[dict], path: Path) -> None:
+    """events.json を書き出す。updated_at は JST の ISO 形式。"""
+    payload = {
+        "updated_at": datetime.now(JST).isoformat(timespec="seconds"),
+        "events": events,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def main() -> int:
+    api_key = os.environ.get("CONNPASS_API_KEY")
+    if not api_key:
+        print("ERROR: CONNPASS_API_KEY is not set", file=sys.stderr)
+        return 1
+
+    project_root = Path(__file__).resolve().parent.parent
+    config = json.loads((project_root / "config.json").read_text(encoding="utf-8"))
+    output_path = project_root / "site" / "data" / "events.json"
+
+    raw_events = fetch_events(api_key, config["fetch_days"])
+    print(f"Fetched {len(raw_events)} events from API")
+
+    filtered = filter_events(raw_events, config)
+    print(f"After filtering: {len(filtered)} events")
+
+    save_events(filtered, output_path)
+    print(f"Wrote {output_path}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
