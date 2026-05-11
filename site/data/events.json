@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-05-11T06:00:00+09:00",
+  "events": [
+    {
+      "event_id": 100001,
+      "title": "AI Agent Conference 2026",
+      "started_at": "2026-05-15T19:00:00+09:00",
+      "place": "渋谷",
+      "accepted": 234,
+      "limit": 200,
+      "matched_keywords": ["AI", "エージェント"],
+      "matched_categories": ["AI"],
+      "url": "https://connpass.com/event/100001/",
+      "order_url": "https://connpass.com/event/100001/order/"
+    },
+    {
+      "event_id": 100002,
+      "title": "Next.js 大規模アプリ設計",
+      "started_at": "2026-05-18T20:00:00+09:00",
+      "place": "オンライン",
+      "accepted": 156,
+      "limit": null,
+      "matched_keywords": ["Next.js"],
+      "matched_categories": ["フロント"],
+      "url": "https://connpass.com/event/100002/",
+      "order_url": "https://connpass.com/event/100002/order/"
+    },
+    {
+      "event_id": 100003,
+      "title": "PdM Night - プロダクト戦略の作り方",
+      "started_at": "2026-05-20T19:30:00+09:00",
+      "place": "品川",
+      "accepted": 102,
+      "limit": 150,
+      "matched_keywords": ["PdM", "プロダクトマネジメント"],
+      "matched_categories": ["PdM"],
+      "url": "https://connpass.com/event/100003/",
+      "order_url": "https://connpass.com/event/100003/order/"
+    }
+  ]
+}
