@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T14:54:49+09:00",
+  "updated_at": "2026-05-15T15:04:00+09:00",
   "events": [
     {
       "event_id": 389503,
@@ -28,7 +28,7 @@
       "title": "【2時間で学ぶAI基礎講座】NotebookLMによるPowerPoint資料の自動作成",
       "started_at": "2026-05-19T19:00:00+09:00",
       "place": "オンライン",
-      "accepted": 659,
+      "accepted": 660,
       "limit": 1000,
       "matched_keywords": [
         "AI",
@@ -166,7 +166,7 @@
       "title": "Security-JAWS【第41回】~Day1~ 2026年05月16日(土)",
       "started_at": "2026-05-16T11:50:00+09:00",
       "place": "AWS Japan 目黒オフィス 目黒セントラルスクエア 21F",
-      "accepted": 410,
+      "accepted": 411,
       "limit": 1150,
       "matched_keywords": [
         "AI",
@@ -228,7 +228,7 @@
       "title": "AI 時代のプロダクト開発を問い直す Meetup",
       "started_at": "2026-05-26T19:00:00+09:00",
       "place": "LayerX イベントスペース",
-      "accepted": 373,
+      "accepted": 372,
       "limit": 520,
       "matched_keywords": [
         "AI",
@@ -517,7 +517,7 @@
       "title": "AI x 3DCG 技術交流会【ハイブリッド開催】",
       "started_at": "2026-05-22T16:00:00+09:00",
       "place": "X-NIHONBASHI BASE",
-      "accepted": 211,
+      "accepted": 212,
       "limit": 440,
       "matched_keywords": [
         "AI",
@@ -578,7 +578,7 @@
       "title": "OpenID TechNight vol.23 ~ AI x API x Enterprise",
       "started_at": "2026-05-25T19:00:00+09:00",
       "place": "freee大崎オフィス",
-      "accepted": 196,
+      "accepted": 197,
       "limit": 400,
       "matched_keywords": [
         "AI"
@@ -638,7 +638,7 @@
       "title": "TAKTで実践するマルチエージェントのオーケストレーション",
       "started_at": "2026-06-10T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 185,
+      "accepted": 186,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -879,7 +879,7 @@
       "title": "TDNOG13.0 Meeting（山形）",
       "started_at": "2026-05-15T13:30:00+09:00",
       "place": "山形大学",
-      "accepted": 132,
+      "accepted": 133,
       "limit": 194,
       "matched_keywords": [
         "AI",
@@ -897,7 +897,7 @@
       "title": "Agile Testing Night#28 ~AI駆動テスト分析・設計DeepDive~",
       "started_at": "2026-05-15T19:00:00+09:00",
       "place": "ウイングアーク１ｓｔ Data Empowerment Base",
-      "accepted": 130,
+      "accepted": 131,
       "limit": 150,
       "matched_keywords": [
         "AI",
@@ -933,7 +933,7 @@
       "title": "Laboratory Automation月例勉強会 / 2026.05",
       "started_at": "2026-05-30T13:00:00+09:00",
       "place": "東京科学大学 MDタワー",
-      "accepted": 127,
+      "accepted": 128,
       "limit": 152,
       "matched_keywords": [
         "AI",
