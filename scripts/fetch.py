@@ -50,8 +50,8 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
             "matched_keywords": list[str],   # マッチしたキーワード
             "matched_categories": list[str], # マッチしたカテゴリ名
             "url": str,
-            "order_url": str,                # 申込画面の直リンク
-                                              # 形式: f"https://connpass.com/event/{id}/order/"
+            "join_url": str,                 # 申込画面の直リンク
+                                              # 形式: f"{event.url}join/"（末尾は必ず "/"）
         }
 
     config の構造:
@@ -86,6 +86,9 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
         ]
 
         event_id = event["id"]
+        event_url = event.get("url") or f"https://connpass.com/event/{event_id}/"
+        if not event_url.endswith("/"):
+            event_url += "/"
         filtered.append({
             "event_id": event_id,
             "title": event.get("title", ""),
@@ -95,8 +98,8 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
             "limit": event.get("limit"),
             "matched_keywords": matched_keywords,
             "matched_categories": matched_categories,
-            "url": event.get("url", f"https://connpass.com/event/{event_id}/"),
-            "order_url": f"https://connpass.com/event/{event_id}/order/",
+            "url": event_url,
+            "join_url": f"{event_url}join/",
             "image_url": event.get("image_url") or "",
         })
 

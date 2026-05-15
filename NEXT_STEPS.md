@@ -136,7 +136,7 @@ connpass-recommend/
 ## 設計判断のメモ（再開時に参照）
 
 - **公開範囲**: Public（B 案で確定）。申請文に Public 公開・クレジット表記を明記
-- **申込フロー**: `https://connpass.com/event/{id}/order/` への直リンク方式（直接自動申込はしない）
+- **申込フロー**: イベント url 末尾に `join/` を付けた直リンク（例 `https://findy.connpass.com/event/389503/join/`）。直接自動申込はしない
 - **フィルタ条件**: `accepted >= 100` AND `キーワード1個以上マッチ`、ソートは `accepted` の降順のみ
 - **キーワード**: AI / フロント / PdM の3カテゴリ。`config.json` で編集可能
 - **更新頻度**: 毎日 06:00 JST（GitHub Actions cron `0 21 * * *` UTC）

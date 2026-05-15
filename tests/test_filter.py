@@ -90,10 +90,17 @@ def test_event_with_multiple_category_keywords_lists_both():
     assert set(result[0]["matched_categories"]) == {"AI", "フロント"}
 
 
-def test_output_includes_order_url():
+def test_output_includes_join_url():
     events = [make_event(event_id=42, title="AI Conf", accepted=200)]
     result = filter_events(events, CONFIG)
-    assert result[0]["order_url"] == "https://connpass.com/event/42/order/"
+    assert result[0]["join_url"] == "https://connpass.com/event/42/join/"
+
+
+def test_join_url_uses_subdomain_url_when_provided():
+    event = make_event(event_id=389503, title="AI Conf", accepted=200)
+    event["url"] = "https://findy.connpass.com/event/389503/"
+    result = filter_events([event], CONFIG)
+    assert result[0]["join_url"] == "https://findy.connpass.com/event/389503/join/"
 
 
 def test_empty_input_returns_empty_list():

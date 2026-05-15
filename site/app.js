@@ -118,7 +118,7 @@ function buildCard(event) {
       </p>
       <div class="event-tags">${tags}</div>
       <a class="apply-button"
-         href="${escapeAttr(event.order_url)}"
+         href="${escapeAttr(event.join_url)}"
          target="_blank" rel="noopener">
         申込む →
       </a>
