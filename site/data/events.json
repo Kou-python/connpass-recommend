@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T15:15:48+09:00",
+  "updated_at": "2026-05-15T15:18:02+09:00",
   "events": [
     {
       "event_id": 389503,
@@ -188,7 +188,7 @@
       "title": "侵入技術入門 - Forkwell Library #123",
       "started_at": "2026-05-19T19:30:00+09:00",
       "place": "Forkwell イベント視聴ページ",
-      "accepted": 384,
+      "accepted": 385,
       "limit": null,
       "matched_keywords": [
         "AI",
