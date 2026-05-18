@@ -8,16 +8,18 @@ const CATEGORY_COLOR = {
 
 let allEvents = [];
 let activeCategory = 'all';
+let trendChipTerms = [];   // top-N terms displayed as chips
+let topNChips = 8;         // override from config if available
 
-async function loadEvents() {
+async function loadJson(path) {
   try {
-    const response = await fetch('data/events.json', { cache: 'no-cache' });
+    const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
     return await response.json();
   } catch (err) {
-    console.error('Failed to load events.json', err);
+    console.error(`Failed to load ${path}`, err);
     return null;
   }
 }
@@ -47,31 +49,76 @@ function renderUpdatedAt(isoString) {
   });
 }
 
-function renderFilters(categories) {
+function renderFilters(categories, trendTerms) {
   const container = document.getElementById('filters');
   container.innerHTML = '';
-  const buttons = [['all', 'すべて'], ...categories.map((c) => [c, c])];
-  for (const [key, label] of buttons) {
-    const button = document.createElement('button');
-    button.className = 'filter-chip' + (key === activeCategory ? ' active' : '');
-    button.textContent = label;
-    button.dataset.category = key;
-    button.addEventListener('click', () => {
-      activeCategory = key;
-      document.querySelectorAll('.filter-chip').forEach((b) => {
-        b.classList.toggle('active', b.dataset.category === key);
-      });
-      renderEvents();
-    });
-    container.appendChild(button);
+
+  const groups = [
+    { label: '', items: [['all', 'すべて']] },
+    { label: 'カテゴリ', items: categories.map((c) => [c, c]) },
+    { label: 'トレンド', items: trendTerms.map((t) => [t, `#${t}`]) },
+  ];
+
+  for (const group of groups) {
+    if (group.items.length === 0) continue;
+    if (group.label) {
+      const label = document.createElement('span');
+      label.className = 'filter-group-label';
+      label.textContent = group.label;
+      container.appendChild(label);
+    }
+    for (const [key, text] of group.items) {
+      const button = document.createElement('button');
+      const isTrend = group.label === 'トレンド';
+      button.className = 'filter-chip' + (isTrend ? ' trend' : '')
+        + (key === activeCategory ? ' active' : '');
+      button.textContent = text;
+      button.dataset.category = key;
+      button.dataset.kind = isTrend ? 'trend' : (key === 'all' ? 'all' : 'category');
+      button.addEventListener('click', () => selectFilter(key));
+      container.appendChild(button);
+    }
   }
+}
+
+function selectFilter(key) {
+  activeCategory = key;
+  document.querySelectorAll('.filter-chip').forEach((b) => {
+    b.classList.toggle('active', b.dataset.category === key);
+  });
+  syncUrlTag(key);
+  renderEvents();
+}
+
+function syncUrlTag(key) {
+  const url = new URL(window.location.href);
+  if (key === 'all') {
+    url.searchParams.delete('tag');
+  } else {
+    url.searchParams.set('tag', key);
+  }
+  window.history.replaceState({}, '', url);
 }
 
 function renderEvents() {
   const grid = document.getElementById('event-grid');
-  const visible = activeCategory === 'all'
-    ? allEvents
-    : allEvents.filter((e) => (e.matched_categories || []).includes(activeCategory));
+
+  let visible;
+  if (activeCategory === 'all') {
+    visible = allEvents;
+  } else if (trendChipTerms.includes(activeCategory)
+             || isAdHocTrendKey(activeCategory)) {
+    const needle = activeCategory.toLowerCase();
+    visible = allEvents.filter((e) => {
+      const hay = ((e.title || '') + ' '
+                   + (e.catch || '')).toLowerCase();
+      return hay.includes(needle);
+    });
+  } else {
+    visible = allEvents.filter(
+      (e) => (e.matched_categories || []).includes(activeCategory)
+    );
+  }
 
   if (visible.length === 0) {
     grid.innerHTML = '<p class="status">条件に合うイベントがありません。</p>';
@@ -82,6 +129,14 @@ function renderEvents() {
   for (const event of visible) {
     grid.appendChild(buildCard(event));
   }
+}
+
+function isAdHocTrendKey(key) {
+  if (key === 'all') return false;
+  const knownCategories = Array.from(
+    new Set(allEvents.flatMap((e) => e.matched_categories || []))
+  );
+  return !knownCategories.includes(key);
 }
 
 function buildCard(event) {
@@ -141,18 +196,37 @@ function escapeAttr(s) {
 }
 
 async function init() {
-  const data = await loadEvents();
-  if (!data) {
+  const [eventData, trendData] = await Promise.all([
+    loadJson('data/events.json'),
+    loadJson('data/trends.json'),
+  ]);
+
+  if (!eventData) {
     document.getElementById('event-grid').innerHTML =
       '<p class="status">データを取得できませんでした。</p>';
     return;
   }
-  allEvents = data.events || [];
-  renderUpdatedAt(data.updated_at);
+
+  allEvents = eventData.events || [];
+  renderUpdatedAt(eventData.updated_at);
+
   const categories = Array.from(
     new Set(allEvents.flatMap((e) => e.matched_categories || []))
   );
-  renderFilters(categories);
+
+  const trends = (trendData && trendData.trends) || [];
+  trendChipTerms = trends.slice(0, topNChips).map((t) => t.term);
+
+  const params = new URLSearchParams(window.location.search);
+  const tag = params.get('tag');
+  if (tag) {
+    activeCategory = tag;
+    if (!categories.includes(tag) && !trendChipTerms.includes(tag)) {
+      trendChipTerms = [tag, ...trendChipTerms];
+    }
+  }
+
+  renderFilters(categories, trendChipTerms);
   renderEvents();
 }
 
