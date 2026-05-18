@@ -16,6 +16,9 @@ from pathlib import Path
 
 import requests
 
+from scripts.dictionary import BASE_TERMS, STOPWORDS
+from scripts.extract_trends import extract_trends
+
 API_URL = "https://connpass.com/api/v2/events/"
 JST = timezone(timedelta(hours=9))
 
@@ -159,6 +162,19 @@ def save_events(events: list[dict], path: Path) -> None:
     )
 
 
+def save_trends(trends: list[dict], path: Path) -> None:
+    """trends.json を書き出す。updated_at は JST の ISO 形式。"""
+    payload = {
+        "updated_at": datetime.now(JST).isoformat(timespec="seconds"),
+        "trends": trends,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
 def main() -> int:
     api_key = os.environ.get("CONNPASS_API_KEY")
     if not api_key:
@@ -177,6 +193,19 @@ def main() -> int:
 
     save_events(filtered, output_path)
     print(f"Wrote {output_path}")
+
+    trends_config = config.get("trends", {})
+    dictionary = list(BASE_TERMS) + list(trends_config.get("dictionary_extra", []))
+    stopwords = STOPWORDS | set(trends_config.get("stopwords_extra", []))
+    top_n_total = trends_config.get("top_n_total", 50)
+
+    trends = extract_trends(raw_events, dictionary, stopwords, top_n_total)
+    print(f"Extracted {len(trends)} trend terms")
+
+    trends_path = project_root / "site" / "data" / "trends.json"
+    save_trends(trends, trends_path)
+    print(f"Wrote {trends_path}")
+
     return 0
 
 
