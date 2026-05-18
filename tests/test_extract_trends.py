@@ -21,3 +21,11 @@ def test_counts_dictionary_term_in_title():
                             stopwords=set(), top_n=10)
     assert {"term": "Claude", "count": 2} in result
     assert {"term": "React", "count": 1} in result
+
+
+def test_same_event_counts_term_only_once():
+    from scripts.extract_trends import extract_trends
+    events = [make_event(title="Claude Claude Claude", catch="Claude rocks")]
+    result = extract_trends(events, dictionary=["Claude"],
+                            stopwords=set(), top_n=10)
+    assert result == [{"term": "Claude", "count": 1}]
