@@ -39,3 +39,15 @@ def test_stopwords_are_excluded():
     terms = [r["term"] for r in result]
     assert "勉強会" not in terms
     assert "Claude" in terms
+
+
+def test_case_insensitive_match():
+    from scripts.extract_trends import extract_trends
+    events = [
+        make_event(title="claude is great"),
+        make_event(title="CLAUDE Meetup"),
+        make_event(title="ClAuDe deep dive"),
+    ]
+    result = extract_trends(events, dictionary=["Claude"],
+                            stopwords=set(), top_n=10)
+    assert result == [{"term": "Claude", "count": 3}]
