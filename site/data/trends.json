@@ -1,60 +1,160 @@
 {
-  "updated_at": "2026-05-18T17:18:24+09:00",
+  "updated_at": "2026-05-18T17:23:42+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 19
+      "count": 271
     },
     {
       "term": "AWS",
-      "count": 5
-    },
-    {
-      "term": "Codex",
-      "count": 2
-    },
-    {
-      "term": "Copilot",
-      "count": 2
+      "count": 59
     },
     {
       "term": "Go",
-      "count": 2
-    },
-    {
-      "term": "エージェント",
-      "count": 2
-    },
-    {
-      "term": "データ基盤",
-      "count": 2
+      "count": 48
     },
     {
       "term": "Claude",
-      "count": 1
+      "count": 38
+    },
+    {
+      "term": "エージェント",
+      "count": 32
+    },
+    {
+      "term": "生成AI",
+      "count": 30
+    },
+    {
+      "term": "セキュリティ",
+      "count": 21
+    },
+    {
+      "term": "Ruby",
+      "count": 16
+    },
+    {
+      "term": "Python",
+      "count": 14
+    },
+    {
+      "term": "デザイン",
+      "count": 14
+    },
+    {
+      "term": "LLM",
+      "count": 13
+    },
+    {
+      "term": "Web",
+      "count": 13
+    },
+    {
+      "term": "UX",
+      "count": 11
+    },
+    {
+      "term": "Codex",
+      "count": 8
+    },
+    {
+      "term": "Copilot",
+      "count": 7
+    },
+    {
+      "term": "フロントエンド",
+      "count": 7
+    },
+    {
+      "term": "Azure",
+      "count": 6
+    },
+    {
+      "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "テスト",
+      "count": 6
+    },
+    {
+      "term": "DevOps",
+      "count": 5
+    },
+    {
+      "term": "Gemini",
+      "count": 5
+    },
+    {
+      "term": "QA",
+      "count": 5
+    },
+    {
+      "term": "Java",
+      "count": 4
+    },
+    {
+      "term": "Kubernetes",
+      "count": 4
+    },
+    {
+      "term": "Rust",
+      "count": 4
+    },
+    {
+      "term": "ChatGPT",
+      "count": 3
+    },
+    {
+      "term": "Cursor",
+      "count": 3
+    },
+    {
+      "term": "Docker",
+      "count": 3
+    },
+    {
+      "term": "MCP",
+      "count": 3
+    },
+    {
+      "term": "Next.js",
+      "count": 3
+    },
+    {
+      "term": "React",
+      "count": 3
+    },
+    {
+      "term": "TypeScript",
+      "count": 3
+    },
+    {
+      "term": "データ基盤",
+      "count": 3
+    },
+    {
+      "term": "プロダクトマネジメント",
+      "count": 3
     },
     {
       "term": "Databricks",
-      "count": 1
+      "count": 2
     },
     {
       "term": "Iceberg",
       "count": 1
     },
     {
-      "term": "QA",
+      "term": "Kotlin",
       "count": 1
     },
     {
-      "term": "React",
+      "term": "PdM",
       "count": 1
     },
     {
-      "term": "Ruby",
-      "count": 1
-    },
-    {
-      "term": "SRE",
+      "term": "RAG",
       "count": 1
     },
     {
@@ -62,15 +162,7 @@
       "count": 1
     },
     {
-      "term": "セキュリティ",
-      "count": 1
-    },
-    {
-      "term": "テスト",
-      "count": 1
-    },
-    {
-      "term": "フロントエンド",
+      "term": "プロンプト",
       "count": 1
     },
     {
