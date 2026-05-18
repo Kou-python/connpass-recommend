@@ -92,6 +92,7 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
         filtered.append({
             "event_id": event_id,
             "title": event.get("title", ""),
+            "catch": event.get("catch", ""),
             "started_at": event.get("started_at", ""),
             "place": event.get("place", ""),
             "accepted": event.get("accepted", 0),

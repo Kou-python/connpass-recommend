@@ -106,3 +106,9 @@ def test_join_url_uses_subdomain_url_when_provided():
 def test_empty_input_returns_empty_list():
     result = filter_events([], CONFIG)
     assert result == []
+
+
+def test_output_includes_catch():
+    events = [make_event(event_id=1, title="AI", catch="LLM hands-on", accepted=200)]
+    result = filter_events(events, CONFIG)
+    assert result[0]["catch"] == "LLM hands-on"
