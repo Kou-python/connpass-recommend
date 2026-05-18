@@ -67,3 +67,22 @@ def test_returns_top_n_sorted_descending():
         {"term": "A", "count": 4},
         {"term": "B", "count": 3},
     ]
+
+
+def test_empty_events_returns_empty_list():
+    from scripts.extract_trends import extract_trends
+    assert extract_trends([], dictionary=["Claude"],
+                          stopwords=set(), top_n=10) == []
+
+
+def test_handles_missing_title_or_catch():
+    from scripts.extract_trends import extract_trends
+    events = [
+        {"title": "Claude only"},
+        {"catch": "React only"},
+        {},
+    ]
+    result = extract_trends(events, dictionary=["Claude", "React"],
+                            stopwords=set(), top_n=10)
+    terms = {r["term"]: r["count"] for r in result}
+    assert terms == {"Claude": 1, "React": 1}
