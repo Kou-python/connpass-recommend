@@ -29,3 +29,13 @@ def test_same_event_counts_term_only_once():
     result = extract_trends(events, dictionary=["Claude"],
                             stopwords=set(), top_n=10)
     assert result == [{"term": "Claude", "count": 1}]
+
+
+def test_stopwords_are_excluded():
+    from scripts.extract_trends import extract_trends
+    events = [make_event(title="勉強会 about Claude")]
+    result = extract_trends(events, dictionary=["勉強会", "Claude"],
+                            stopwords={"勉強会"}, top_n=10)
+    terms = [r["term"] for r in result]
+    assert "勉強会" not in terms
+    assert "Claude" in terms
