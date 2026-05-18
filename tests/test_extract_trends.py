@@ -51,3 +51,19 @@ def test_case_insensitive_match():
     result = extract_trends(events, dictionary=["Claude"],
                             stopwords=set(), top_n=10)
     assert result == [{"term": "Claude", "count": 3}]
+
+
+def test_returns_top_n_sorted_descending():
+    from scripts.extract_trends import extract_trends
+    events = [
+        make_event(title="A B C D"),
+        make_event(title="A B C"),
+        make_event(title="A B"),
+        make_event(title="A"),
+    ]
+    result = extract_trends(events, dictionary=["A", "B", "C", "D"],
+                            stopwords=set(), top_n=2)
+    assert result == [
+        {"term": "A", "count": 4},
+        {"term": "B", "count": 3},
+    ]
