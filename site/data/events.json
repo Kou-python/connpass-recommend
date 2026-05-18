@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T17:23:42+09:00",
+  "updated_at": "2026-05-18T17:34:56+09:00",
   "events": [
     {
       "event_id": 387383,
@@ -29,7 +29,7 @@
       "catch": "〜ハーネスエンジンニアリングへの入口〜",
       "started_at": "2026-05-19T19:00:00+09:00",
       "place": "燈株式会社",
-      "accepted": 774,
+      "accepted": 775,
       "limit": 1704,
       "matched_keywords": [
         "AI",
@@ -73,7 +73,7 @@
       "catch": "Fireflyを業務で本格的に使いこなしたい人のために、様々なヒントを紹介するオンライン番組です。",
       "started_at": "2026-05-20T20:00:00+09:00",
       "place": "Firefly Camp",
-      "accepted": 650,
+      "accepted": 651,
       "limit": 700,
       "matched_keywords": [
         "AI"
@@ -179,7 +179,7 @@
       "catch": "bashで学ぶ攻撃者の技法",
       "started_at": "2026-05-19T19:30:00+09:00",
       "place": "Forkwell イベント視聴ページ",
-      "accepted": 450,
+      "accepted": 451,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -199,7 +199,7 @@
       "catch": "[本祭] みんなが考えた最強のデータ基盤アーキテクチャ紹介イベント",
       "started_at": "2026-05-21T19:05:00+09:00",
       "place": "オンライン",
-      "accepted": 399,
+      "accepted": 398,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -221,7 +221,7 @@
       "catch": "GitHub Copilotのユーザー・ミートアップ！！",
       "started_at": "2026-05-22T19:00:00+09:00",
       "place": "株式会社U-NEXT HOLDINGS",
-      "accepted": 385,
+      "accepted": 386,
       "limit": 1112,
       "matched_keywords": [
         "AI",
@@ -391,7 +391,7 @@
       "catch": "",
       "started_at": "2026-06-11T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 287,
+      "accepted": 288,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -478,7 +478,7 @@
       "catch": "Timee、DMM.com、Ubie の3社が、データ分析の精度を上げるTipsを共有！",
       "started_at": "2026-05-18T19:15:00+09:00",
       "place": "オンライン",
-      "accepted": 252,
+      "accepted": 253,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -604,7 +604,7 @@
       "catch": "",
       "started_at": "2026-06-02T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 195,
+      "accepted": 196,
       "limit": null,
       "matched_keywords": [
         "AI",
