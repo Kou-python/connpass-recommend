@@ -10,5 +10,11 @@
     "AI": ["AI", "LLM", "ChatGPT", "Claude", "RAG", "生成AI", "エージェント"],
     "フロント": ["React", "Next.js", "TypeScript", "フロントエンド", "Web"],
     "PdM": ["プロダクトマネジメント", "PdM", "プロダクトマネージャー", "UX"]
+  },
+  "trends": {
+    "top_n_chips": 8,
+    "top_n_total": 50,
+    "dictionary_extra": [],
+    "stopwords_extra": []
   }
 }
