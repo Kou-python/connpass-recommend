@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-05-19T07:10:09+09:00",
+  "updated_at": "2026-05-20T07:22:38+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 271
+      "count": 269
     },
     {
       "term": "AWS",
-      "count": 60
-    },
-    {
-      "term": "Go",
-      "count": 46
+      "count": 62
     },
     {
       "term": "Claude",
       "count": 39
     },
     {
+      "term": "Go",
+      "count": 39
+    },
+    {
       "term": "エージェント",
-      "count": 33
+      "count": 34
     },
     {
       "term": "生成AI",
-      "count": 29
+      "count": 26
     },
     {
       "term": "セキュリティ",
@@ -38,16 +38,16 @@
       "count": 14
     },
     {
-      "term": "LLM",
+      "term": "Web",
       "count": 13
     },
     {
-      "term": "Web",
-      "count": 12
+      "term": "デザイン",
+      "count": 13
     },
     {
-      "term": "デザイン",
-      "count": 12
+      "term": "LLM",
+      "count": 11
     },
     {
       "term": "UX",
@@ -55,6 +55,10 @@
     },
     {
       "term": "Codex",
+      "count": 7
+    },
+    {
+      "term": "Copilot",
       "count": 7
     },
     {
@@ -66,15 +70,7 @@
       "count": 6
     },
     {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
       "term": "Gemini",
-      "count": 6
-    },
-    {
-      "term": "SRE",
       "count": 6
     },
     {
@@ -90,7 +86,7 @@
       "count": 5
     },
     {
-      "term": "QA",
+      "term": "Kubernetes",
       "count": 5
     },
     {
@@ -98,11 +94,15 @@
       "count": 4
     },
     {
-      "term": "Kubernetes",
+      "term": "QA",
       "count": 4
     },
     {
       "term": "Rust",
+      "count": 4
+    },
+    {
+      "term": "SRE",
       "count": 4
     },
     {
@@ -111,10 +111,6 @@
     },
     {
       "term": "Docker",
-      "count": 3
-    },
-    {
-      "term": "MCP",
       "count": 3
     },
     {
@@ -138,7 +134,7 @@
       "count": 2
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "プロンプト",
       "count": 2
     },
     {
@@ -147,6 +143,10 @@
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "MCP",
       "count": 1
     },
     {
@@ -162,7 +162,7 @@
       "count": 1
     },
     {
-      "term": "プロンプト",
+      "term": "プロダクトマネジメント",
       "count": 1
     },
     {
