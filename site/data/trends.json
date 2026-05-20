@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-20T07:22:38+09:00",
+  "updated_at": "2026-05-21T07:40:20+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 269
+      "count": 270
     },
     {
       "term": "AWS",
-      "count": 62
+      "count": 59
     },
     {
       "term": "Claude",
@@ -19,7 +19,7 @@
     },
     {
       "term": "エージェント",
-      "count": 34
+      "count": 35
     },
     {
       "term": "生成AI",
@@ -27,38 +27,34 @@
     },
     {
       "term": "セキュリティ",
-      "count": 21
-    },
-    {
-      "term": "Ruby",
-      "count": 15
-    },
-    {
-      "term": "Python",
-      "count": 14
-    },
-    {
-      "term": "Web",
-      "count": 13
+      "count": 22
     },
     {
       "term": "デザイン",
+      "count": 14
+    },
+    {
+      "term": "Python",
+      "count": 13
+    },
+    {
+      "term": "Ruby",
       "count": 13
     },
     {
       "term": "LLM",
-      "count": 11
+      "count": 12
+    },
+    {
+      "term": "Web",
+      "count": 12
     },
     {
       "term": "UX",
       "count": 10
     },
     {
-      "term": "Codex",
-      "count": 7
-    },
-    {
-      "term": "Copilot",
+      "term": "Azure",
       "count": 7
     },
     {
@@ -66,7 +62,7 @@
       "count": 7
     },
     {
-      "term": "Azure",
+      "term": "ChatGPT",
       "count": 6
     },
     {
@@ -74,11 +70,19 @@
       "count": 6
     },
     {
+      "term": "SRE",
+      "count": 6
+    },
+    {
       "term": "フロントエンド",
       "count": 6
     },
     {
-      "term": "ChatGPT",
+      "term": "Codex",
+      "count": 5
+    },
+    {
+      "term": "Copilot",
       "count": 5
     },
     {
@@ -102,7 +106,7 @@
       "count": 4
     },
     {
-      "term": "SRE",
+      "term": "TypeScript",
       "count": 4
     },
     {
@@ -119,10 +123,6 @@
     },
     {
       "term": "React",
-      "count": 3
-    },
-    {
-      "term": "TypeScript",
       "count": 3
     },
     {
