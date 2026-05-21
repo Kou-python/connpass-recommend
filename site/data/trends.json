@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-05-21T07:40:20+09:00",
+  "updated_at": "2026-05-22T07:26:03+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 270
+      "count": 265
     },
     {
       "term": "AWS",
       "count": 59
     },
     {
-      "term": "Claude",
-      "count": 39
+      "term": "Go",
+      "count": 38
     },
     {
-      "term": "Go",
-      "count": 39
+      "term": "Claude",
+      "count": 37
     },
     {
       "term": "エージェント",
-      "count": 35
+      "count": 33
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 27
     },
     {
       "term": "セキュリティ",
-      "count": 22
-    },
-    {
-      "term": "デザイン",
-      "count": 14
-    },
-    {
-      "term": "Python",
-      "count": 13
-    },
-    {
-      "term": "Ruby",
-      "count": 13
+      "count": 19
     },
     {
       "term": "LLM",
-      "count": 12
+      "count": 14
+    },
+    {
+      "term": "Ruby",
+      "count": 14
     },
     {
       "term": "Web",
+      "count": 13
+    },
+    {
+      "term": "デザイン",
       "count": 12
+    },
+    {
+      "term": "Python",
+      "count": 11
     },
     {
       "term": "UX",
@@ -58,11 +58,15 @@
       "count": 7
     },
     {
-      "term": "テスト",
-      "count": 7
+      "term": "ChatGPT",
+      "count": 6
     },
     {
-      "term": "ChatGPT",
+      "term": "Copilot",
+      "count": 6
+    },
+    {
+      "term": "DevOps",
       "count": 6
     },
     {
@@ -74,7 +78,7 @@
       "count": 6
     },
     {
-      "term": "フロントエンド",
+      "term": "テスト",
       "count": 6
     },
     {
@@ -82,20 +86,12 @@
       "count": 5
     },
     {
-      "term": "Copilot",
-      "count": 5
-    },
-    {
-      "term": "DevOps",
-      "count": 5
-    },
-    {
-      "term": "Kubernetes",
-      "count": 5
-    },
-    {
       "term": "Java",
-      "count": 4
+      "count": 5
+    },
+    {
+      "term": "フロントエンド",
+      "count": 5
     },
     {
       "term": "QA",
@@ -114,7 +110,7 @@
       "count": 3
     },
     {
-      "term": "Docker",
+      "term": "Kubernetes",
       "count": 3
     },
     {
@@ -126,15 +122,23 @@
       "count": 3
     },
     {
-      "term": "データ基盤",
-      "count": 3
-    },
-    {
       "term": "Databricks",
       "count": 2
     },
     {
+      "term": "Docker",
+      "count": 2
+    },
+    {
+      "term": "データ基盤",
+      "count": 2
+    },
+    {
       "term": "プロンプト",
+      "count": 2
+    },
+    {
+      "term": "脆弱性",
       "count": 2
     },
     {
@@ -163,10 +167,6 @@
     },
     {
       "term": "プロダクトマネジメント",
-      "count": 1
-    },
-    {
-      "term": "脆弱性",
       "count": 1
     }
   ]
