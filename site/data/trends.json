@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-05-22T07:26:03+09:00",
+  "updated_at": "2026-05-23T07:15:57+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 265
+      "count": 259
     },
     {
       "term": "AWS",
-      "count": 59
+      "count": 57
     },
     {
       "term": "Go",
-      "count": 38
+      "count": 39
     },
     {
       "term": "Claude",
-      "count": 37
+      "count": 35
     },
     {
       "term": "エージェント",
-      "count": 33
+      "count": 35
     },
     {
       "term": "生成AI",
@@ -27,22 +27,18 @@
     },
     {
       "term": "セキュリティ",
-      "count": 19
+      "count": 22
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 16
     },
     {
       "term": "Ruby",
-      "count": 14
-    },
-    {
-      "term": "Web",
       "count": 13
     },
     {
-      "term": "デザイン",
+      "term": "Web",
       "count": 12
     },
     {
@@ -51,27 +47,15 @@
     },
     {
       "term": "UX",
-      "count": 10
+      "count": 11
+    },
+    {
+      "term": "デザイン",
+      "count": 11
     },
     {
       "term": "Azure",
       "count": 7
-    },
-    {
-      "term": "ChatGPT",
-      "count": 6
-    },
-    {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
-      "term": "DevOps",
-      "count": 6
-    },
-    {
-      "term": "Gemini",
-      "count": 6
     },
     {
       "term": "SRE",
@@ -86,6 +70,18 @@
       "count": 5
     },
     {
+      "term": "Copilot",
+      "count": 5
+    },
+    {
+      "term": "DevOps",
+      "count": 5
+    },
+    {
+      "term": "Gemini",
+      "count": 5
+    },
+    {
       "term": "Java",
       "count": 5
     },
@@ -94,15 +90,19 @@
       "count": 5
     },
     {
+      "term": "ChatGPT",
+      "count": 4
+    },
+    {
       "term": "QA",
       "count": 4
     },
     {
-      "term": "Rust",
+      "term": "React",
       "count": 4
     },
     {
-      "term": "TypeScript",
+      "term": "Rust",
       "count": 4
     },
     {
@@ -118,7 +118,7 @@
       "count": 3
     },
     {
-      "term": "React",
+      "term": "脆弱性",
       "count": 3
     },
     {
@@ -130,15 +130,7 @@
       "count": 2
     },
     {
-      "term": "データ基盤",
-      "count": 2
-    },
-    {
       "term": "プロンプト",
-      "count": 2
-    },
-    {
-      "term": "脆弱性",
       "count": 2
     },
     {
@@ -163,6 +155,14 @@
     },
     {
       "term": "Terraform",
+      "count": 1
+    },
+    {
+      "term": "TypeScript",
+      "count": 1
+    },
+    {
+      "term": "データ基盤",
       "count": 1
     },
     {
