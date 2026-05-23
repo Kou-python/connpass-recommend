@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-05-23T07:15:57+09:00",
+  "updated_at": "2026-05-24T07:01:51+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 259
+      "count": 245
     },
     {
       "term": "AWS",
-      "count": 57
+      "count": 51
     },
     {
       "term": "Go",
-      "count": 39
-    },
-    {
-      "term": "Claude",
-      "count": 35
+      "count": 37
     },
     {
       "term": "エージェント",
-      "count": 35
+      "count": 34
+    },
+    {
+      "term": "Claude",
+      "count": 31
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 28
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 20
     },
     {
       "term": "LLM",
@@ -35,23 +35,23 @@
     },
     {
       "term": "Ruby",
-      "count": 13
+      "count": 12
     },
     {
       "term": "Web",
       "count": 12
     },
     {
-      "term": "Python",
+      "term": "デザイン",
       "count": 11
+    },
+    {
+      "term": "Python",
+      "count": 10
     },
     {
       "term": "UX",
-      "count": 11
-    },
-    {
-      "term": "デザイン",
-      "count": 11
+      "count": 10
     },
     {
       "term": "Azure",
@@ -60,14 +60,6 @@
     {
       "term": "SRE",
       "count": 6
-    },
-    {
-      "term": "テスト",
-      "count": 6
-    },
-    {
-      "term": "Codex",
-      "count": 5
     },
     {
       "term": "Copilot",
@@ -86,11 +78,15 @@
       "count": 5
     },
     {
+      "term": "テスト",
+      "count": 5
+    },
+    {
       "term": "フロントエンド",
       "count": 5
     },
     {
-      "term": "ChatGPT",
+      "term": "Codex",
       "count": 4
     },
     {
@@ -98,12 +94,8 @@
       "count": 4
     },
     {
-      "term": "React",
-      "count": 4
-    },
-    {
-      "term": "Rust",
-      "count": 4
+      "term": "ChatGPT",
+      "count": 3
     },
     {
       "term": "Cursor",
@@ -114,7 +106,15 @@
       "count": 3
     },
     {
-      "term": "Next.js",
+      "term": "React",
+      "count": 3
+    },
+    {
+      "term": "Rust",
+      "count": 3
+    },
+    {
+      "term": "プロンプト",
       "count": 3
     },
     {
@@ -130,7 +130,7 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
+      "term": "Next.js",
       "count": 2
     },
     {
