@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-24T07:01:51+09:00",
+  "updated_at": "2026-05-25T07:04:19+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 245
+      "count": 240
     },
     {
       "term": "AWS",
@@ -11,15 +11,15 @@
     },
     {
       "term": "Go",
-      "count": 37
-    },
-    {
-      "term": "エージェント",
       "count": 34
     },
     {
+      "term": "エージェント",
+      "count": 33
+    },
+    {
       "term": "Claude",
-      "count": 31
+      "count": 32
     },
     {
       "term": "生成AI",
@@ -31,7 +31,7 @@
     },
     {
       "term": "LLM",
-      "count": 16
+      "count": 14
     },
     {
       "term": "Ruby",
@@ -46,12 +46,12 @@
       "count": 11
     },
     {
-      "term": "Python",
+      "term": "UX",
       "count": 10
     },
     {
-      "term": "UX",
-      "count": 10
+      "term": "Python",
+      "count": 8
     },
     {
       "term": "Azure",
@@ -59,6 +59,10 @@
     },
     {
       "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "テスト",
       "count": 6
     },
     {
@@ -75,10 +79,6 @@
     },
     {
       "term": "Java",
-      "count": 5
-    },
-    {
-      "term": "テスト",
       "count": 5
     },
     {
