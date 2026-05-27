@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-27T07:27:27+09:00",
+  "updated_at": "2026-05-28T07:47:30+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 240
+      "count": 239
     },
     {
       "term": "AWS",
-      "count": 54
+      "count": 51
     },
     {
       "term": "Claude",
-      "count": 37
+      "count": 36
     },
     {
       "term": "エージェント",
-      "count": 34
+      "count": 36
     },
     {
       "term": "Go",
@@ -23,7 +23,7 @@
     },
     {
       "term": "生成AI",
-      "count": 29
+      "count": 30
     },
     {
       "term": "セキュリティ",
@@ -35,18 +35,14 @@
     },
     {
       "term": "Ruby",
-      "count": 11
-    },
-    {
-      "term": "デザイン",
-      "count": 11
-    },
-    {
-      "term": "Web",
       "count": 10
     },
     {
-      "term": "UX",
+      "term": "Web",
+      "count": 9
+    },
+    {
+      "term": "デザイン",
       "count": 9
     },
     {
@@ -54,8 +50,12 @@
       "count": 8
     },
     {
-      "term": "Python",
+      "term": "UX",
       "count": 8
+    },
+    {
+      "term": "Python",
+      "count": 7
     },
     {
       "term": "SRE",
@@ -66,7 +66,7 @@
       "count": 6
     },
     {
-      "term": "Codex",
+      "term": "Databricks",
       "count": 5
     },
     {
@@ -86,11 +86,7 @@
       "count": 4
     },
     {
-      "term": "Copilot",
-      "count": 4
-    },
-    {
-      "term": "Databricks",
+      "term": "Codex",
       "count": 4
     },
     {
@@ -98,8 +94,20 @@
       "count": 4
     },
     {
-      "term": "QA",
+      "term": "脆弱性",
       "count": 4
+    },
+    {
+      "term": "Copilot",
+      "count": 3
+    },
+    {
+      "term": "Kubernetes",
+      "count": 3
+    },
+    {
+      "term": "QA",
+      "count": 3
     },
     {
       "term": "React",
@@ -110,15 +118,7 @@
       "count": 3
     },
     {
-      "term": "脆弱性",
-      "count": 3
-    },
-    {
       "term": "Cursor",
-      "count": 2
-    },
-    {
-      "term": "Kubernetes",
       "count": 2
     },
     {
@@ -132,10 +132,6 @@
     {
       "term": "Rust",
       "count": 2
-    },
-    {
-      "term": "Docker",
-      "count": 1
     },
     {
       "term": "Iceberg",
