@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-05-29T07:44:26+09:00",
+  "updated_at": "2026-05-30T07:41:17+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 229
+      "count": 226
     },
     {
       "term": "AWS",
-      "count": 46
+      "count": 47
     },
     {
       "term": "Claude",
-      "count": 36
+      "count": 34
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 28
     },
     {
       "term": "エージェント",
-      "count": 31
+      "count": 28
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 24
     },
     {
       "term": "セキュリティ",
-      "count": 21
+      "count": 20
     },
     {
       "term": "LLM",
-      "count": 14
-    },
-    {
-      "term": "Ruby",
-      "count": 10
+      "count": 13
     },
     {
       "term": "デザイン",
       "count": 10
     },
     {
-      "term": "Azure",
+      "term": "Python",
       "count": 9
     },
     {
-      "term": "Python",
-      "count": 7
+      "term": "Ruby",
+      "count": 9
+    },
+    {
+      "term": "Azure",
+      "count": 8
     },
     {
       "term": "Web",
@@ -62,14 +62,6 @@
       "count": 6
     },
     {
-      "term": "UX",
-      "count": 6
-    },
-    {
-      "term": "Databricks",
-      "count": 5
-    },
-    {
       "term": "Java",
       "count": 5
     },
@@ -78,7 +70,7 @@
       "count": 5
     },
     {
-      "term": "SRE",
+      "term": "UX",
       "count": 5
     },
     {
@@ -86,7 +78,15 @@
       "count": 4
     },
     {
+      "term": "Databricks",
+      "count": 4
+    },
+    {
       "term": "DevOps",
+      "count": 4
+    },
+    {
+      "term": "SRE",
       "count": 4
     },
     {
@@ -98,15 +98,15 @@
       "count": 3
     },
     {
-      "term": "Gemini",
-      "count": 3
-    },
-    {
       "term": "Kubernetes",
       "count": 3
     },
     {
       "term": "Next.js",
+      "count": 3
+    },
+    {
+      "term": "PdM",
       "count": 3
     },
     {
@@ -118,7 +118,7 @@
       "count": 3
     },
     {
-      "term": "PdM",
+      "term": "Gemini",
       "count": 2
     },
     {
@@ -130,6 +130,10 @@
       "count": 2
     },
     {
+      "term": "TypeScript",
+      "count": 2
+    },
+    {
       "term": "Cursor",
       "count": 1
     },
@@ -138,23 +142,19 @@
       "count": 1
     },
     {
-      "term": "Kotlin",
-      "count": 1
-    },
-    {
       "term": "MCP",
       "count": 1
     },
     {
-      "term": "Terraform",
-      "count": 1
-    },
-    {
-      "term": "TypeScript",
+      "term": "Snowflake",
       "count": 1
     },
     {
       "term": "データ基盤",
+      "count": 1
+    },
+    {
+      "term": "プロダクトマネジメント",
       "count": 1
     }
   ]
