@@ -1,56 +1,52 @@
 {
-  "updated_at": "2026-05-30T07:41:17+09:00",
+  "updated_at": "2026-05-31T07:07:51+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 226
+      "count": 212
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 38
     },
     {
       "term": "Claude",
-      "count": 34
+      "count": 31
     },
     {
       "term": "Go",
-      "count": 28
+      "count": 27
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 26
     },
     {
       "term": "生成AI",
-      "count": 24
+      "count": 21
     },
     {
       "term": "セキュリティ",
-      "count": 20
+      "count": 19
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 14
     },
     {
       "term": "デザイン",
       "count": 10
     },
     {
-      "term": "Python",
-      "count": 9
-    },
-    {
       "term": "Ruby",
       "count": 9
     },
     {
-      "term": "Azure",
+      "term": "Python",
       "count": 8
     },
     {
-      "term": "Web",
+      "term": "Azure",
       "count": 7
     },
     {
@@ -66,12 +62,16 @@
       "count": 5
     },
     {
-      "term": "React",
+      "term": "UX",
       "count": 5
     },
     {
-      "term": "UX",
+      "term": "Web",
       "count": 5
+    },
+    {
+      "term": "Codex",
+      "count": 4
     },
     {
       "term": "Copilot",
@@ -82,7 +82,7 @@
       "count": 4
     },
     {
-      "term": "DevOps",
+      "term": "React",
       "count": 4
     },
     {
@@ -92,10 +92,6 @@
     {
       "term": "テスト",
       "count": 4
-    },
-    {
-      "term": "Codex",
-      "count": 3
     },
     {
       "term": "Kubernetes",
@@ -118,6 +114,10 @@
       "count": 3
     },
     {
+      "term": "DevOps",
+      "count": 2
+    },
+    {
       "term": "Gemini",
       "count": 2
     },
@@ -132,10 +132,6 @@
     {
       "term": "TypeScript",
       "count": 2
-    },
-    {
-      "term": "Cursor",
-      "count": 1
     },
     {
       "term": "Iceberg",
