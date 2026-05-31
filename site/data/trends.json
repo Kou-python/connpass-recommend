@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-05-31T07:07:51+09:00",
+  "updated_at": "2026-06-01T07:09:14+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 212
+      "count": 211
     },
     {
       "term": "AWS",
-      "count": 38
+      "count": 39
     },
     {
       "term": "Claude",
-      "count": 31
+      "count": 34
     },
     {
       "term": "Go",
@@ -19,11 +19,11 @@
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 25
     },
     {
       "term": "生成AI",
-      "count": 21
+      "count": 22
     },
     {
       "term": "セキュリティ",
@@ -31,18 +31,18 @@
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 13
     },
     {
       "term": "デザイン",
       "count": 10
     },
     {
-      "term": "Ruby",
-      "count": 9
+      "term": "Python",
+      "count": 8
     },
     {
-      "term": "Python",
+      "term": "Ruby",
       "count": 8
     },
     {
@@ -50,11 +50,19 @@
       "count": 7
     },
     {
+      "term": "ChatGPT",
+      "count": 7
+    },
+    {
       "term": "フロントエンド",
       "count": 7
     },
     {
-      "term": "ChatGPT",
+      "term": "UX",
+      "count": 6
+    },
+    {
+      "term": "Web",
       "count": 6
     },
     {
@@ -62,11 +70,7 @@
       "count": 5
     },
     {
-      "term": "UX",
-      "count": 5
-    },
-    {
-      "term": "Web",
+      "term": "SRE",
       "count": 5
     },
     {
@@ -82,20 +86,16 @@
       "count": 4
     },
     {
-      "term": "React",
+      "term": "Kubernetes",
       "count": 4
     },
     {
-      "term": "SRE",
+      "term": "React",
       "count": 4
     },
     {
       "term": "テスト",
       "count": 4
-    },
-    {
-      "term": "Kubernetes",
-      "count": 3
     },
     {
       "term": "Next.js",
@@ -118,10 +118,6 @@
       "count": 2
     },
     {
-      "term": "Gemini",
-      "count": 2
-    },
-    {
       "term": "QA",
       "count": 2
     },
@@ -132,6 +128,10 @@
     {
       "term": "TypeScript",
       "count": 2
+    },
+    {
+      "term": "Gemini",
+      "count": 1
     },
     {
       "term": "Iceberg",
