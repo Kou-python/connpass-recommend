@@ -11,6 +11,13 @@ let activeCategory = 'all';
 let trendChipTerms = [];   // top-N terms displayed as chips
 let topNChips = 8;         // override from config if available
 
+let appliedFromApi = new Set();    // applied_ids.json から読み込み
+let appliedOverride = new Set();   // localStorage で手動追加
+let removedOverride = new Set();   // localStorage で手動解除（APIがtrueでも解除可能）
+
+const LS_APPLIED_ADD = 'connpass_applied_add';
+const LS_APPLIED_REMOVE = 'connpass_applied_remove';
+
 async function loadJson(path) {
   try {
     const response = await fetch(path, { cache: 'no-cache' });
@@ -22,6 +29,43 @@ async function loadJson(path) {
     console.error(`Failed to load ${path}`, err);
     return null;
   }
+}
+
+function loadOverrides() {
+  try {
+    const addRaw = localStorage.getItem(LS_APPLIED_ADD);
+    appliedOverride = new Set(addRaw ? JSON.parse(addRaw) : []);
+  } catch (err) {
+    appliedOverride = new Set();
+  }
+  try {
+    const removeRaw = localStorage.getItem(LS_APPLIED_REMOVE);
+    removedOverride = new Set(removeRaw ? JSON.parse(removeRaw) : []);
+  } catch (err) {
+    removedOverride = new Set();
+  }
+}
+
+function persistOverrides() {
+  localStorage.setItem(LS_APPLIED_ADD, JSON.stringify([...appliedOverride]));
+  localStorage.setItem(LS_APPLIED_REMOVE, JSON.stringify([...removedOverride]));
+}
+
+function isApplied(eventId) {
+  if (removedOverride.has(eventId)) return false;
+  return appliedFromApi.has(eventId) || appliedOverride.has(eventId);
+}
+
+function toggleApplied(eventId) {
+  if (isApplied(eventId)) {
+    removedOverride.add(eventId);
+    appliedOverride.delete(eventId);
+  } else {
+    appliedOverride.add(eventId);
+    removedOverride.delete(eventId);
+  }
+  persistOverrides();
+  renderEvents();
 }
 
 function formatDate(isoString) {
@@ -125,9 +169,22 @@ function renderEvents() {
     return;
   }
 
+  const pending = visible.filter(e => !isApplied(e.event_id));
+  const applied = visible.filter(e => isApplied(e.event_id));
+
   grid.innerHTML = '';
-  for (const event of visible) {
+  for (const event of pending) {
     grid.appendChild(buildCard(event));
+  }
+
+  if (applied.length > 0) {
+    const divider = document.createElement('div');
+    divider.className = 'applied-divider';
+    divider.textContent = '── 応募済み ──';
+    grid.appendChild(divider);
+    for (const event of applied) {
+      grid.appendChild(buildCard(event));
+    }
   }
 }
 
@@ -155,6 +212,14 @@ function buildCard(event) {
             onerror="this.remove()" />`
     : `<span>${escapeHtml((event.title || '?').trim().charAt(0))}</span>`;
 
+  const newBadge = event.is_new === true ? '<span class="badge-new">NEW</span>' : '';
+  const appliedNow = isApplied(event.event_id);
+  const applyBtnText = appliedNow ? '✓ 応募済み（取消）' : '申込む →';
+
+  if (appliedNow) {
+    card.classList.add('applied');
+  }
+
   card.innerHTML = `
     <a class="event-thumb" href="${escapeAttr(event.url)}"
        target="_blank" rel="noopener" aria-hidden="true">
@@ -164,7 +229,7 @@ function buildCard(event) {
       <h2>
         <a href="${escapeAttr(event.url)}" target="_blank" rel="noopener">
           ${escapeHtml(event.title)}
-        </a>
+        </a>${newBadge}
       </h2>
       <p class="event-meta">
         <span>${formatDate(event.started_at)}</span>
@@ -172,13 +237,20 @@ function buildCard(event) {
         <span>👥 ${event.accepted}/${escapeHtml(String(limit))}</span>
       </p>
       <div class="event-tags">${tags}</div>
-      <a class="apply-button"
-         href="${escapeAttr(event.join_url)}"
-         target="_blank" rel="noopener">
-        申込む →
-      </a>
+      <button class="apply-button" data-event-id="${escapeAttr(String(event.event_id))}">
+        ${escapeHtml(applyBtnText)}
+      </button>
     </div>
   `;
+
+  const applyBtn = card.querySelector('.apply-button');
+  applyBtn.addEventListener('click', () => {
+    if (!isApplied(event.event_id)) {
+      window.open(event.join_url, '_blank', 'noopener');
+    }
+    toggleApplied(event.event_id);
+  });
+
   return card;
 }
 
@@ -196,9 +268,10 @@ function escapeAttr(s) {
 }
 
 async function init() {
-  const [eventData, trendData] = await Promise.all([
+  const [eventData, trendData, appliedData] = await Promise.all([
     loadJson('data/events.json'),
     loadJson('data/trends.json'),
+    loadJson('data/applied_ids.json'),
   ]);
 
   if (!eventData) {
@@ -206,6 +279,12 @@ async function init() {
       '<p class="status">データを取得できませんでした。</p>';
     return;
   }
+
+  if (appliedData && Array.isArray(appliedData.applied_ids)) {
+    appliedFromApi = new Set(appliedData.applied_ids);
+  }
+
+  loadOverrides();
 
   allEvents = eventData.events || [];
   renderUpdatedAt(eventData.updated_at);
