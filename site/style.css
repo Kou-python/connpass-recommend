@@ -8,6 +8,9 @@
   --accent-hover: #0860c4;
   --tag-bg: #ddf4ff;
   --tag-text: #0969da;
+  --badge-new-bg: #ef4444;
+  --applied-btn-bg: #6b7280;
+  --applied-btn-hover-bg: #4b5563;
 }
 
 [data-theme="dark"] {
@@ -20,6 +23,9 @@
   --accent-hover: #79c0ff;
   --tag-bg: #1c3050;
   --tag-text: #58a6ff;
+  --badge-new-bg: #f87171;
+  --applied-btn-bg: #6b7280;
+  --applied-btn-hover-bg: #9ca3af;
 }
 
 * { box-sizing: border-box; }
@@ -198,7 +204,7 @@ body {
 /* 新着バッジ */
 .badge-new {
   display: inline-block;
-  background: #ef4444;
+  background: var(--badge-new-bg);
   color: #fff;
   font-size: 0.65rem;
   font-weight: 700;
@@ -215,11 +221,11 @@ body {
 }
 
 .event-card.applied .apply-button {
-  background: #6b7280;
+  background: var(--applied-btn-bg);
 }
 
 .event-card.applied .apply-button:hover {
-  background: #4b5563;
+  background: var(--applied-btn-hover-bg);
 }
 
 /* 応募済みセクション区切り */
