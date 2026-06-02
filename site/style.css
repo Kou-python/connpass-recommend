@@ -181,15 +181,56 @@ body {
   background: var(--accent);
   color: #fff;
   text-decoration: none;
+  border: none;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 600;
+  font-family: inherit;
   text-align: center;
+  cursor: pointer;
   transition: background 0.15s;
 }
 
 .apply-button:hover {
   background: var(--accent-hover);
+}
+
+/* 新着バッジ */
+.badge-new {
+  display: inline-block;
+  background: #ef4444;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+/* 応募済みカード */
+.event-card.applied {
+  opacity: 0.55;
+}
+
+.event-card.applied .apply-button {
+  background: #6b7280;
+}
+
+.event-card.applied .apply-button:hover {
+  background: #4b5563;
+}
+
+/* 応募済みセクション区切り */
+.applied-divider {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  padding: 8px 0;
+  border-top: 1px dashed var(--border);
+  margin-top: 4px;
 }
 
 .status {
