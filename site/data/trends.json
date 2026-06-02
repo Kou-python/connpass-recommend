@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-02T08:06:22+09:00",
+  "updated_at": "2026-06-03T08:06:51+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 217
+      "count": 222
     },
     {
       "term": "AWS",
-      "count": 41
+      "count": 42
     },
     {
       "term": "Claude",
@@ -19,11 +19,11 @@
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 27
     },
     {
       "term": "生成AI",
-      "count": 22
+      "count": 21
     },
     {
       "term": "セキュリティ",
@@ -31,31 +31,27 @@
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 15
     },
     {
       "term": "デザイン",
       "count": 10
     },
     {
+      "term": "Ruby",
+      "count": 9
+    },
+    {
+      "term": "Azure",
+      "count": 8
+    },
+    {
       "term": "Python",
       "count": 8
     },
     {
-      "term": "Ruby",
-      "count": 8
-    },
-    {
-      "term": "Azure",
-      "count": 7
-    },
-    {
-      "term": "ChatGPT",
-      "count": 7
-    },
-    {
       "term": "Web",
-      "count": 7
+      "count": 8
     },
     {
       "term": "テスト",
@@ -66,15 +62,23 @@
       "count": 7
     },
     {
-      "term": "UX",
+      "term": "ChatGPT",
       "count": 6
     },
     {
       "term": "Copilot",
-      "count": 5
+      "count": 6
+    },
+    {
+      "term": "UX",
+      "count": 6
     },
     {
       "term": "Java",
+      "count": 5
+    },
+    {
+      "term": "React",
       "count": 5
     },
     {
@@ -94,10 +98,6 @@
       "count": 4
     },
     {
-      "term": "React",
-      "count": 4
-    },
-    {
       "term": "Next.js",
       "count": 3
     },
@@ -106,19 +106,11 @@
       "count": 3
     },
     {
-      "term": "プロンプト",
-      "count": 3
-    },
-    {
-      "term": "脆弱性",
+      "term": "QA",
       "count": 3
     },
     {
       "term": "DevOps",
-      "count": 2
-    },
-    {
-      "term": "QA",
       "count": 2
     },
     {
@@ -127,6 +119,18 @@
     },
     {
       "term": "TypeScript",
+      "count": 2
+    },
+    {
+      "term": "Vue",
+      "count": 2
+    },
+    {
+      "term": "プロンプト",
+      "count": 2
+    },
+    {
+      "term": "脆弱性",
       "count": 2
     },
     {
