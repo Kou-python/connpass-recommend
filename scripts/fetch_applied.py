@@ -86,7 +86,7 @@ def main() -> int:
         print(f"Wrote {output_path}")
         return 0
 
-    api_key = os.environ.get("CONNPASS_API_KEY") or None
+    api_key = os.environ.get("CONNPASS_API_KEY", "")
 
     if not api_key:
         print("WARNING: CONNPASS_API_KEY が未設定です。APIキーなしで試みます。", file=sys.stderr)
