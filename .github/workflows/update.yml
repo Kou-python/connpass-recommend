@@ -37,7 +37,6 @@ jobs:
 
       - name: Fetch applied events
         env:
-          CONNPASS_API_KEY: ${{ secrets.CONNPASS_API_KEY }}
           CONNPASS_USERNAME: ${{ vars.CONNPASS_USERNAME }}
         run: python -m scripts.fetch_applied
 

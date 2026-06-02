@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -26,7 +27,13 @@ EVENT_ID_PATTERN = re.compile(r'/event/(\d+)/')
 
 
 def extract_event_ids(html: str) -> list[int]:
-    """HTML文字列から /event/{id}/ 形式のイベントIDを抽出する（重複排除・出現順保持）。"""
+    """HTML文字列から /event/{id}/ 形式のイベントIDを抽出する（重複排除・出現順保持）。
+
+    実機検証（2026-06-02, user/kariiho）では、ユーザーページのヘッダー・フッターに
+    /event/{id}/ リンクは存在せず、参加イベント一覧のみが抽出された。
+    将来connpassがサイドバー等にイベントリンクを追加した場合は誤検出の可能性があるため、
+    その際はセクション単位の絞り込みを検討すること。
+    """
     seen: set[int] = set()
     ids: list[int] = []
     for m in EVENT_ID_PATTERN.finditer(html):
@@ -51,6 +58,9 @@ def fetch_applied_ids(username: str) -> list[int]:
     prev_page_ids: list[int] = []
 
     for page in range(1, MAX_PAGES + 1):
+        if page > 1:
+            time.sleep(1)  # レート制限対策（2ページ目以降の取得前に待機）
+
         params = {"page": page}
         response = requests.get(url, params=params, headers=headers, timeout=30)
         response.raise_for_status()
@@ -66,7 +76,6 @@ def fetch_applied_ids(username: str) -> list[int]:
                 all_ids.append(eid)
 
         prev_page_ids = page_ids
-        time.sleep(1)
 
     return all_ids
 
@@ -105,7 +114,14 @@ def main() -> int:
         return 0
 
     print(f"Fetching applied events for user: {username}")
-    applied_ids = fetch_applied_ids(username)
+    try:
+        applied_ids = fetch_applied_ids(username)
+    except requests.exceptions.RequestException as e:
+        # ネットワーク障害・404・タイムアウト等。既存の applied_ids.json を温存して
+        # 後続のデプロイを止めないよう、エラーを報告しつつ正常終了する。
+        print(f"WARNING: 参加イベントの取得に失敗しました: {e}", file=sys.stderr)
+        print("既存の applied_ids.json を温存します。", file=sys.stderr)
+        return 0
     print(f"Fetched {len(applied_ids)} applied event IDs")
 
     save_applied_ids(applied_ids, output_path)
@@ -115,5 +131,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    import sys
     sys.exit(main())

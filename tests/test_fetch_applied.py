@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from unittest.mock import MagicMock, patch
 
-import pytest
+import requests
 
 from scripts.fetch_applied import extract_event_ids, fetch_applied_ids
 
@@ -124,7 +124,7 @@ class TestFetchAppliedIds:
     @patch("scripts.fetch_applied.time.sleep")
     @patch("scripts.fetch_applied.requests.get")
     def test_sleep_called_between_pages(self, mock_get: MagicMock, mock_sleep: MagicMock):
-        """ページ取得のたびに sleep(1) が呼ばれる。"""
+        """2ページ目以降の取得前に sleep(1) が呼ばれる（1ページ目の前は呼ばれない）。"""
         page1 = _html_with_ids(10, 11)
         page2 = _html_with_ids(12, 13)
         mock_get.side_effect = [
@@ -133,4 +133,16 @@ class TestFetchAppliedIds:
             _make_response(page2),  # clamp
         ]
         fetch_applied_ids("testuser")
-        assert mock_sleep.call_count == 2  # page1取得後、page2取得後
+        # get は3回（page1, page2, clamp確認）→ sleep は page2前・clamp前の2回
+        assert mock_sleep.call_count == 2
+
+    @patch("scripts.fetch_applied.time.sleep")
+    @patch("scripts.fetch_applied.requests.get")
+    def test_network_error_propagates(self, mock_get: MagicMock, mock_sleep: MagicMock):
+        """ネットワーク例外は RequestException として呼び出し元に伝播する。"""
+        mock_get.side_effect = requests.exceptions.Timeout("timeout")
+        try:
+            fetch_applied_ids("testuser")
+            assert False, "例外が送出されるべき"
+        except requests.exceptions.RequestException:
+            pass
