@@ -1,53 +1,71 @@
-"""connpass ユーザー参加イベント API から参加済みイベント ID を取得し JSON に書き出す。
+"""connpass ユーザーページをHTMLスクレイピングして参加済みイベント ID を取得し JSON に書き出す。
 
-エンドポイント: https://connpass.com/api/v2/users/{username}/events/
+スクレイピング対象: https://connpass.com/user/{username}/?page=N
 出力先: site/data/applied_ids.json
+
+APIキー不要。ページネーションの終端判定は「前ページと抽出したIDセットが完全一致したら終了」。
+（範囲外ページは最終ページにクランプされHTTP 200を返すため、件数0での終端判定は使えない。）
 """
 from __future__ import annotations
 
 import json
 import os
-import sys
+import re
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 
-API_BASE = "https://connpass.com/api/v2/users/{username}/events/"
+USER_PAGE_URL = "https://connpass.com/user/{username}/"
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+MAX_PAGES = 50
 JST = timezone(timedelta(hours=9))
 
+EVENT_ID_PATTERN = re.compile(r'/event/(\d+)/')
 
-def fetch_applied_ids(username: str, api_key: str | None) -> list[int]:
-    """ユーザーの参加済みイベント ID をページネーションしながら全件取得する。
 
-    - 100 件単位で取得し、全ページ消化するまでループ。
-    - リクエスト間は 1 秒スリープ（レート制限対策）。
-    - api_key が None / 空文字列の場合は X-API-Key ヘッダーを付与しない。
+def extract_event_ids(html: str) -> list[int]:
+    """HTML文字列から /event/{id}/ 形式のイベントIDを抽出する（重複排除・出現順保持）。"""
+    seen: set[int] = set()
+    ids: list[int] = []
+    for m in EVENT_ID_PATTERN.finditer(html):
+        eid = int(m.group(1))
+        if eid not in seen:
+            seen.add(eid)
+            ids.append(eid)
+    return ids
+
+
+def fetch_applied_ids(username: str) -> list[int]:
+    """ユーザーページをスクレイピングして参加イベントIDを全件取得する。
+
+    範囲外ページは最終ページにクランプされるため、
+    前ページとIDセットが一致したら終端とみなす。
+    リクエスト間は1秒スリープ（レート制限対策）。
     """
-    url = API_BASE.format(username=username)
-    headers: dict[str, str] = {}
-    if api_key:
-        headers["X-API-Key"] = api_key
-
+    url = USER_PAGE_URL.format(username=username)
+    headers = {"User-Agent": USER_AGENT}
     all_ids: list[int] = []
-    start = 1
+    seen_ids: set[int] = set()
+    prev_page_ids: list[int] = []
 
-    while True:
-        params = {"count": 100, "start": start}
+    for page in range(1, MAX_PAGES + 1):
+        params = {"page": page}
         response = requests.get(url, params=params, headers=headers, timeout=30)
         response.raise_for_status()
-        payload = response.json()
+        page_ids = extract_event_ids(response.text)
 
-        events = payload.get("events", [])
-        all_ids.extend(event["id"] for event in events)
-
-        results_returned = payload.get("results_returned", len(events))
-        results_available = payload.get("results_available", 0)
-
-        if results_returned == 0 or start + results_returned > results_available:
+        # 終端判定: 空 or 前ページと完全一致（クランプ検出）
+        if not page_ids or page_ids == prev_page_ids:
             break
-        start += results_returned
+
+        for eid in page_ids:
+            if eid not in seen_ids:
+                seen_ids.add(eid)
+                all_ids.append(eid)
+
+        prev_page_ids = page_ids
         time.sleep(1)
 
     return all_ids
@@ -86,13 +104,8 @@ def main() -> int:
         print(f"Wrote {output_path}")
         return 0
 
-    api_key = os.environ.get("CONNPASS_API_KEY", "")
-
-    if not api_key:
-        print("WARNING: CONNPASS_API_KEY が未設定です。APIキーなしで試みます。", file=sys.stderr)
-
     print(f"Fetching applied events for user: {username}")
-    applied_ids = fetch_applied_ids(username, api_key)
+    applied_ids = fetch_applied_ids(username)
     print(f"Fetched {len(applied_ids)} applied event IDs")
 
     save_applied_ids(applied_ids, output_path)
@@ -102,4 +115,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    import sys
     sys.exit(main())
