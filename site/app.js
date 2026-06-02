@@ -246,7 +246,7 @@ function buildCard(event) {
   const applyBtn = card.querySelector('.apply-button');
   applyBtn.addEventListener('click', () => {
     if (!isApplied(event.event_id)) {
-      window.open(event.join_url, '_blank', 'noopener');
+      window.open(event.join_url, '_blank', 'noopener,noreferrer');
     }
     toggleApplied(event.event_id);
   });
