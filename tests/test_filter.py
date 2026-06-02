@@ -176,3 +176,12 @@ def test_is_new_false_on_parse_error():
     events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at="")]
     result = filter_events(events, CONFIG, known_ids=set())
     assert result[0]["is_new"] is False
+
+
+def test_is_new_false_for_past_event():
+    """known_ids にない新規イベントでも started_at が過去なら is_new=False。"""
+    today = datetime.now(JST).date()
+    started_at = (today - timedelta(days=1)).isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is False
