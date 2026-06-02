@@ -35,11 +35,17 @@ jobs:
           CONNPASS_API_KEY: ${{ secrets.CONNPASS_API_KEY }}
         run: python -m scripts.fetch
 
+      - name: Fetch applied events
+        env:
+          CONNPASS_API_KEY: ${{ secrets.CONNPASS_API_KEY }}
+          CONNPASS_USERNAME: ${{ vars.CONNPASS_USERNAME }}
+        run: python -m scripts.fetch_applied
+
       - name: Commit updated data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add site/data/events.json site/data/trends.json
+          git add site/data/events.json site/data/trends.json site/data/applied_ids.json
           if git diff --cached --quiet; then
             echo "No changes in data"
           else
