@@ -4,7 +4,10 @@ filter_events は connpass API のレスポンス（生イベントのリスト�
 config dict を受け取り、フィルタとソートを適用したリストを返す純粋関数。
 """
 import pytest
+from datetime import datetime, timedelta, timezone
 from scripts.fetch import filter_events
+
+JST = timezone(timedelta(hours=9))
 
 
 def make_event(event_id=1, title="Test", catch="", description="",
@@ -112,3 +115,64 @@ def test_output_includes_catch():
     events = [make_event(event_id=1, title="AI", catch="LLM hands-on", accepted=200)]
     result = filter_events(events, CONFIG)
     assert result[0]["catch"] == "LLM hands-on"
+
+
+# --- is_new フラグのテスト ---
+
+def test_is_new_false_when_known_ids_is_none():
+    """known_ids=None の場合は is_new=False。"""
+    events = [make_event(event_id=1, title="AI Conference", accepted=200)]
+    result = filter_events(events, CONFIG, known_ids=None)
+    assert result[0]["is_new"] is False
+
+
+def test_is_new_false_for_existing_event():
+    """known_ids にある既知イベントは is_new=False。"""
+    today = datetime.now(JST).date()
+    started_at = (today + timedelta(days=1)).isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=1, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids={1})
+    assert result[0]["is_new"] is False
+
+
+def test_is_new_true_for_new_event_within_3_days():
+    """known_ids にない新規イベントで started_at が今日から3日以内 → is_new=True。"""
+    today = datetime.now(JST).date()
+    started_at = (today + timedelta(days=2)).isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is True
+
+
+def test_is_new_true_for_new_event_on_today():
+    """known_ids にない新規イベントで started_at が当日 → is_new=True。"""
+    today = datetime.now(JST).date()
+    started_at = today.isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is True
+
+
+def test_is_new_true_for_new_event_exactly_3_days_ahead():
+    """known_ids にない新規イベントで started_at がちょうど3日後 → is_new=True。"""
+    today = datetime.now(JST).date()
+    started_at = (today + timedelta(days=3)).isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is True
+
+
+def test_is_new_false_for_new_event_4_days_ahead():
+    """known_ids にない新規イベントで started_at が4日以上先 → is_new=False。"""
+    today = datetime.now(JST).date()
+    started_at = (today + timedelta(days=4)).isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is False
+
+
+def test_is_new_false_on_parse_error():
+    """started_at パースエラー（空文字列）でも例外を出さず is_new=False。"""
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at="")]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is False

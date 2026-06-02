@@ -23,7 +23,7 @@ API_URL = "https://connpass.com/api/v2/events/"
 JST = timezone(timedelta(hours=9))
 
 
-def filter_events(events: list[dict], config: dict) -> list[dict]:
+def filter_events(events: list[dict], config: dict, known_ids: set[int] | None = None) -> list[dict]:
     """API レスポンスをフィルタ＆ソートし、フロント向けの形に整形する。
 
     フィルタ条件: accepted >= min_accepted かつ キーワード1つ以上にマッチ。
@@ -92,6 +92,17 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
         event_url = event.get("url") or f"https://connpass.com/event/{event_id}/"
         if not event_url.endswith("/"):
             event_url += "/"
+
+        is_new = False
+        if known_ids is not None and event_id not in known_ids:
+            try:
+                started = datetime.fromisoformat(event.get("started_at", "")).date()
+                today = datetime.now(JST).date()
+                if (started - today).days <= 3:
+                    is_new = True
+            except ValueError:
+                pass
+
         filtered.append({
             "event_id": event_id,
             "title": event.get("title", ""),
@@ -105,6 +116,7 @@ def filter_events(events: list[dict], config: dict) -> list[dict]:
             "url": event_url,
             "join_url": f"{event_url}join/",
             "image_url": event.get("image_url") or "",
+            "is_new": is_new,
         })
 
     filtered.sort(key=lambda e: e["accepted"], reverse=True)
@@ -188,7 +200,12 @@ def main() -> int:
     raw_events = fetch_events(api_key, config["fetch_days"])
     print(f"Fetched {len(raw_events)} events from API")
 
-    filtered = filter_events(raw_events, config)
+    # 既存の events.json があれば読み込んで known_ids を構築
+    existing = {}
+    if output_path.exists():
+        existing = json.loads(output_path.read_text(encoding="utf-8"))
+    known_ids = {e["event_id"] for e in existing.get("events", [])}
+    filtered = filter_events(raw_events, config, known_ids=known_ids)
     print(f"After filtering: {len(filtered)} events")
 
     save_events(filtered, output_path)
