@@ -411,6 +411,11 @@ body {
   z-index: 1000;
 }
 
+/* hidden 属性を display: flex より優先して非表示にする */
+.modal-overlay[hidden] {
+  display: none;
+}
+
 .modal {
   background: var(--surface);
   border: 1px solid var(--border);
