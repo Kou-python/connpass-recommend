@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 21 * * *'  # 06:00 JST
   workflow_dispatch:
+    inputs:
+      connpass_username:
+        description: 'connpass username for applied events'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -37,7 +42,7 @@ jobs:
 
       - name: Fetch applied events
         env:
-          CONNPASS_USERNAME: ${{ vars.CONNPASS_USERNAME }}
+          CONNPASS_USERNAME: ${{ inputs.connpass_username || vars.CONNPASS_USERNAME }}
         run: python -m scripts.fetch_applied
 
       - name: Commit updated data
