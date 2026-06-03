@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-03T08:06:51+09:00",
+  "updated_at": "2026-06-04T08:10:05+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 222
+      "count": 217
     },
     {
       "term": "AWS",
@@ -11,38 +11,42 @@
     },
     {
       "term": "Claude",
-      "count": 37
+      "count": 36
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 31
     },
     {
       "term": "エージェント",
-      "count": 27
+      "count": 28
+    },
+    {
+      "term": "セキュリティ",
+      "count": 21
     },
     {
       "term": "生成AI",
       "count": 21
     },
     {
-      "term": "セキュリティ",
-      "count": 20
-    },
-    {
       "term": "LLM",
-      "count": 15
+      "count": 14
     },
     {
       "term": "デザイン",
+      "count": 11
+    },
+    {
+      "term": "Web",
       "count": 10
     },
     {
-      "term": "Ruby",
-      "count": 9
+      "term": "Azure",
+      "count": 8
     },
     {
-      "term": "Azure",
+      "term": "Copilot",
       "count": 8
     },
     {
@@ -50,11 +54,15 @@
       "count": 8
     },
     {
-      "term": "Web",
-      "count": 8
+      "term": "Ruby",
+      "count": 7
     },
     {
-      "term": "テスト",
+      "term": "SRE",
+      "count": 7
+    },
+    {
+      "term": "UX",
       "count": 7
     },
     {
@@ -66,11 +74,7 @@
       "count": 6
     },
     {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
-      "term": "UX",
+      "term": "テスト",
       "count": 6
     },
     {
@@ -79,10 +83,6 @@
     },
     {
       "term": "React",
-      "count": 5
-    },
-    {
-      "term": "SRE",
       "count": 5
     },
     {
@@ -98,15 +98,11 @@
       "count": 4
     },
     {
-      "term": "Next.js",
-      "count": 3
+      "term": "QA",
+      "count": 4
     },
     {
       "term": "PdM",
-      "count": 3
-    },
-    {
-      "term": "QA",
       "count": 3
     },
     {
@@ -114,7 +110,19 @@
       "count": 2
     },
     {
+      "term": "MCP",
+      "count": 2
+    },
+    {
+      "term": "Next.js",
+      "count": 2
+    },
+    {
       "term": "Rust",
+      "count": 2
+    },
+    {
+      "term": "Snowflake",
       "count": 2
     },
     {
@@ -134,15 +142,15 @@
       "count": 2
     },
     {
+      "term": "Cursor",
+      "count": 1
+    },
+    {
       "term": "Iceberg",
       "count": 1
     },
     {
-      "term": "MCP",
-      "count": 1
-    },
-    {
-      "term": "Snowflake",
+      "term": "Kotlin",
       "count": 1
     },
     {
