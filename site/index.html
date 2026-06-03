@@ -15,6 +15,7 @@
         <a href="index.html" class="nav-link active">イベント</a>
         <a href="trends.html" class="nav-link">トレンド</a>
         <button id="theme-toggle" class="theme-toggle" aria-label="テーマ切り替え">☀</button>
+        <button id="settings-toggle" class="theme-toggle" aria-label="設定">⚙</button>
       </nav>
     </div>
     <p class="updated">最終更新: <span id="updated-at">読み込み中...</span></p>
@@ -36,6 +37,44 @@
     </p>
   </footer>
 
+  <!-- 設定モーダル -->
+  <div id="settings-modal" class="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-header">
+        <h2 id="modal-title">設定</h2>
+        <button id="settings-close" class="modal-close" aria-label="閉じる">✕</button>
+      </div>
+      <div class="modal-body">
+        <label class="setting-label" for="setting-username">
+          connpass ユーザー名
+          <span class="setting-hint">参加済みイベントを下段に移動するために使用します</span>
+        </label>
+        <input id="setting-username" type="text" class="setting-input"
+               placeholder="例: kariiho" autocomplete="off" />
+
+        <label class="setting-label" for="setting-repo">
+          GitHub リポジトリ (owner/repo)
+          <span class="setting-hint">「今すぐ更新」ボタンで使用します</span>
+        </label>
+        <input id="setting-repo" type="text" class="setting-input"
+               placeholder="例: kou-python/connpass-recommend" autocomplete="off" />
+
+        <label class="setting-label" for="setting-pat">
+          GitHub Personal Access Token
+          <span class="setting-hint">workflow スコープが必要です。localStorage に保存されます</span>
+        </label>
+        <input id="setting-pat" type="password" class="setting-input"
+               placeholder="github_pat_..." autocomplete="off" />
+      </div>
+      <div class="modal-footer">
+        <button id="settings-save" class="btn-primary">保存</button>
+        <button id="settings-dispatch" class="btn-secondary">今すぐ更新</button>
+      </div>
+      <p id="settings-status" class="settings-status" hidden></p>
+    </div>
+  </div>
+
+  <script src="settings.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>
