@@ -15,7 +15,12 @@ function loadSettings() {
 function saveSettings(username, repo, pat) {
   localStorage.setItem(LS_USERNAME, username);
   localStorage.setItem(LS_REPO, repo);
-  if (pat) localStorage.setItem(LS_PAT, pat);
+  // pat が空文字列の場合は削除（ユーザーがPATをクリアできるようにする）
+  if (pat) {
+    localStorage.setItem(LS_PAT, pat);
+  } else {
+    localStorage.removeItem(LS_PAT);
+  }
 }
 
 function showStatus(message, isError = false) {
@@ -67,6 +72,8 @@ async function triggerDispatch(repo, pat, username) {
       showStatus('リポジトリまたはワークフローが見つかりません（404）', true);
     } else if (res.status === 422) {
       showStatus('入力値が正しくありません（422）', true);
+    } else if (res.status === 403) {
+      showStatus('PATに workflow スコープがありません（403）', true);
     } else {
       showStatus(`エラー: HTTP ${res.status}`, true);
     }
@@ -88,6 +95,8 @@ function initSettings() {
   const inputRepo     = document.getElementById('setting-repo');
   const inputPat      = document.getElementById('setting-pat');
 
+  const FOCUSABLE = 'button, input, [tabindex]:not([tabindex="-1"])';
+
   function openModal() {
     const s = loadSettings();
     inputUsername.value = s.username;
@@ -99,6 +108,7 @@ function initSettings() {
 
   function closeModal() {
     modal.hidden = true;
+    toggle.focus();
   }
 
   toggle.addEventListener('click', openModal);
@@ -109,7 +119,20 @@ function initSettings() {
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !modal.hidden) closeModal();
+    if (modal.hidden) return;
+    if (e.key === 'Escape') { closeModal(); return; }
+    if (e.key !== 'Tab') return;
+    // フォーカストラップ: Tab/Shift-Tab をモーダル内に閉じ込める
+    const focusable = [...modal.querySelectorAll(FOCUSABLE)];
+    const first = focusable[0];
+    const last  = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
   });
 
   saveBtn.addEventListener('click', () => {
