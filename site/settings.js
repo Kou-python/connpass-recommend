@@ -23,18 +23,27 @@ function saveSettings(username, repo, pat) {
   }
 }
 
+let statusTimer = null;
 function showStatus(message, isError = false) {
+  clearTimeout(statusTimer);
   const el = document.getElementById('settings-status');
   el.textContent = message;
   el.className = 'settings-status' + (isError ? ' error' : ' success');
   el.hidden = false;
-  setTimeout(() => { el.hidden = true; }, 4000);
+  statusTimer = setTimeout(() => { el.hidden = true; }, 4000);
 }
 
+const REPO_PART = /^[a-zA-Z0-9._-]+$/;
+
 async function triggerDispatch(repo, pat, username) {
-  const [owner, repoName] = repo.split('/');
-  if (!owner || !repoName) {
+  const parts = repo.split('/');
+  const [owner, repoName] = parts;
+  if (parts.length !== 2 || !owner || !repoName) {
     showStatus('リポジトリ名の形式が正しくありません（例: owner/repo）', true);
+    return;
+  }
+  if (!REPO_PART.test(owner) || !REPO_PART.test(repoName)) {
+    showStatus('リポジトリ名に使用できない文字が含まれています', true);
     return;
   }
   if (!pat) {
