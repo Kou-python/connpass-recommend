@@ -20,6 +20,7 @@ from scripts.dictionary import BASE_TERMS, STOPWORDS
 from scripts.extract_trends import extract_trends
 
 API_URL = "https://connpass.com/api/v2/events/"
+USER_AGENT = "connpass-recommend/1.0 (+https://github.com/Kou-python/connpass-recommend)"
 JST = timezone(timedelta(hours=9))
 
 
@@ -141,7 +142,10 @@ def fetch_events(api_key: str, days: int) -> list[dict]:
             response = requests.get(
                 API_URL,
                 params=params,
-                headers={"X-API-Key": api_key},
+                headers={
+                    "X-API-Key": api_key,
+                    "User-Agent": USER_AGENT,
+                },
                 timeout=30,
             )
             response.raise_for_status()
