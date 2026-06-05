@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-06-04T08:10:05+09:00",
+  "updated_at": "2026-06-06T07:21:58+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 217
+      "count": 213
     },
     {
       "term": "AWS",
-      "count": 42
+      "count": 48
     },
     {
       "term": "Claude",
-      "count": 36
+      "count": 34
     },
     {
       "term": "Go",
@@ -19,46 +19,42 @@
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 27
     },
     {
       "term": "セキュリティ",
-      "count": 21
+      "count": 23
     },
     {
       "term": "生成AI",
-      "count": 21
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 14
-    },
-    {
-      "term": "デザイン",
-      "count": 11
+      "count": 15
     },
     {
       "term": "Web",
-      "count": 10
+      "count": 13
+    },
+    {
+      "term": "デザイン",
+      "count": 13
     },
     {
       "term": "Azure",
+      "count": 9
+    },
+    {
+      "term": "ChatGPT",
       "count": 8
     },
     {
       "term": "Copilot",
-      "count": 8
-    },
-    {
-      "term": "Python",
-      "count": 8
-    },
-    {
-      "term": "Ruby",
       "count": 7
     },
     {
-      "term": "SRE",
+      "term": "Python",
       "count": 7
     },
     {
@@ -66,15 +62,15 @@
       "count": 7
     },
     {
-      "term": "フロントエンド",
-      "count": 7
-    },
-    {
-      "term": "ChatGPT",
+      "term": "Ruby",
       "count": 6
     },
     {
       "term": "テスト",
+      "count": 6
+    },
+    {
+      "term": "フロントエンド",
       "count": 6
     },
     {
@@ -83,6 +79,10 @@
     },
     {
       "term": "React",
+      "count": 5
+    },
+    {
+      "term": "SRE",
       "count": 5
     },
     {
@@ -102,12 +102,12 @@
       "count": 4
     },
     {
-      "term": "PdM",
+      "term": "DevOps",
       "count": 3
     },
     {
-      "term": "DevOps",
-      "count": 2
+      "term": "TypeScript",
+      "count": 3
     },
     {
       "term": "MCP",
@@ -118,15 +118,11 @@
       "count": 2
     },
     {
-      "term": "Rust",
+      "term": "PdM",
       "count": 2
     },
     {
       "term": "Snowflake",
-      "count": 2
-    },
-    {
-      "term": "TypeScript",
       "count": 2
     },
     {
@@ -146,11 +142,19 @@
       "count": 1
     },
     {
+      "term": "Gemini",
+      "count": 1
+    },
+    {
       "term": "Iceberg",
       "count": 1
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Rust",
       "count": 1
     },
     {
