@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-07T07:12:36+09:00",
+  "updated_at": "2026-06-08T07:14:00+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 210
+      "count": 209
     },
     {
       "term": "AWS",
-      "count": 46
+      "count": 47
     },
     {
       "term": "Claude",
@@ -15,11 +15,11 @@
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 27
     },
     {
       "term": "Go",
-      "count": 27
+      "count": 26
     },
     {
       "term": "セキュリティ",
@@ -27,7 +27,7 @@
     },
     {
       "term": "生成AI",
-      "count": 17
+      "count": 18
     },
     {
       "term": "LLM",
@@ -39,7 +39,7 @@
     },
     {
       "term": "デザイン",
-      "count": 13
+      "count": 12
     },
     {
       "term": "Azure",
@@ -66,6 +66,10 @@
       "count": 6
     },
     {
+      "term": "テスト",
+      "count": 6
+    },
+    {
       "term": "フロントエンド",
       "count": 6
     },
@@ -74,15 +78,7 @@
       "count": 5
     },
     {
-      "term": "React",
-      "count": 5
-    },
-    {
       "term": "SRE",
-      "count": 5
-    },
-    {
-      "term": "テスト",
       "count": 5
     },
     {
@@ -99,6 +95,10 @@
     },
     {
       "term": "QA",
+      "count": 4
+    },
+    {
+      "term": "React",
       "count": 4
     },
     {
@@ -126,7 +126,7 @@
       "count": 2
     },
     {
-      "term": "Vue",
+      "term": "プロダクトマネジメント",
       "count": 2
     },
     {
@@ -158,11 +158,11 @@
       "count": 1
     },
     {
-      "term": "データ基盤",
+      "term": "Vue",
       "count": 1
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "データ基盤",
       "count": 1
     }
   ]
