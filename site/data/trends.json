@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-06-09T11:46:38+09:00",
+  "updated_at": "2026-06-10T07:43:11+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 227
+      "count": 230
     },
     {
       "term": "AWS",
-      "count": 47
-    },
-    {
-      "term": "Claude",
-      "count": 32
+      "count": 48
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 31
+    },
+    {
+      "term": "Claude",
+      "count": 30
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 30
     },
     {
       "term": "セキュリティ",
-      "count": 25
+      "count": 24
     },
     {
       "term": "生成AI",
-      "count": 21
+      "count": 23
     },
     {
       "term": "LLM",
@@ -42,36 +42,36 @@
       "count": 12
     },
     {
-      "term": "Azure",
+      "term": "ChatGPT",
       "count": 9
     },
     {
-      "term": "ChatGPT",
-      "count": 9
+      "term": "Azure",
+      "count": 8
     },
     {
       "term": "Python",
       "count": 8
     },
     {
-      "term": "フロントエンド",
+      "term": "Copilot",
       "count": 7
     },
     {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
       "term": "Ruby",
-      "count": 6
+      "count": 7
     },
     {
       "term": "UX",
-      "count": 6
+      "count": 7
     },
     {
       "term": "テスト",
-      "count": 6
+      "count": 7
+    },
+    {
+      "term": "フロントエンド",
+      "count": 7
     },
     {
       "term": "Java",
@@ -90,10 +90,6 @@
       "count": 4
     },
     {
-      "term": "Databricks",
-      "count": 4
-    },
-    {
       "term": "Kubernetes",
       "count": 4
     },
@@ -102,11 +98,15 @@
       "count": 4
     },
     {
+      "term": "Databricks",
+      "count": 3
+    },
+    {
       "term": "DevOps",
       "count": 3
     },
     {
-      "term": "TypeScript",
+      "term": "プロンプト",
       "count": 3
     },
     {
@@ -126,11 +126,15 @@
       "count": 2
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "TypeScript",
       "count": 2
     },
     {
-      "term": "プロンプト",
+      "term": "データ基盤",
+      "count": 2
+    },
+    {
+      "term": "プロダクトマネジメント",
       "count": 2
     },
     {
@@ -139,6 +143,10 @@
     },
     {
       "term": "Cursor",
+      "count": 1
+    },
+    {
+      "term": "Docker",
       "count": 1
     },
     {
@@ -159,10 +167,6 @@
     },
     {
       "term": "Vue",
-      "count": 1
-    },
-    {
-      "term": "データ基盤",
       "count": 1
     }
   ]
