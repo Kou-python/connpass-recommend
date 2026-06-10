@@ -1,52 +1,56 @@
 {
-  "updated_at": "2026-06-10T07:43:11+09:00",
+  "updated_at": "2026-06-11T07:55:39+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 230
+      "count": 233
     },
     {
       "term": "AWS",
       "count": 48
     },
     {
-      "term": "Go",
-      "count": 31
+      "term": "Claude",
+      "count": 36
     },
     {
-      "term": "Claude",
-      "count": 30
+      "term": "Go",
+      "count": 32
     },
     {
       "term": "エージェント",
-      "count": 30
-    },
-    {
-      "term": "セキュリティ",
-      "count": 24
+      "count": 29
     },
     {
       "term": "生成AI",
       "count": 23
     },
     {
+      "term": "セキュリティ",
+      "count": 21
+    },
+    {
       "term": "LLM",
-      "count": 16
+      "count": 17
     },
     {
       "term": "Web",
-      "count": 13
+      "count": 14
     },
     {
       "term": "デザイン",
       "count": 12
     },
     {
-      "term": "ChatGPT",
-      "count": 9
+      "term": "Azure",
+      "count": 8
     },
     {
-      "term": "Azure",
+      "term": "ChatGPT",
+      "count": 8
+    },
+    {
+      "term": "Copilot",
       "count": 8
     },
     {
@@ -54,19 +58,11 @@
       "count": 8
     },
     {
-      "term": "Copilot",
-      "count": 7
+      "term": "UX",
+      "count": 8
     },
     {
       "term": "Ruby",
-      "count": 7
-    },
-    {
-      "term": "UX",
-      "count": 7
-    },
-    {
-      "term": "テスト",
       "count": 7
     },
     {
@@ -74,23 +70,23 @@
       "count": 7
     },
     {
+      "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "テスト",
+      "count": 6
+    },
+    {
       "term": "Java",
       "count": 5
     },
     {
-      "term": "QA",
-      "count": 5
-    },
-    {
-      "term": "SRE",
-      "count": 5
-    },
-    {
-      "term": "Codex",
+      "term": "Kubernetes",
       "count": 4
     },
     {
-      "term": "Kubernetes",
+      "term": "QA",
       "count": 4
     },
     {
@@ -98,16 +94,20 @@
       "count": 4
     },
     {
-      "term": "Databricks",
+      "term": "Codex",
       "count": 3
     },
     {
-      "term": "DevOps",
+      "term": "Databricks",
       "count": 3
     },
     {
       "term": "プロンプト",
       "count": 3
+    },
+    {
+      "term": "DevOps",
+      "count": 2
     },
     {
       "term": "MCP",
