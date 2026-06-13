@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-13T07:43:31+09:00",
+  "updated_at": "2026-06-14T07:14:35+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 221
+      "count": 225
     },
     {
       "term": "AWS",
-      "count": 48
-    },
-    {
-      "term": "Go",
-      "count": 34
+      "count": 44
     },
     {
       "term": "Claude",
-      "count": 33
+      "count": 32
+    },
+    {
+      "term": "Go",
+      "count": 32
     },
     {
       "term": "エージェント",
-      "count": 27
+      "count": 28
     },
     {
       "term": "セキュリティ",
@@ -27,7 +27,7 @@
     },
     {
       "term": "生成AI",
-      "count": 21
+      "count": 22
     },
     {
       "term": "LLM",
@@ -35,11 +35,11 @@
     },
     {
       "term": "Web",
-      "count": 15
+      "count": 14
     },
     {
       "term": "デザイン",
-      "count": 15
+      "count": 14
     },
     {
       "term": "Copilot",
@@ -62,15 +62,15 @@
       "count": 7
     },
     {
+      "term": "Codex",
+      "count": 7
+    },
+    {
       "term": "Ruby",
       "count": 7
     },
     {
       "term": "SRE",
-      "count": 6
-    },
-    {
-      "term": "テスト",
       "count": 6
     },
     {
@@ -82,12 +82,8 @@
       "count": 5
     },
     {
-      "term": "React",
+      "term": "テスト",
       "count": 5
-    },
-    {
-      "term": "Codex",
-      "count": 4
     },
     {
       "term": "MCP",
@@ -95,6 +91,10 @@
     },
     {
       "term": "QA",
+      "count": 4
+    },
+    {
+      "term": "React",
       "count": 4
     },
     {
@@ -110,11 +110,11 @@
       "count": 3
     },
     {
-      "term": "Next.js",
-      "count": 3
+      "term": "Cursor",
+      "count": 2
     },
     {
-      "term": "Cursor",
+      "term": "DevOps",
       "count": 2
     },
     {
@@ -123,6 +123,10 @@
     },
     {
       "term": "Kotlin",
+      "count": 2
+    },
+    {
+      "term": "Next.js",
       "count": 2
     },
     {
@@ -138,18 +142,6 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
-      "term": "脆弱性",
-      "count": 2
-    },
-    {
-      "term": "DevOps",
-      "count": 1
-    },
-    {
       "term": "Gemini",
       "count": 1
     },
@@ -163,6 +155,14 @@
     },
     {
       "term": "プロダクトマネジメント",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
+      "count": 1
+    },
+    {
+      "term": "脆弱性",
       "count": 1
     }
   ]
