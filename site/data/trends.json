@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-14T07:14:35+09:00",
+  "updated_at": "2026-06-15T07:19:40+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 225
+      "count": 227
     },
     {
       "term": "AWS",
-      "count": 44
+      "count": 45
     },
     {
       "term": "Claude",
-      "count": 32
+      "count": 33
     },
     {
       "term": "Go",
-      "count": 32
+      "count": 30
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 29
     },
     {
       "term": "セキュリティ",
@@ -39,7 +39,7 @@
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 13
     },
     {
       "term": "Copilot",
@@ -54,8 +54,8 @@
       "count": 8
     },
     {
-      "term": "Azure",
-      "count": 7
+      "term": "テスト",
+      "count": 8
     },
     {
       "term": "ChatGPT",
@@ -70,6 +70,14 @@
       "count": 7
     },
     {
+      "term": "Azure",
+      "count": 6
+    },
+    {
+      "term": "Java",
+      "count": 6
+    },
+    {
       "term": "SRE",
       "count": 6
     },
@@ -78,11 +86,7 @@
       "count": 6
     },
     {
-      "term": "Java",
-      "count": 5
-    },
-    {
-      "term": "テスト",
+      "term": "TypeScript",
       "count": 5
     },
     {
@@ -95,10 +99,6 @@
     },
     {
       "term": "React",
-      "count": 4
-    },
-    {
-      "term": "TypeScript",
       "count": 4
     },
     {
