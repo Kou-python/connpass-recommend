@@ -1,32 +1,32 @@
 {
-  "updated_at": "2026-06-16T08:07:25+09:00",
+  "updated_at": "2026-06-17T07:56:36+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 243
+      "count": 247
     },
     {
       "term": "AWS",
-      "count": 48
+      "count": 52
     },
     {
       "term": "Claude",
-      "count": 38
-    },
-    {
-      "term": "エージェント",
-      "count": 30
+      "count": 37
     },
     {
       "term": "Go",
       "count": 29
     },
     {
-      "term": "生成AI",
-      "count": 22
+      "term": "エージェント",
+      "count": 29
     },
     {
       "term": "セキュリティ",
+      "count": 24
+    },
+    {
+      "term": "生成AI",
       "count": 21
     },
     {
@@ -35,18 +35,22 @@
     },
     {
       "term": "Web",
-      "count": 14
+      "count": 15
     },
     {
       "term": "デザイン",
-      "count": 13
+      "count": 12
     },
     {
-      "term": "Python",
-      "count": 8
+      "term": "Ruby",
+      "count": 9
     },
     {
       "term": "テスト",
+      "count": 9
+    },
+    {
+      "term": "Python",
       "count": 8
     },
     {
@@ -70,11 +74,7 @@
       "count": 7
     },
     {
-      "term": "Ruby",
-      "count": 7
-    },
-    {
-      "term": "UX",
+      "term": "フロントエンド",
       "count": 7
     },
     {
@@ -82,7 +82,7 @@
       "count": 6
     },
     {
-      "term": "フロントエンド",
+      "term": "UX",
       "count": 6
     },
     {
@@ -114,10 +114,6 @@
       "count": 3
     },
     {
-      "term": "Kubernetes",
-      "count": 3
-    },
-    {
       "term": "Docker",
       "count": 2
     },
@@ -126,11 +122,19 @@
       "count": 2
     },
     {
+      "term": "Kubernetes",
+      "count": 2
+    },
+    {
       "term": "Next.js",
       "count": 2
     },
     {
       "term": "PdM",
+      "count": 2
+    },
+    {
+      "term": "RAG",
       "count": 2
     },
     {
