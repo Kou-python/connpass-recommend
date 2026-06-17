@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-17T07:56:36+09:00",
+  "updated_at": "2026-06-18T07:50:14+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 247
+      "count": 249
     },
     {
       "term": "AWS",
@@ -11,7 +11,7 @@
     },
     {
       "term": "Claude",
-      "count": 37
+      "count": 36
     },
     {
       "term": "Go",
@@ -23,15 +23,15 @@
     },
     {
       "term": "セキュリティ",
-      "count": 24
+      "count": 25
     },
     {
       "term": "生成AI",
-      "count": 21
+      "count": 22
     },
     {
       "term": "LLM",
-      "count": 15
+      "count": 17
     },
     {
       "term": "Web",
@@ -39,34 +39,34 @@
     },
     {
       "term": "デザイン",
-      "count": 12
+      "count": 13
     },
     {
       "term": "Ruby",
-      "count": 9
+      "count": 10
     },
     {
-      "term": "テスト",
-      "count": 9
+      "term": "ChatGPT",
+      "count": 8
+    },
+    {
+      "term": "Copilot",
+      "count": 8
     },
     {
       "term": "Python",
       "count": 8
     },
     {
+      "term": "UX",
+      "count": 8
+    },
+    {
+      "term": "テスト",
+      "count": 8
+    },
+    {
       "term": "Azure",
-      "count": 7
-    },
-    {
-      "term": "ChatGPT",
-      "count": 7
-    },
-    {
-      "term": "Codex",
-      "count": 7
-    },
-    {
-      "term": "Copilot",
       "count": 7
     },
     {
@@ -78,24 +78,16 @@
       "count": 7
     },
     {
-      "term": "SRE",
+      "term": "Codex",
       "count": 6
     },
     {
-      "term": "UX",
+      "term": "SRE",
       "count": 6
     },
     {
       "term": "TypeScript",
       "count": 5
-    },
-    {
-      "term": "MCP",
-      "count": 4
-    },
-    {
-      "term": "QA",
-      "count": 4
     },
     {
       "term": "React",
@@ -110,11 +102,27 @@
       "count": 3
     },
     {
-      "term": "DevOps",
+      "term": "MCP",
       "count": 3
     },
     {
+      "term": "QA",
+      "count": 3
+    },
+    {
+      "term": "RAG",
+      "count": 3
+    },
+    {
+      "term": "DevOps",
+      "count": 2
+    },
+    {
       "term": "Docker",
+      "count": 2
+    },
+    {
+      "term": "Gemini",
       "count": 2
     },
     {
@@ -134,10 +142,6 @@
       "count": 2
     },
     {
-      "term": "RAG",
-      "count": 2
-    },
-    {
       "term": "Snowflake",
       "count": 2
     },
@@ -146,23 +150,23 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
+      "term": "プロダクトマネジメント",
       "count": 2
     },
     {
-      "term": "Gemini",
-      "count": 1
+      "term": "プロンプト",
+      "count": 2
     },
     {
       "term": "Rust",
       "count": 1
     },
     {
-      "term": "Vue",
+      "term": "Svelte",
       "count": 1
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "Vue",
       "count": 1
     },
     {
