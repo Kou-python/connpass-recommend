@@ -4,6 +4,7 @@ let allEvents = [];
 let activeCategory = 'all';
 let trendChipTerms = [];   // top-N terms displayed as chips
 let topNChips = 8;         // override from config if available
+let currentSort = 'popular';
 
 let appliedFromApi = new Set();    // applied_ids.json から読み込み
 let appliedOverride = new Set();   // localStorage で手動追加
@@ -127,6 +128,20 @@ function syncUrlTag(key) {
   window.history.replaceState({}, '', url);
 }
 
+function sortEvents(events) {
+  const copy = events.slice();
+  if (currentSort === 'new') {
+    copy.sort((a, b) => {
+      const da = a.started_at ? new Date(a.started_at).getTime() : Infinity;
+      const db = b.started_at ? new Date(b.started_at).getTime() : Infinity;
+      return da - db;
+    });
+  } else {
+    copy.sort((a, b) => b.accepted - a.accepted);
+  }
+  return copy;
+}
+
 function renderEvents() {
   const grid = document.getElementById('event-grid');
 
@@ -141,13 +156,15 @@ function renderEvents() {
     });
   }
 
-  if (visible.length === 0) {
+  const sorted = sortEvents(visible);
+
+  if (sorted.length === 0) {
     grid.innerHTML = '<p class="status">条件に合うイベントがありません。</p>';
     return;
   }
 
-  const pending = visible.filter(e => !isApplied(e.event_id));
-  const applied = visible.filter(e => isApplied(e.event_id));
+  const pending = sorted.filter(e => !isApplied(e.event_id));
+  const applied = sorted.filter(e => isApplied(e.event_id));
 
   grid.innerHTML = '';
   for (const event of pending) {
@@ -268,6 +285,14 @@ async function init() {
     if (!trendChipTerms.includes(tag)) {
       trendChipTerms = [tag, ...trendChipTerms];
     }
+  }
+
+  const sortSelect = document.getElementById('sort-select');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      currentSort = sortSelect.value;
+      renderEvents();
+    });
   }
 
   renderFilters(trendChipTerms);

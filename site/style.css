@@ -569,3 +569,43 @@ body {
   background: #450a0a;
   color: #fca5a5;
 }
+
+/* ソートバー */
+.sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 32px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.sort-label {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.sort-select {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.sort-select:focus,
+.sort-select:hover {
+  border-color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  .sort-bar {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
