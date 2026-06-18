@@ -1,11 +1,5 @@
 'use strict';
 
-const CATEGORY_COLOR = {
-  AI: '#8b5cf6',
-  'フロント': '#0ea5e9',
-  PdM: '#f59e0b',
-};
-
 let allEvents = [];
 let activeCategory = 'all';
 let trendChipTerms = [];   // top-N terms displayed as chips
@@ -93,35 +87,24 @@ function renderUpdatedAt(isoString) {
   });
 }
 
-function renderFilters(categories, trendTerms) {
+function renderFilters(trendTerms) {
   const container = document.getElementById('filters');
   container.innerHTML = '';
 
-  const groups = [
-    { label: '', items: [['all', 'すべて']] },
-    { label: 'カテゴリ', items: categories.map((c) => [c, c]) },
-    { label: 'トレンド', items: trendTerms.map((t) => [t, `#${t}`]) },
-  ];
+  const allBtn = document.createElement('button');
+  allBtn.className = 'filter-chip' + (activeCategory === 'all' ? ' active' : '');
+  allBtn.textContent = 'すべて';
+  allBtn.dataset.category = 'all';
+  allBtn.addEventListener('click', () => selectFilter('all'));
+  container.appendChild(allBtn);
 
-  for (const group of groups) {
-    if (group.items.length === 0) continue;
-    if (group.label) {
-      const label = document.createElement('span');
-      label.className = 'filter-group-label';
-      label.textContent = group.label;
-      container.appendChild(label);
-    }
-    for (const [key, text] of group.items) {
-      const button = document.createElement('button');
-      const isTrend = group.label === 'トレンド';
-      button.className = 'filter-chip' + (isTrend ? ' trend' : '')
-        + (key === activeCategory ? ' active' : '');
-      button.textContent = text;
-      button.dataset.category = key;
-      button.dataset.kind = isTrend ? 'trend' : (key === 'all' ? 'all' : 'category');
-      button.addEventListener('click', () => selectFilter(key));
-      container.appendChild(button);
-    }
+  for (const term of trendTerms) {
+    const button = document.createElement('button');
+    button.className = 'filter-chip trend' + (term === activeCategory ? ' active' : '');
+    button.textContent = `#${term}`;
+    button.dataset.category = term;
+    button.addEventListener('click', () => selectFilter(term));
+    container.appendChild(button);
   }
 }
 
@@ -150,18 +133,12 @@ function renderEvents() {
   let visible;
   if (activeCategory === 'all') {
     visible = allEvents;
-  } else if (trendChipTerms.includes(activeCategory)
-             || isAdHocTrendKey(activeCategory)) {
+  } else {
     const needle = activeCategory.toLowerCase();
     visible = allEvents.filter((e) => {
-      const hay = ((e.title || '') + ' '
-                   + (e.catch || '')).toLowerCase();
+      const hay = ((e.title || '') + ' ' + (e.catch || '')).toLowerCase();
       return hay.includes(needle);
     });
-  } else {
-    visible = allEvents.filter(
-      (e) => (e.matched_categories || []).includes(activeCategory)
-    );
   }
 
   if (visible.length === 0) {
@@ -186,14 +163,6 @@ function renderEvents() {
       grid.appendChild(buildCard(event));
     }
   }
-}
-
-function isAdHocTrendKey(key) {
-  if (key === 'all') return false;
-  const knownCategories = Array.from(
-    new Set(allEvents.flatMap((e) => e.matched_categories || []))
-  );
-  return !knownCategories.includes(key);
 }
 
 function buildCard(event) {
@@ -289,10 +258,6 @@ async function init() {
   allEvents = eventData.events || [];
   renderUpdatedAt(eventData.updated_at);
 
-  const categories = Array.from(
-    new Set(allEvents.flatMap((e) => e.matched_categories || []))
-  );
-
   const trends = (trendData && trendData.trends) || [];
   trendChipTerms = trends.slice(0, topNChips).map((t) => t.term);
 
@@ -300,12 +265,12 @@ async function init() {
   const tag = params.get('tag');
   if (tag) {
     activeCategory = tag;
-    if (!categories.includes(tag) && !trendChipTerms.includes(tag)) {
+    if (!trendChipTerms.includes(tag)) {
       trendChipTerms = [tag, ...trendChipTerms];
     }
   }
 
-  renderFilters(categories, trendChipTerms);
+  renderFilters(trendChipTerms);
   renderEvents();
 }
 
