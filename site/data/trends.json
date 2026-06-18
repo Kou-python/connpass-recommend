@@ -1,73 +1,65 @@
 {
-  "updated_at": "2026-06-18T07:50:14+09:00",
+  "updated_at": "2026-06-19T08:00:49+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 249
+      "count": 247
     },
     {
       "term": "AWS",
-      "count": 52
+      "count": 54
     },
     {
       "term": "Claude",
-      "count": 36
+      "count": 34
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 30
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 28
     },
     {
       "term": "セキュリティ",
-      "count": 25
+      "count": 24
     },
     {
       "term": "生成AI",
       "count": 22
     },
     {
-      "term": "LLM",
+      "term": "Web",
       "count": 17
     },
     {
-      "term": "Web",
-      "count": 15
+      "term": "LLM",
+      "count": 16
     },
     {
       "term": "デザイン",
-      "count": 13
+      "count": 11
     },
     {
       "term": "Ruby",
       "count": 10
     },
     {
-      "term": "ChatGPT",
-      "count": 8
-    },
-    {
       "term": "Copilot",
-      "count": 8
+      "count": 9
     },
     {
       "term": "Python",
-      "count": 8
+      "count": 9
     },
     {
       "term": "UX",
-      "count": 8
+      "count": 9
     },
     {
       "term": "テスト",
       "count": 8
-    },
-    {
-      "term": "Azure",
-      "count": 7
     },
     {
       "term": "Java",
@@ -78,6 +70,10 @@
       "count": 7
     },
     {
+      "term": "ChatGPT",
+      "count": 6
+    },
+    {
       "term": "Codex",
       "count": 6
     },
@@ -86,8 +82,16 @@
       "count": 6
     },
     {
+      "term": "Azure",
+      "count": 5
+    },
+    {
       "term": "TypeScript",
       "count": 5
+    },
+    {
+      "term": "MCP",
+      "count": 4
     },
     {
       "term": "React",
@@ -102,15 +106,11 @@
       "count": 3
     },
     {
-      "term": "MCP",
+      "term": "Gemini",
       "count": 3
     },
     {
       "term": "QA",
-      "count": 3
-    },
-    {
-      "term": "RAG",
       "count": 3
     },
     {
@@ -119,10 +119,6 @@
     },
     {
       "term": "Docker",
-      "count": 2
-    },
-    {
-      "term": "Gemini",
       "count": 2
     },
     {
@@ -142,7 +138,7 @@
       "count": 2
     },
     {
-      "term": "Snowflake",
+      "term": "RAG",
       "count": 2
     },
     {
@@ -158,7 +154,15 @@
       "count": 2
     },
     {
+      "term": "Iceberg",
+      "count": 1
+    },
+    {
       "term": "Rust",
+      "count": 1
+    },
+    {
+      "term": "Snowflake",
       "count": 1
     },
     {
