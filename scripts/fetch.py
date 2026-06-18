@@ -98,7 +98,7 @@ def filter_events(events: list[dict], config: dict, known_ids: set[int] | None =
             try:
                 started = datetime.fromisoformat(event.get("started_at", "")).date()
                 today = datetime.now(JST).date()
-                if 0 <= (started - today).days <= 3:
+                if 0 <= (started - today).days <= 7:
                     is_new = True
             except ValueError:
                 pass

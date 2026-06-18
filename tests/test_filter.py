@@ -153,19 +153,28 @@ def test_is_new_true_for_new_event_on_today():
     assert result[0]["is_new"] is True
 
 
-def test_is_new_true_for_new_event_exactly_3_days_ahead():
-    """known_ids にない新規イベントで started_at がちょうど3日後 → is_new=True。"""
+def test_is_new_true_for_new_event_4_days_ahead():
+    """known_ids にない新規イベントで started_at が4日後 → is_new=True（7日以内）。"""
     today = datetime.now(JST).date()
-    started_at = (today + timedelta(days=3)).isoformat() + "T19:00:00+09:00"
+    started_at = (today + timedelta(days=4)).isoformat() + "T19:00:00+09:00"
     events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
     result = filter_events(events, CONFIG, known_ids=set())
     assert result[0]["is_new"] is True
 
 
-def test_is_new_false_for_new_event_4_days_ahead():
-    """known_ids にない新規イベントで started_at が4日以上先 → is_new=False。"""
+def test_is_new_true_for_new_event_exactly_7_days_ahead():
+    """known_ids にない新規イベントで started_at がちょうど7日後 → is_new=True。"""
     today = datetime.now(JST).date()
-    started_at = (today + timedelta(days=4)).isoformat() + "T19:00:00+09:00"
+    started_at = (today + timedelta(days=7)).isoformat() + "T19:00:00+09:00"
+    events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
+    result = filter_events(events, CONFIG, known_ids=set())
+    assert result[0]["is_new"] is True
+
+
+def test_is_new_false_for_new_event_8_days_ahead():
+    """known_ids にない新規イベントで started_at が8日以上先 → is_new=False。"""
+    today = datetime.now(JST).date()
+    started_at = (today + timedelta(days=8)).isoformat() + "T19:00:00+09:00"
     events = [make_event(event_id=99, title="AI Conference", accepted=200, started_at=started_at)]
     result = filter_events(events, CONFIG, known_ids=set())
     assert result[0]["is_new"] is False
