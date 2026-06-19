@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-06-19T18:10:05+09:00",
+  "updated_at": "2026-06-20T07:12:07+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 263
+      "count": 256
     },
     {
       "term": "AWS",
-      "count": 55
+      "count": 54
     },
     {
       "term": "Claude",
-      "count": 34
-    },
-    {
-      "term": "Go",
-      "count": 31
+      "count": 33
     },
     {
       "term": "エージェント",
+      "count": 31
+    },
+    {
+      "term": "Go",
       "count": 30
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "term": "生成AI",
-      "count": 22
+      "count": 21
     },
     {
       "term": "Web",
@@ -38,6 +38,10 @@
       "count": 17
     },
     {
+      "term": "MCP",
+      "count": 13
+    },
+    {
       "term": "デザイン",
       "count": 13
     },
@@ -46,15 +50,11 @@
       "count": 10
     },
     {
-      "term": "Ruby",
-      "count": 10
-    },
-    {
       "term": "Copilot",
       "count": 9
     },
     {
-      "term": "MCP",
+      "term": "Ruby",
       "count": 9
     },
     {
@@ -62,47 +62,43 @@
       "count": 9
     },
     {
-      "term": "テスト",
+      "term": "Java",
       "count": 8
     },
     {
-      "term": "Java",
-      "count": 7
-    },
-    {
-      "term": "フロントエンド",
-      "count": 7
+      "term": "テスト",
+      "count": 8
     },
     {
       "term": "ChatGPT",
       "count": 6
     },
     {
-      "term": "Codex",
+      "term": "フロントエンド",
       "count": 6
     },
     {
-      "term": "SRE",
-      "count": 6
+      "term": "Codex",
+      "count": 5
+    },
+    {
+      "term": "RAG",
+      "count": 5
     },
     {
       "term": "Azure",
-      "count": 5
-    },
-    {
-      "term": "TypeScript",
-      "count": 5
+      "count": 4
     },
     {
       "term": "Gemini",
       "count": 4
     },
     {
-      "term": "RAG",
+      "term": "SRE",
       "count": 4
     },
     {
-      "term": "React",
+      "term": "TypeScript",
       "count": 4
     },
     {
@@ -115,6 +111,10 @@
     },
     {
       "term": "QA",
+      "count": 3
+    },
+    {
+      "term": "React",
       "count": 3
     },
     {
