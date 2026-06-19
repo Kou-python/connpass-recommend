@@ -1,7 +1,6 @@
 'use strict';
 
 (function () {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   if (window.matchMedia('(pointer: coarse)').matches) return;
 
   const canvas = document.getElementById('cursor-fx');
@@ -66,14 +65,14 @@
     ctx.globalAlpha = Math.max(0, this.life);
     ctx.fillStyle = accentColor;
     ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size * this.life, 0, Math.PI * 2);
+    ctx.arc(this.x, this.y, Math.max(0, this.size * this.life), 0, Math.PI * 2);
     ctx.fill();
   };
 
   window.addEventListener('mousemove', function (e) {
-    if (particles.length >= MAX_PARTICLES) return;
     const count = 2 + Math.floor(Math.random() * 2);
     for (let i = 0; i < count; i++) {
+      if (particles.length >= MAX_PARTICLES) particles.shift();
       particles.push(new Particle(e.clientX, e.clientY));
     }
   });
