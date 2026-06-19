@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-19T08:00:49+09:00",
+  "updated_at": "2026-06-19T18:10:05+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 247
+      "count": 263
     },
     {
       "term": "AWS",
-      "count": 54
+      "count": 55
     },
     {
       "term": "Claude",
@@ -15,15 +15,15 @@
     },
     {
       "term": "Go",
-      "count": 30
+      "count": 31
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 30
     },
     {
       "term": "セキュリティ",
-      "count": 24
+      "count": 25
     },
     {
       "term": "生成AI",
@@ -31,15 +31,19 @@
     },
     {
       "term": "Web",
-      "count": 17
+      "count": 19
     },
     {
       "term": "LLM",
-      "count": 16
+      "count": 17
     },
     {
       "term": "デザイン",
-      "count": 11
+      "count": 13
+    },
+    {
+      "term": "Python",
+      "count": 10
     },
     {
       "term": "Ruby",
@@ -50,7 +54,7 @@
       "count": 9
     },
     {
-      "term": "Python",
+      "term": "MCP",
       "count": 9
     },
     {
@@ -90,7 +94,11 @@
       "count": 5
     },
     {
-      "term": "MCP",
+      "term": "Gemini",
+      "count": 4
+    },
+    {
+      "term": "RAG",
       "count": 4
     },
     {
@@ -106,11 +114,11 @@
       "count": 3
     },
     {
-      "term": "Gemini",
+      "term": "QA",
       "count": 3
     },
     {
-      "term": "QA",
+      "term": "プロダクトマネジメント",
       "count": 3
     },
     {
@@ -138,15 +146,7 @@
       "count": 2
     },
     {
-      "term": "RAG",
-      "count": 2
-    },
-    {
       "term": "データ基盤",
-      "count": 2
-    },
-    {
-      "term": "プロダクトマネジメント",
       "count": 2
     },
     {
