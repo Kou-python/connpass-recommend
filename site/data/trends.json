@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-06-21T07:18:36+09:00",
+  "updated_at": "2026-06-22T07:21:18+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 251
+      "count": 244
     },
     {
       "term": "AWS",
       "count": 49
     },
     {
-      "term": "Claude",
+      "term": "Go",
       "count": 30
     },
     {
-      "term": "Go",
-      "count": 30
+      "term": "Claude",
+      "count": 29
     },
     {
       "term": "エージェント",
@@ -23,11 +23,11 @@
     },
     {
       "term": "セキュリティ",
-      "count": 25
+      "count": 23
     },
     {
       "term": "Web",
-      "count": 20
+      "count": 19
     },
     {
       "term": "生成AI",
@@ -35,7 +35,7 @@
     },
     {
       "term": "LLM",
-      "count": 16
+      "count": 14
     },
     {
       "term": "MCP",
@@ -46,7 +46,15 @@
       "count": 13
     },
     {
+      "term": "テスト",
+      "count": 10
+    },
+    {
       "term": "Copilot",
+      "count": 9
+    },
+    {
+      "term": "Java",
       "count": 9
     },
     {
@@ -62,15 +70,11 @@
       "count": 9
     },
     {
-      "term": "テスト",
-      "count": 9
-    },
-    {
-      "term": "Java",
-      "count": 8
-    },
-    {
       "term": "ChatGPT",
+      "count": 6
+    },
+    {
+      "term": "RAG",
       "count": 6
     },
     {
@@ -86,16 +90,8 @@
       "count": 5
     },
     {
-      "term": "RAG",
-      "count": 5
-    },
-    {
       "term": "SRE",
       "count": 5
-    },
-    {
-      "term": "Gemini",
-      "count": 4
     },
     {
       "term": "TypeScript",
@@ -115,6 +111,10 @@
     },
     {
       "term": "Docker",
+      "count": 3
+    },
+    {
+      "term": "Gemini",
       "count": 3
     },
     {
