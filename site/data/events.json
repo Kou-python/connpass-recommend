@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-23T07:52:22+09:00",
+  "updated_at": "2026-06-24T07:20:23+09:00",
   "events": [
     {
       "event_id": 391880,
-      "title": "【残枠60名】CoLab Conf（コラコン）【テックカンファレンス】",
+      "title": "【残枠50名】CoLab Conf（コラコン）【テックカンファレンス】",
       "catch": "ひろゆき氏・ラムダ技術部・IPA登大遊氏など豪華ゲスト約20名",
       "started_at": "2026-06-27T12:00:00+09:00",
       "place": "会場",
-      "accepted": 938,
+      "accepted": 966,
       "limit": 2600,
       "matched_keywords": [
         "AI",
@@ -26,33 +26,13 @@
       "is_new": false
     },
     {
-      "event_id": 380191,
-      "title": "Laboratory Automation Developers Conference 2026",
-      "catch": "LADEC2026、研究室の自動化にまつわる学会です。",
-      "started_at": "2026-07-02T12:00:00+09:00",
-      "place": "日本科学未来館",
-      "accepted": 858,
-      "limit": 950,
-      "matched_keywords": [
-        "AI",
-        "LLM"
-      ],
-      "matched_categories": [
-        "AI"
-      ],
-      "url": "https://laboratoryautomation.connpass.com/event/380191/",
-      "join_url": "https://laboratoryautomation.connpass.com/event/380191/join/",
-      "image_url": "https://media.connpass.com/thumbs/b1/db/b1dbefc192d293d5a8c87341c57eddba.png",
-      "is_new": false
-    },
-    {
       "event_id": 391190,
       "title": "RESEARCH Conference 2026",
       "catch": "",
       "started_at": "2026-06-28T10:00:00+09:00",
       "place": "合同会社DMM .com",
-      "accepted": 816,
-      "limit": 1370,
+      "accepted": 892,
+      "limit": 1420,
       "matched_keywords": [
         "AI",
         "Claude",
@@ -68,25 +48,23 @@
       "is_new": false
     },
     {
-      "event_id": 395485,
-      "title": "【AI駆動開発】AI自走環境整備・運用スペシャル #3 〜ハーネスエンジニアリングへの入り口〜",
-      "catch": "",
-      "started_at": "2026-06-23T19:00:00+09:00",
-      "place": "燈株式会社",
-      "accepted": 794,
-      "limit": 1203,
+      "event_id": 380191,
+      "title": "Laboratory Automation Developers Conference 2026",
+      "catch": "LADEC2026、研究室の自動化にまつわる学会です。",
+      "started_at": "2026-07-02T12:00:00+09:00",
+      "place": "日本科学未来館",
+      "accepted": 884,
+      "limit": 950,
       "matched_keywords": [
         "AI",
-        "LLM",
-        "Claude",
-        "生成AI"
+        "LLM"
       ],
       "matched_categories": [
         "AI"
       ],
-      "url": "https://aid.connpass.com/event/395485/",
-      "join_url": "https://aid.connpass.com/event/395485/join/",
-      "image_url": "https://media.connpass.com/thumbs/5b/77/5b777e082012330b88c650778a8f512d.png",
+      "url": "https://laboratoryautomation.connpass.com/event/380191/",
+      "join_url": "https://laboratoryautomation.connpass.com/event/380191/join/",
+      "image_url": "https://media.connpass.com/thumbs/b1/db/b1dbefc192d293d5a8c87341c57eddba.png",
       "is_new": false
     },
     {
@@ -95,7 +73,7 @@
       "catch": "UI UX、開発やAIなど、さまざまな領域に関する最前線の情報を発信しています",
       "started_at": "2026-06-30T12:00:00+09:00",
       "place": "オンライン（YouTube Live）",
-      "accepted": 584,
+      "accepted": 599,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -121,7 +99,7 @@
       "catch": "",
       "started_at": "2026-06-30T11:00:00+09:00",
       "place": "オンライン",
-      "accepted": 552,
+      "accepted": 568,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -142,7 +120,7 @@
       "catch": "",
       "started_at": "2026-07-01T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 463,
+      "accepted": 469,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -159,36 +137,12 @@
       "is_new": false
     },
     {
-      "event_id": 395296,
-      "title": "GitHub Copilot最新アップデート - 「一歩先」の実践活用術",
-      "catch": "",
-      "started_at": "2026-06-23T12:00:00+09:00",
-      "place": "オンライン",
-      "accepted": 371,
-      "limit": null,
-      "matched_keywords": [
-        "AI",
-        "LLM",
-        "生成AI",
-        "エージェント",
-        "Web"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント"
-      ],
-      "url": "https://findy.connpass.com/event/395296/",
-      "join_url": "https://findy.connpass.com/event/395296/join/",
-      "image_url": "https://media.connpass.com/thumbs/4a/ba/4abaf449b3e789f8617d73a58973bf83.png",
-      "is_new": false
-    },
-    {
       "event_id": 397141,
       "title": "AIオブザーバビリティ スペシャル#1",
       "catch": "活用が進むほど膨らむAIコストをどう可視化・最適化する？可視化〜消費効率改善に向き合う実践知に迫る！",
       "started_at": "2026-06-25T19:00:00+09:00",
       "place": "株式会社タイミー",
-      "accepted": 355,
+      "accepted": 380,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -211,7 +165,7 @@
       "catch": "みんなで「FUTURE ～いまから、ここから～」を考えよう",
       "started_at": "2026-06-28T10:00:00+09:00",
       "place": "日本科学未来館 7F 未来館ホール他",
-      "accepted": 321,
+      "accepted": 331,
       "limit": 585,
       "matched_keywords": [
         "AI",
@@ -232,7 +186,7 @@
       "catch": "PROVIDENCE MEETUP #03",
       "started_at": "2026-06-24T16:00:00+09:00",
       "place": "X-NIHONBASHI TOWER",
-      "accepted": 303,
+      "accepted": 317,
       "limit": 520,
       "matched_keywords": [
         "AI",
@@ -253,7 +207,7 @@
       "catch": "",
       "started_at": "2026-06-29T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 276,
+      "accepted": 287,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -276,7 +230,7 @@
       "catch": "",
       "started_at": "2026-06-24T19:00:00+09:00",
       "place": "燈株式会社",
-      "accepted": 260,
+      "accepted": 270,
       "limit": 1201,
       "matched_keywords": [
         "AI",
@@ -298,7 +252,7 @@
       "catch": "ミノ駆動さん ご登壇！",
       "started_at": "2026-06-30T19:15:00+09:00",
       "place": "オンライン",
-      "accepted": 246,
+      "accepted": 260,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -315,12 +269,58 @@
       "is_new": false
     },
     {
+      "event_id": 397514,
+      "title": "【AI Dev Day前夜祭】GitHub Copilot時代の開発のあり方を再定義する",
+      "catch": "MS本社チーム来日! AIエージェント開発者のためのカンファレンスAI Dev Dayとのコラボ企画",
+      "started_at": "2026-07-23T19:00:00+09:00",
+      "place": "日本マイクロソフト品川オフィス",
+      "accepted": 240,
+      "limit": 1060,
+      "matched_keywords": [
+        "AI",
+        "LLM",
+        "Claude",
+        "生成AI",
+        "エージェント",
+        "Web"
+      ],
+      "matched_categories": [
+        "AI",
+        "フロント"
+      ],
+      "url": "https://aid.connpass.com/event/397514/",
+      "join_url": "https://aid.connpass.com/event/397514/join/",
+      "image_url": "https://media.connpass.com/thumbs/5b/4f/5b4f3b9a55ee868388fe04d95df3cffb.png",
+      "is_new": false
+    },
+    {
+      "event_id": 388639,
+      "title": "6/27 オープンソースカンファレンス2026 Hokkaido",
+      "catch": "OSC北海道！懇親会まで楽しみましょう！",
+      "started_at": "2026-06-27T10:00:00+09:00",
+      "place": "札幌市産業振興センター 2F ルームA",
+      "accepted": 234,
+      "limit": null,
+      "matched_keywords": [
+        "AI",
+        "Web"
+      ],
+      "matched_categories": [
+        "AI",
+        "フロント"
+      ],
+      "url": "https://ospn.connpass.com/event/388639/",
+      "join_url": "https://ospn.connpass.com/event/388639/join/",
+      "image_url": "https://media.connpass.com/thumbs/6a/df/6adf677e3ccae1e30f64bde90ef2f8c5.png",
+      "is_new": false
+    },
+    {
       "event_id": 394261,
       "title": "【Qiita Bash】AIを社内に浸透させたい者たちの集い",
       "catch": "技術についての知見を共有し合う、オフライントークイベント！",
       "started_at": "2026-07-03T18:30:00+09:00",
       "place": "レバテック株式会社",
-      "accepted": 226,
+      "accepted": 232,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -337,33 +337,12 @@
       "is_new": false
     },
     {
-      "event_id": 388639,
-      "title": "6/27 オープンソースカンファレンス2026 Hokkaido",
-      "catch": "OSC北海道！懇親会まで楽しみましょう！",
-      "started_at": "2026-06-27T10:00:00+09:00",
-      "place": "札幌市産業振興センター 2F ルームA",
-      "accepted": 220,
-      "limit": null,
-      "matched_keywords": [
-        "AI",
-        "Web"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント"
-      ],
-      "url": "https://ospn.connpass.com/event/388639/",
-      "join_url": "https://ospn.connpass.com/event/388639/join/",
-      "image_url": "https://media.connpass.com/thumbs/6a/df/6adf677e3ccae1e30f64bde90ef2f8c5.png",
-      "is_new": false
-    },
-    {
       "event_id": 394852,
       "title": "Data + AI Summit 2026をみんなで振り返ろう！",
       "catch": "現地参加 + オンラインのハイブリッド開催です！",
       "started_at": "2026-07-15T18:30:00+09:00",
       "place": "INFORIUM豊洲イノベーションセンター",
-      "accepted": 208,
+      "accepted": 221,
       "limit": 400,
       "matched_keywords": [
         "AI"
@@ -382,7 +361,7 @@
       "catch": "複数プロダクト組織のAIネイティブ化における戦略",
       "started_at": "2026-07-15T18:30:00+09:00",
       "place": "オンライン",
-      "accepted": 185,
+      "accepted": 187,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -428,7 +407,7 @@
       "catch": "みんなで投資情報をAI-ReadyにするReadyをしましょう！",
       "started_at": "2026-07-02T19:00:00+09:00",
       "place": "オンライン",
-      "accepted": 170,
+      "accepted": 171,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -464,12 +443,77 @@
       "is_new": false
     },
     {
+      "event_id": 396672,
+      "title": "FDEってぶっちゃけどうなの？LT会",
+      "catch": "TOKIUM、estie、JAPAN AI（ジーニーグループ）の取り組み",
+      "started_at": "2026-06-24T12:00:00+09:00",
+      "place": "オンライン",
+      "accepted": 167,
+      "limit": 502,
+      "matched_keywords": [
+        "AI",
+        "Claude",
+        "エージェント",
+        "Web",
+        "UX"
+      ],
+      "matched_categories": [
+        "AI",
+        "フロント",
+        "PdM"
+      ],
+      "url": "https://supporterz-seminar.connpass.com/event/396672/",
+      "join_url": "https://supporterz-seminar.connpass.com/event/396672/join/",
+      "image_url": "https://media.connpass.com/thumbs/2e/fb/2efbb3c2e4d817118d810971d4881aec.png",
+      "is_new": false
+    },
+    {
+      "event_id": 395374,
+      "title": "Claude Code開発ノウハウ大公開スペシャル by クラスメソッド",
+      "catch": "CCA-F取得者大集合...!",
+      "started_at": "2026-07-10T19:00:00+09:00",
+      "place": "クラスメソッド 大阪オフィス",
+      "accepted": 161,
+      "limit": null,
+      "matched_keywords": [
+        "AI",
+        "Claude",
+        "生成AI"
+      ],
+      "matched_categories": [
+        "AI"
+      ],
+      "url": "https://classmethod.connpass.com/event/395374/",
+      "join_url": "https://classmethod.connpass.com/event/395374/join/",
+      "image_url": "https://media.connpass.com/thumbs/04/f2/04f2ebabba29339b72d34132485c9440.png",
+      "is_new": false
+    },
+    {
+      "event_id": 388510,
+      "title": "QUNOG 35 Meeting (福岡県久留米市)",
+      "catch": "現地会場とオンラインのハイブリッド開催です",
+      "started_at": "2026-07-03T14:00:00+09:00",
+      "place": "久留米シティプラザ C-BOX",
+      "accepted": 159,
+      "limit": 260,
+      "matched_keywords": [
+        "AI"
+      ],
+      "matched_categories": [
+        "AI"
+      ],
+      "url": "https://qunog.connpass.com/event/388510/",
+      "join_url": "https://qunog.connpass.com/event/388510/join/",
+      "image_url": "https://media.connpass.com/thumbs/71/3e/713e2b552e8c3bdc86e54ec3e56744e2.png",
+      "is_new": false
+    },
+    {
       "event_id": 396881,
       "title": "TypeScriptで開発するAIエージェントの裏側 〜KAG社の実践知から学ぶMastra〜",
       "catch": "",
       "started_at": "2026-07-14T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 156,
+      "accepted": 158,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -490,12 +534,34 @@
       "is_new": false
     },
     {
+      "event_id": 394523,
+      "title": "QA・スクラムのための価値駆動開発 —顧客にとって役立つ問いの立て方",
+      "catch": "",
+      "started_at": "2026-07-03T12:00:00+09:00",
+      "place": "オンライン",
+      "accepted": 157,
+      "limit": null,
+      "matched_keywords": [
+        "AI",
+        "エージェント",
+        "Web"
+      ],
+      "matched_categories": [
+        "AI",
+        "フロント"
+      ],
+      "url": "https://findy.connpass.com/event/394523/",
+      "join_url": "https://findy.connpass.com/event/394523/join/",
+      "image_url": "https://media.connpass.com/thumbs/ae/c7/aec78ef687858c0a2a1c7781b278d07a.png",
+      "is_new": false
+    },
+    {
       "event_id": 396860,
       "title": "鹿野さんに聞く！『TypeScriptコードレシピ集』で磨く実践力",
       "catch": "177の「〜したい」から学ぶ、現場で使える逆引き書のすゝめ",
       "started_at": "2026-06-30T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 153,
+      "accepted": 154,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -514,34 +580,12 @@
       "is_new": false
     },
     {
-      "event_id": 394523,
-      "title": "QA・スクラムのための価値駆動開発 —顧客にとって役立つ問いの立て方",
-      "catch": "",
-      "started_at": "2026-07-03T12:00:00+09:00",
-      "place": "オンライン",
-      "accepted": 153,
-      "limit": null,
-      "matched_keywords": [
-        "AI",
-        "エージェント",
-        "Web"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント"
-      ],
-      "url": "https://findy.connpass.com/event/394523/",
-      "join_url": "https://findy.connpass.com/event/394523/join/",
-      "image_url": "https://media.connpass.com/thumbs/ae/c7/aec78ef687858c0a2a1c7781b278d07a.png",
-      "is_new": false
-    },
-    {
       "event_id": 396823,
       "title": "Devinの組織運用 - 開発現場での活用とガバナンス",
       "catch": "",
       "started_at": "2026-07-07T12:00:00+09:00",
       "place": "オンライン",
-      "accepted": 152,
+      "accepted": 154,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -562,46 +606,22 @@
       "is_new": false
     },
     {
-      "event_id": 395374,
-      "title": "Claude Code開発ノウハウ大公開スペシャル by クラスメソッド",
-      "catch": "CCA-F取得者大集合...!",
-      "started_at": "2026-07-10T19:00:00+09:00",
-      "place": "クラスメソッド 大阪オフィス",
-      "accepted": 150,
+      "event_id": 396432,
+      "title": "シニアエンジニアリングリーダーのしごと - Forkwell Library #128",
+      "catch": "組織を導き、育てる力を磨く",
+      "started_at": "2026-06-24T12:00:00+09:00",
+      "place": "Forkwell イベント視聴ページ",
+      "accepted": 153,
       "limit": null,
       "matched_keywords": [
-        "AI",
-        "Claude",
-        "生成AI"
+        "AI"
       ],
       "matched_categories": [
         "AI"
       ],
-      "url": "https://classmethod.connpass.com/event/395374/",
-      "join_url": "https://classmethod.connpass.com/event/395374/join/",
-      "image_url": "https://media.connpass.com/thumbs/04/f2/04f2ebabba29339b72d34132485c9440.png",
-      "is_new": false
-    },
-    {
-      "event_id": 394136,
-      "title": "Google I/O Extended Tokyo 2026 (現地参加枠)",
-      "catch": "Google I/O 2026 で発表された最新情報の総まとめ & 振り返りオフラインイベント",
-      "started_at": "2026-07-11T13:00:00+09:00",
-      "place": "Google 渋谷オフィス",
-      "accepted": 150,
-      "limit": 150,
-      "matched_keywords": [
-        "AI",
-        "RAG",
-        "Web"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント"
-      ],
-      "url": "https://gdg-tokyo.connpass.com/event/394136/",
-      "join_url": "https://gdg-tokyo.connpass.com/event/394136/join/",
-      "image_url": "https://media.connpass.com/thumbs/fe/cb/fecb322278c80a0a12670c67aca03f33.png",
+      "url": "https://forkwell.connpass.com/event/396432/",
+      "join_url": "https://forkwell.connpass.com/event/396432/join/",
+      "image_url": "https://media.connpass.com/thumbs/5d/d3/5dd3ea4f0f766e172c14e6f69d9e568b.png",
       "is_new": false
     },
     {
@@ -610,7 +630,7 @@
       "catch": "",
       "started_at": "2026-06-26T10:00:00+09:00",
       "place": "TKPガーデンシティPREMIUM東京駅日本橋",
-      "accepted": 147,
+      "accepted": 151,
       "limit": 170,
       "matched_keywords": [
         "AI"
@@ -624,22 +644,71 @@
       "is_new": false
     },
     {
-      "event_id": 388510,
-      "title": "QUNOG 35 Meeting (福岡県久留米市)",
-      "catch": "現地会場とオンラインのハイブリッド開催です",
-      "started_at": "2026-07-03T14:00:00+09:00",
-      "place": "久留米シティプラザ C-BOX",
-      "accepted": 146,
-      "limit": 245,
+      "event_id": 398118,
+      "title": "AgentCoreハーネスとマネージドKBでRAG & AIエージェント構築を体験！",
+      "catch": "初心者にやさしいマネコンGUI中心のハンズオンです",
+      "started_at": "2026-07-02T19:00:00+09:00",
+      "place": "Zoom",
+      "accepted": 150,
+      "limit": null,
       "matched_keywords": [
-        "AI"
+        "AI",
+        "LLM",
+        "RAG",
+        "エージェント",
+        "Web"
       ],
       "matched_categories": [
-        "AI"
+        "AI",
+        "フロント"
       ],
-      "url": "https://qunog.connpass.com/event/388510/",
-      "join_url": "https://qunog.connpass.com/event/388510/join/",
-      "image_url": "https://media.connpass.com/thumbs/71/3e/713e2b552e8c3bdc86e54ec3e56744e2.png",
+      "url": "https://jawsug.connpass.com/event/398118/",
+      "join_url": "https://jawsug.connpass.com/event/398118/join/",
+      "image_url": "https://media.connpass.com/thumbs/90/79/9079510310abb2da39135a6936cf3ed8.png",
+      "is_new": false
+    },
+    {
+      "event_id": 394136,
+      "title": "Google I/O Extended Tokyo 2026 (現地参加枠)",
+      "catch": "Google I/O 2026 で発表された最新情報の総まとめ & 振り返りオフラインイベント",
+      "started_at": "2026-07-11T13:00:00+09:00",
+      "place": "Google 渋谷オフィス",
+      "accepted": 150,
+      "limit": 150,
+      "matched_keywords": [
+        "AI",
+        "エージェント",
+        "Web"
+      ],
+      "matched_categories": [
+        "AI",
+        "フロント"
+      ],
+      "url": "https://gdg-tokyo.connpass.com/event/394136/",
+      "join_url": "https://gdg-tokyo.connpass.com/event/394136/join/",
+      "image_url": "https://media.connpass.com/thumbs/fe/cb/fecb322278c80a0a12670c67aca03f33.png",
+      "is_new": false
+    },
+    {
+      "event_id": 396041,
+      "title": "“ID沼入口” - 基本とセキュリティから始める、考え続けるためのID管理技術勉強会",
+      "catch": "基本となる考え方、セキュリティの観点からID管理の解像度を上げよう",
+      "started_at": "2026-07-02T15:00:00+09:00",
+      "place": "KDDIホール",
+      "accepted": 147,
+      "limit": 240,
+      "matched_keywords": [
+        "AI",
+        "生成AI",
+        "Web"
+      ],
+      "matched_categories": [
+        "AI",
+        "フロント"
+      ],
+      "url": "https://openid.connpass.com/event/396041/",
+      "join_url": "https://openid.connpass.com/event/396041/join/",
+      "image_url": "https://media.connpass.com/thumbs/5b/d2/5bd2d8cfb5a423598440d0fcad40fa3e.png",
       "is_new": false
     },
     {
@@ -659,25 +728,6 @@
       "url": "https://stack-chan.connpass.com/event/394846/",
       "join_url": "https://stack-chan.connpass.com/event/394846/join/",
       "image_url": "https://media.connpass.com/thumbs/d9/b0/d9b0635fb971a0f389545500171bfee9.png",
-      "is_new": true
-    },
-    {
-      "event_id": 396432,
-      "title": "シニアエンジニアリングリーダーのしごと - Forkwell Library #128",
-      "catch": "組織を導き、育てる力を磨く",
-      "started_at": "2026-06-24T12:00:00+09:00",
-      "place": "Forkwell イベント視聴ページ",
-      "accepted": 143,
-      "limit": null,
-      "matched_keywords": [
-        "AI"
-      ],
-      "matched_categories": [
-        "AI"
-      ],
-      "url": "https://forkwell.connpass.com/event/396432/",
-      "join_url": "https://forkwell.connpass.com/event/396432/join/",
-      "image_url": "https://media.connpass.com/thumbs/5d/d3/5dd3ea4f0f766e172c14e6f69d9e568b.png",
       "is_new": false
     },
     {
@@ -686,7 +736,7 @@
       "catch": "今年もやります大懇親会！",
       "started_at": "2026-06-27T19:00:00+09:00",
       "place": "サッポロビール園 開拓使館 1階 トロンメルホール",
-      "accepted": 135,
+      "accepted": 134,
       "limit": 160,
       "matched_keywords": [
         "AI"
@@ -700,56 +750,12 @@
       "is_new": false
     },
     {
-      "event_id": 396041,
-      "title": "“ID沼入口” - 基本とセキュリティから始める、考え続けるためのID管理技術勉強会",
-      "catch": "基本となる考え方、セキュリティの観点からID管理の解像度を上げよう",
-      "started_at": "2026-07-02T15:00:00+09:00",
-      "place": "KDDIホール",
-      "accepted": 131,
-      "limit": 240,
-      "matched_keywords": [
-        "AI",
-        "生成AI",
-        "Web"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント"
-      ],
-      "url": "https://openid.connpass.com/event/396041/",
-      "join_url": "https://openid.connpass.com/event/396041/join/",
-      "image_url": "https://media.connpass.com/thumbs/5b/d2/5bd2d8cfb5a423598440d0fcad40fa3e.png",
-      "is_new": false
-    },
-    {
-      "event_id": 397283,
-      "title": "【Paper&Hacks #89】RAGアプリハンズオン～LLM/Embedding選択～",
-      "catch": "LLMに関する論文輪読&実装",
-      "started_at": "2026-06-23T20:00:00+09:00",
-      "place": null,
-      "accepted": 130,
-      "limit": null,
-      "matched_keywords": [
-        "AI",
-        "LLM",
-        "RAG",
-        "生成AI"
-      ],
-      "matched_categories": [
-        "AI"
-      ],
-      "url": "https://matsuolab-community.connpass.com/event/397283/",
-      "join_url": "https://matsuolab-community.connpass.com/event/397283/join/",
-      "image_url": "https://media.connpass.com/thumbs/19/ae/19aeac0702ecec7ca52a8371e3cee592.png",
-      "is_new": false
-    },
-    {
       "event_id": 396197,
       "title": "松尾研はこうAIを制御するのか AIエージェントの精度を担保・改善する仕組みエージェントハーネスとは",
       "catch": "",
       "started_at": "2026-07-09T19:00:00+09:00",
       "place": "オンライン",
-      "accepted": 129,
+      "accepted": 134,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -766,56 +772,13 @@
       "is_new": false
     },
     {
-      "event_id": 395094,
-      "title": "OPEN GAME FEST 2026",
-      "catch": "7/11(土) 開催！参加無料のカンファレンス＆ゲーム出展＆ハンズオンイベント！",
-      "started_at": "2026-07-11T10:00:00+09:00",
-      "place": "京都コンピュータ学院 京都駅前校",
-      "accepted": 129,
-      "limit": null,
-      "matched_keywords": [
-        "Web"
-      ],
-      "matched_categories": [
-        "フロント"
-      ],
-      "url": "https://indie-us-games.connpass.com/event/395094/",
-      "join_url": "https://indie-us-games.connpass.com/event/395094/join/",
-      "image_url": "https://media.connpass.com/thumbs/72/f5/72f5b4f212b23fcfd8b15a0dc6d652a1.png",
-      "is_new": false
-    },
-    {
-      "event_id": 398118,
-      "title": "AgentCoreハーネスとマネージドKBでRAG & AIエージェント構築を体験！",
-      "catch": "初心者にやさしいマネコンGUI中心のハンズオンです",
-      "started_at": "2026-07-02T19:00:00+09:00",
-      "place": "Zoom",
-      "accepted": 127,
-      "limit": null,
-      "matched_keywords": [
-        "AI",
-        "LLM",
-        "RAG",
-        "エージェント",
-        "Web"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント"
-      ],
-      "url": "https://jawsug.connpass.com/event/398118/",
-      "join_url": "https://jawsug.connpass.com/event/398118/join/",
-      "image_url": "https://media.connpass.com/thumbs/90/79/9079510310abb2da39135a6936cf3ed8.png",
-      "is_new": false
-    },
-    {
       "event_id": 396166,
       "title": "はじめてのDatabricksもくもく会 2026夏",
       "catch": "〜無料版で始める & 最新機能でキャッチアップ〜",
       "started_at": "2026-06-24T18:30:00+09:00",
       "place": "Zoomによるウェビナー",
-      "accepted": 126,
-      "limit": 140,
+      "accepted": 133,
+      "limit": 150,
       "matched_keywords": [
         "AI",
         "生成AI",
@@ -830,22 +793,43 @@
       "is_new": false
     },
     {
-      "event_id": 390179,
-      "title": "東京Ruby会議13",
-      "catch": "緞帳のうらがわ",
-      "started_at": "2026-06-27T13:30:00+09:00",
-      "place": "座・高円寺2",
-      "accepted": 125,
-      "limit": 125,
+      "event_id": 396964,
+      "title": "なんでもCopilot#85「CopilotとAIの倫理」",
+      "catch": "毎週やってます",
+      "started_at": "2026-06-24T20:00:00+09:00",
+      "place": "オンライン",
+      "accepted": 133,
+      "limit": 300,
       "matched_keywords": [
-        "AI"
+        "AI",
+        "生成AI"
       ],
       "matched_categories": [
         "AI"
       ],
-      "url": "https://tokyorubykaigi-13.connpass.com/event/390179/",
-      "join_url": "https://tokyorubykaigi-13.connpass.com/event/390179/join/",
-      "image_url": "https://media.connpass.com/thumbs/1c/96/1c96d6d4ab96a0801ccdb21c7b0e59d4.png",
+      "url": "https://nandemo.connpass.com/event/396964/",
+      "join_url": "https://nandemo.connpass.com/event/396964/join/",
+      "image_url": "https://media.connpass.com/thumbs/52/c1/52c1886dd9e781aa6d93d15d38f2a095.png",
+      "is_new": false
+    },
+    {
+      "event_id": 394370,
+      "title": "OAuth & OpenID Connect勉強会ー海外イベントから直送! 認証・認可の最新トレンド",
+      "catch": "OAuth/OIDC仕様策定の動向からAIエージェントまで、認可・認証に関する最新情報をご紹介します",
+      "started_at": "2026-06-24T18:30:00+09:00",
+      "place": "THE FINTECH CENTER of TOKYO, FINOLAB",
+      "accepted": 131,
+      "limit": 240,
+      "matched_keywords": [
+        "AI",
+        "エージェント"
+      ],
+      "matched_categories": [
+        "AI"
+      ],
+      "url": "https://authlete.connpass.com/event/394370/",
+      "join_url": "https://authlete.connpass.com/event/394370/join/",
+      "image_url": "https://media.connpass.com/thumbs/96/1d/961d9b5b5a645dbb3db254f513a3d259.png",
       "is_new": false
     },
     {
@@ -854,7 +838,7 @@
       "catch": "AI for Security, Security for AI",
       "started_at": "2026-06-25T20:00:00+09:00",
       "place": "オンライン",
-      "accepted": 123,
+      "accepted": 130,
       "limit": 170,
       "matched_keywords": [
         "AI",
@@ -870,48 +854,41 @@
       "is_new": false
     },
     {
-      "event_id": 394370,
-      "title": "OAuth & OpenID Connect勉強会ー海外イベントから直送! 認証・認可の最新トレンド",
-      "catch": "OAuth/OIDC仕様策定の動向からAIエージェントまで、認可・認証に関する最新情報をご紹介します",
-      "started_at": "2026-06-24T18:30:00+09:00",
-      "place": "THE FINTECH CENTER of TOKYO, FINOLAB",
-      "accepted": 122,
-      "limit": 240,
+      "event_id": 395094,
+      "title": "OPEN GAME FEST 2026",
+      "catch": "7/11(土) 開催！参加無料のカンファレンス＆ゲーム出展＆ハンズオンイベント！",
+      "started_at": "2026-07-11T10:00:00+09:00",
+      "place": "京都コンピュータ学院 京都駅前校",
+      "accepted": 130,
+      "limit": null,
       "matched_keywords": [
-        "AI",
-        "エージェント"
+        "Web"
+      ],
+      "matched_categories": [
+        "フロント"
+      ],
+      "url": "https://indie-us-games.connpass.com/event/395094/",
+      "join_url": "https://indie-us-games.connpass.com/event/395094/join/",
+      "image_url": "https://media.connpass.com/thumbs/72/f5/72f5b4f212b23fcfd8b15a0dc6d652a1.png",
+      "is_new": false
+    },
+    {
+      "event_id": 390179,
+      "title": "東京Ruby会議13",
+      "catch": "緞帳のうらがわ",
+      "started_at": "2026-06-27T13:30:00+09:00",
+      "place": "座・高円寺2",
+      "accepted": 127,
+      "limit": 130,
+      "matched_keywords": [
+        "AI"
       ],
       "matched_categories": [
         "AI"
       ],
-      "url": "https://authlete.connpass.com/event/394370/",
-      "join_url": "https://authlete.connpass.com/event/394370/join/",
-      "image_url": "https://media.connpass.com/thumbs/96/1d/961d9b5b5a645dbb3db254f513a3d259.png",
-      "is_new": false
-    },
-    {
-      "event_id": 396672,
-      "title": "FDEってぶっちゃけどうなの？LT会",
-      "catch": "TOKIUM、estie、JAPAN AI（ジーニーグループ）の取り組み",
-      "started_at": "2026-06-24T12:00:00+09:00",
-      "place": "オンライン",
-      "accepted": 121,
-      "limit": 502,
-      "matched_keywords": [
-        "AI",
-        "Claude",
-        "エージェント",
-        "Web",
-        "UX"
-      ],
-      "matched_categories": [
-        "AI",
-        "フロント",
-        "PdM"
-      ],
-      "url": "https://supporterz-seminar.connpass.com/event/396672/",
-      "join_url": "https://supporterz-seminar.connpass.com/event/396672/join/",
-      "image_url": "https://media.connpass.com/thumbs/2e/fb/2efbb3c2e4d817118d810971d4881aec.png",
+      "url": "https://tokyorubykaigi-13.connpass.com/event/390179/",
+      "join_url": "https://tokyorubykaigi-13.connpass.com/event/390179/join/",
+      "image_url": "https://media.connpass.com/thumbs/1c/96/1c96d6d4ab96a0801ccdb21c7b0e59d4.png",
       "is_new": false
     },
     {
@@ -940,32 +917,12 @@
       "is_new": false
     },
     {
-      "event_id": 396964,
-      "title": "なんでもCopilot#85「CopilotとAIの倫理」",
-      "catch": "毎週やってます",
-      "started_at": "2026-06-24T20:00:00+09:00",
-      "place": "オンライン",
-      "accepted": 119,
-      "limit": 300,
-      "matched_keywords": [
-        "AI",
-        "生成AI"
-      ],
-      "matched_categories": [
-        "AI"
-      ],
-      "url": "https://nandemo.connpass.com/event/396964/",
-      "join_url": "https://nandemo.connpass.com/event/396964/join/",
-      "image_url": "https://media.connpass.com/thumbs/52/c1/52c1886dd9e781aa6d93d15d38f2a095.png",
-      "is_new": false
-    },
-    {
       "event_id": 391029,
       "title": "Google I/O Extended Osaka 2026",
       "catch": "Googleの最新技術をエキスパートがわかりやすく解説します！世界の最先端を見てみませんか！？",
       "started_at": "2026-07-18T13:30:00+09:00",
       "place": "QUINTBRIDGE",
-      "accepted": 107,
+      "accepted": 109,
       "limit": null,
       "matched_keywords": [
         "AI",
@@ -987,7 +944,7 @@
       "catch": "エンジニアがこの先生きのこるためのカンファレンス",
       "started_at": "2026-06-27T17:00:00+09:00",
       "place": "日本科学未来館 7F 未来館ホール他",
-      "accepted": 103,
+      "accepted": 106,
       "limit": 200,
       "matched_keywords": [
         "AI",
@@ -1000,6 +957,66 @@
       "url": "https://kinoko.connpass.com/event/391117/",
       "join_url": "https://kinoko.connpass.com/event/391117/join/",
       "image_url": "https://media.connpass.com/thumbs/94/47/944707c52177590ba0e7b2226e424647.png",
+      "is_new": false
+    },
+    {
+      "event_id": 393595,
+      "title": "AWS CDK Conference Japan 2026",
+      "catch": "presented by JAWS-UG",
+      "started_at": "2026-07-18T12:30:00+09:00",
+      "place": "麻布台ヒルズ 森JPタワー 35/36F",
+      "accepted": 102,
+      "limit": null,
+      "matched_keywords": [
+        "AI",
+        "エージェント"
+      ],
+      "matched_categories": [
+        "AI"
+      ],
+      "url": "https://jawsug-cdk.connpass.com/event/393595/",
+      "join_url": "https://jawsug-cdk.connpass.com/event/393595/join/",
+      "image_url": "https://media.connpass.com/thumbs/14/1f/141f0a4eec95030e2fc194b37bfff74d.png",
+      "is_new": false
+    },
+    {
+      "event_id": 395729,
+      "title": "第114回 Machine Learning 15minutes! Hybrid",
+      "catch": "機械学習(AI・人工知能)に関するカジュアルトークイベント",
+      "started_at": "2026-06-27T14:00:00+09:00",
+      "place": "シリコンスタジオ株式会社",
+      "accepted": 100,
+      "limit": 225,
+      "matched_keywords": [
+        "AI",
+        "LLM"
+      ],
+      "matched_categories": [
+        "AI"
+      ],
+      "url": "https://machine-learning15minutes.connpass.com/event/395729/",
+      "join_url": "https://machine-learning15minutes.connpass.com/event/395729/join/",
+      "image_url": "https://media.connpass.com/thumbs/27/ae/27ae5033b59f8941ba33d899367bcb16.png",
+      "is_new": true
+    },
+    {
+      "event_id": 396958,
+      "title": "JAWS-UG AI-DLC #01：AI-DLC勉強会  Raja SP 来日記念スペシャル",
+      "catch": "Raja さんに色々聞いてみよう！＋セッションとLTもやります",
+      "started_at": "2026-07-01T19:00:00+09:00",
+      "place": "麻布台ヒルズ 森JPタワー 36階[315/316/317]",
+      "accepted": 100,
+      "limit": 100,
+      "matched_keywords": [
+        "AI",
+        "生成AI"
+      ],
+      "matched_categories": [
+        "AI"
+      ],
+      "url": "https://jawsug-aidlc.connpass.com/event/396958/",
+      "join_url": "https://jawsug-aidlc.connpass.com/event/396958/join/",
+      "image_url": "https://media.connpass.com/thumbs/69/da/69dadae316beae01838ec99bd5bbea8f.png",
       "is_new": true
     }
   ]

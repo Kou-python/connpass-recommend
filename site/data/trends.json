@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-06-23T07:52:22+09:00",
+  "updated_at": "2026-06-24T07:20:23+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 248
+      "count": 226
     },
     {
       "term": "AWS",
       "count": 52
     },
     {
-      "term": "Claude",
-      "count": 31
+      "term": "Go",
+      "count": 33
     },
     {
-      "term": "Go",
-      "count": 31
+      "term": "Claude",
+      "count": 30
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 28
     },
     {
       "term": "セキュリティ",
@@ -27,26 +27,30 @@
     },
     {
       "term": "Web",
-      "count": 18
-    },
-    {
-      "term": "生成AI",
-      "count": 17
-    },
-    {
-      "term": "LLM",
-      "count": 16
+      "count": 19
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 15
+    },
+    {
+      "term": "生成AI",
+      "count": 15
+    },
+    {
+      "term": "LLM",
+      "count": 13
     },
     {
       "term": "Python",
-      "count": 10
+      "count": 11
     },
     {
-      "term": "テスト",
+      "term": "UX",
+      "count": 11
+    },
+    {
+      "term": "Ruby",
       "count": 10
     },
     {
@@ -58,11 +62,7 @@
       "count": 9
     },
     {
-      "term": "Ruby",
-      "count": 9
-    },
-    {
-      "term": "UX",
+      "term": "テスト",
       "count": 9
     },
     {
@@ -74,28 +74,16 @@
       "count": 6
     },
     {
-      "term": "MCP",
+      "term": "QA",
       "count": 6
     },
     {
-      "term": "QA",
+      "term": "SRE",
       "count": 6
     },
     {
       "term": "Codex",
       "count": 5
-    },
-    {
-      "term": "SRE",
-      "count": 5
-    },
-    {
-      "term": "RAG",
-      "count": 4
-    },
-    {
-      "term": "TypeScript",
-      "count": 4
     },
     {
       "term": "Azure",
@@ -110,11 +98,15 @@
       "count": 3
     },
     {
-      "term": "Docker",
+      "term": "Gemini",
       "count": 3
     },
     {
-      "term": "Gemini",
+      "term": "MCP",
+      "count": 3
+    },
+    {
+      "term": "PdM",
       "count": 3
     },
     {
@@ -122,11 +114,15 @@
       "count": 3
     },
     {
+      "term": "TypeScript",
+      "count": 3
+    },
+    {
       "term": "プロダクトマネジメント",
       "count": 3
     },
     {
-      "term": "DevOps",
+      "term": "Docker",
       "count": 2
     },
     {
@@ -142,7 +138,7 @@
       "count": 2
     },
     {
-      "term": "PdM",
+      "term": "RAG",
       "count": 2
     },
     {
@@ -152,6 +148,14 @@
     {
       "term": "プロンプト",
       "count": 2
+    },
+    {
+      "term": "脆弱性",
+      "count": 2
+    },
+    {
+      "term": "DevOps",
+      "count": 1
     },
     {
       "term": "Iceberg",
@@ -175,10 +179,6 @@
     },
     {
       "term": "Vue",
-      "count": 1
-    },
-    {
-      "term": "脆弱性",
       "count": 1
     }
   ]
