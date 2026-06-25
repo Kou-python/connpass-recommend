@@ -1,44 +1,44 @@
 {
-  "updated_at": "2026-06-25T07:24:47+09:00",
+  "updated_at": "2026-06-26T07:27:34+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 221
+      "count": 212
     },
     {
       "term": "AWS",
-      "count": 56
+      "count": 61
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 29
     },
     {
       "term": "Claude",
-      "count": 28
+      "count": 27
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 23
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 23
     },
     {
       "term": "Web",
-      "count": 20
+      "count": 18
     },
     {
       "term": "生成AI",
-      "count": 17
-    },
-    {
-      "term": "デザイン",
-      "count": 15
+      "count": 16
     },
     {
       "term": "LLM",
+      "count": 14
+    },
+    {
+      "term": "デザイン",
       "count": 13
     },
     {
@@ -50,10 +50,6 @@
       "count": 10
     },
     {
-      "term": "UX",
-      "count": 10
-    },
-    {
       "term": "テスト",
       "count": 10
     },
@@ -62,27 +58,35 @@
       "count": 9
     },
     {
-      "term": "Copilot",
-      "count": 7
+      "term": "UX",
+      "count": 9
     },
     {
       "term": "フロントエンド",
       "count": 7
     },
     {
+      "term": "Copilot",
+      "count": 6
+    },
+    {
       "term": "QA",
       "count": 6
     },
     {
+      "term": "Codex",
+      "count": 5
+    },
+    {
+      "term": "React",
+      "count": 5
+    },
+    {
       "term": "SRE",
-      "count": 6
+      "count": 5
     },
     {
       "term": "Azure",
-      "count": 4
-    },
-    {
-      "term": "Codex",
       "count": 4
     },
     {
@@ -90,15 +94,7 @@
       "count": 4
     },
     {
-      "term": "React",
-      "count": 4
-    },
-    {
       "term": "ChatGPT",
-      "count": 3
-    },
-    {
-      "term": "Cursor",
       "count": 3
     },
     {
@@ -106,7 +102,7 @@
       "count": 3
     },
     {
-      "term": "PdM",
+      "term": "Next.js",
       "count": 3
     },
     {
@@ -118,8 +114,12 @@
       "count": 3
     },
     {
-      "term": "プロンプト",
-      "count": 3
+      "term": "Cursor",
+      "count": 2
+    },
+    {
+      "term": "DevOps",
+      "count": 2
     },
     {
       "term": "Kotlin",
@@ -130,7 +130,7 @@
       "count": 2
     },
     {
-      "term": "Next.js",
+      "term": "PdM",
       "count": 2
     },
     {
@@ -138,20 +138,12 @@
       "count": 2
     },
     {
-      "term": "データ基盤",
+      "term": "プロンプト",
       "count": 2
     },
     {
       "term": "脆弱性",
       "count": 2
-    },
-    {
-      "term": "Databricks",
-      "count": 1
-    },
-    {
-      "term": "DevOps",
-      "count": 1
     },
     {
       "term": "Docker",
@@ -175,6 +167,10 @@
     },
     {
       "term": "Terraform",
+      "count": 1
+    },
+    {
+      "term": "データ基盤",
       "count": 1
     }
   ]
