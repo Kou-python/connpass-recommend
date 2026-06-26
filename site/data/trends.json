@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-06-26T07:27:34+09:00",
+  "updated_at": "2026-06-27T07:21:21+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 212
+      "count": 209
     },
     {
       "term": "AWS",
-      "count": 61
+      "count": 62
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 30
     },
     {
       "term": "Claude",
       "count": 27
     },
     {
-      "term": "エージェント",
-      "count": 23
+      "term": "セキュリティ",
+      "count": 24
     },
     {
-      "term": "セキュリティ",
-      "count": 23
+      "term": "エージェント",
+      "count": 21
     },
     {
       "term": "Web",
@@ -31,7 +31,7 @@
     },
     {
       "term": "生成AI",
-      "count": 16
+      "count": 18
     },
     {
       "term": "LLM",
@@ -39,22 +39,18 @@
     },
     {
       "term": "デザイン",
-      "count": 13
-    },
-    {
-      "term": "Python",
-      "count": 10
-    },
-    {
-      "term": "Ruby",
-      "count": 10
-    },
-    {
-      "term": "テスト",
-      "count": 10
+      "count": 14
     },
     {
       "term": "Java",
+      "count": 9
+    },
+    {
+      "term": "Python",
+      "count": 9
+    },
+    {
+      "term": "Ruby",
       "count": 9
     },
     {
@@ -62,8 +58,16 @@
       "count": 9
     },
     {
+      "term": "テスト",
+      "count": 9
+    },
+    {
       "term": "フロントエンド",
       "count": 7
+    },
+    {
+      "term": "Codex",
+      "count": 6
     },
     {
       "term": "Copilot",
@@ -74,15 +78,11 @@
       "count": 6
     },
     {
-      "term": "Codex",
-      "count": 5
+      "term": "SRE",
+      "count": 6
     },
     {
       "term": "React",
-      "count": 5
-    },
-    {
-      "term": "SRE",
       "count": 5
     },
     {
@@ -114,6 +114,10 @@
       "count": 3
     },
     {
+      "term": "プロンプト",
+      "count": 3
+    },
+    {
       "term": "Cursor",
       "count": 2
     },
@@ -122,27 +126,11 @@
       "count": 2
     },
     {
-      "term": "Kotlin",
-      "count": 2
-    },
-    {
       "term": "Kubernetes",
       "count": 2
     },
     {
-      "term": "PdM",
-      "count": 2
-    },
-    {
       "term": "RAG",
-      "count": 2
-    },
-    {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
-      "term": "脆弱性",
       "count": 2
     },
     {
@@ -151,6 +139,14 @@
     },
     {
       "term": "Iceberg",
+      "count": 1
+    },
+    {
+      "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "PdM",
       "count": 1
     },
     {
@@ -171,6 +167,10 @@
     },
     {
       "term": "データ基盤",
+      "count": 1
+    },
+    {
+      "term": "脆弱性",
       "count": 1
     }
   ]
