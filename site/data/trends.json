@@ -1,56 +1,48 @@
 {
-  "updated_at": "2026-06-27T07:21:21+09:00",
+  "updated_at": "2026-06-28T07:11:42+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 209
+      "count": 204
     },
     {
       "term": "AWS",
-      "count": 62
-    },
-    {
-      "term": "Go",
-      "count": 30
+      "count": 64
     },
     {
       "term": "Claude",
       "count": 27
     },
     {
+      "term": "Go",
+      "count": 27
+    },
+    {
       "term": "セキュリティ",
-      "count": 24
+      "count": 23
     },
     {
       "term": "エージェント",
       "count": 21
     },
     {
-      "term": "Web",
-      "count": 18
+      "term": "生成AI",
+      "count": 19
     },
     {
-      "term": "生成AI",
-      "count": 18
+      "term": "Web",
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 13
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 12
     },
     {
       "term": "Java",
-      "count": 9
-    },
-    {
-      "term": "Python",
-      "count": 9
-    },
-    {
-      "term": "Ruby",
       "count": 9
     },
     {
@@ -62,7 +54,15 @@
       "count": 9
     },
     {
-      "term": "フロントエンド",
+      "term": "Ruby",
+      "count": 8
+    },
+    {
+      "term": "Python",
+      "count": 7
+    },
+    {
+      "term": "QA",
       "count": 7
     },
     {
@@ -74,15 +74,11 @@
       "count": 6
     },
     {
-      "term": "QA",
-      "count": 6
-    },
-    {
       "term": "SRE",
       "count": 6
     },
     {
-      "term": "React",
+      "term": "フロントエンド",
       "count": 5
     },
     {
@@ -90,20 +86,16 @@
       "count": 4
     },
     {
+      "term": "ChatGPT",
+      "count": 4
+    },
+    {
       "term": "MCP",
       "count": 4
     },
     {
-      "term": "ChatGPT",
-      "count": 3
-    },
-    {
-      "term": "Gemini",
-      "count": 3
-    },
-    {
-      "term": "Next.js",
-      "count": 3
+      "term": "React",
+      "count": 4
     },
     {
       "term": "TypeScript",
@@ -111,10 +103,6 @@
     },
     {
       "term": "プロダクトマネジメント",
-      "count": 3
-    },
-    {
-      "term": "プロンプト",
       "count": 3
     },
     {
@@ -126,7 +114,15 @@
       "count": 2
     },
     {
+      "term": "Gemini",
+      "count": 2
+    },
+    {
       "term": "Kubernetes",
+      "count": 2
+    },
+    {
+      "term": "Next.js",
       "count": 2
     },
     {
@@ -134,8 +130,8 @@
       "count": 2
     },
     {
-      "term": "Docker",
-      "count": 1
+      "term": "プロンプト",
+      "count": 2
     },
     {
       "term": "Iceberg",
