@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-28T07:11:42+09:00",
+  "updated_at": "2026-06-29T07:09:56+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 204
+      "count": 205
     },
     {
       "term": "AWS",
@@ -19,15 +19,15 @@
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 25
     },
     {
       "term": "エージェント",
-      "count": 21
+      "count": 20
     },
     {
       "term": "生成AI",
-      "count": 19
+      "count": 18
     },
     {
       "term": "Web",
@@ -35,34 +35,34 @@
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 15
     },
     {
       "term": "デザイン",
       "count": 12
     },
     {
-      "term": "Java",
-      "count": 9
-    },
-    {
       "term": "UX",
       "count": 9
     },
     {
-      "term": "テスト",
-      "count": 9
+      "term": "Java",
+      "count": 8
+    },
+    {
+      "term": "QA",
+      "count": 8
     },
     {
       "term": "Ruby",
       "count": 8
     },
     {
-      "term": "Python",
-      "count": 7
+      "term": "テスト",
+      "count": 8
     },
     {
-      "term": "QA",
+      "term": "Python",
       "count": 7
     },
     {
@@ -98,6 +98,10 @@
       "count": 4
     },
     {
+      "term": "DevOps",
+      "count": 3
+    },
+    {
       "term": "TypeScript",
       "count": 3
     },
@@ -107,14 +111,6 @@
     },
     {
       "term": "Cursor",
-      "count": 2
-    },
-    {
-      "term": "DevOps",
-      "count": 2
-    },
-    {
-      "term": "Gemini",
       "count": 2
     },
     {
@@ -132,6 +128,10 @@
     {
       "term": "プロンプト",
       "count": 2
+    },
+    {
+      "term": "Gemini",
+      "count": 1
     },
     {
       "term": "Iceberg",
