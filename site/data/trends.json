@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-06-29T07:09:56+09:00",
+  "updated_at": "2026-06-30T07:16:45+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 205
+      "count": 227
     },
     {
       "term": "AWS",
-      "count": 64
-    },
-    {
-      "term": "Claude",
-      "count": 27
+      "count": 65
     },
     {
       "term": "Go",
+      "count": 34
+    },
+    {
+      "term": "Claude",
       "count": 27
     },
     {
@@ -23,26 +23,34 @@
     },
     {
       "term": "エージェント",
-      "count": 20
+      "count": 21
     },
     {
       "term": "生成AI",
-      "count": 18
+      "count": 21
     },
     {
       "term": "Web",
       "count": 17
     },
     {
-      "term": "LLM",
+      "term": "デザイン",
       "count": 15
     },
     {
-      "term": "デザイン",
-      "count": 12
+      "term": "LLM",
+      "count": 14
+    },
+    {
+      "term": "Ruby",
+      "count": 9
     },
     {
       "term": "UX",
+      "count": 9
+    },
+    {
+      "term": "テスト",
       "count": 9
     },
     {
@@ -54,20 +62,8 @@
       "count": 8
     },
     {
-      "term": "Ruby",
-      "count": 8
-    },
-    {
-      "term": "テスト",
-      "count": 8
-    },
-    {
       "term": "Python",
       "count": 7
-    },
-    {
-      "term": "Codex",
-      "count": 6
     },
     {
       "term": "Copilot",
@@ -79,7 +75,7 @@
     },
     {
       "term": "フロントエンド",
-      "count": 5
+      "count": 6
     },
     {
       "term": "Azure",
@@ -90,7 +86,7 @@
       "count": 4
     },
     {
-      "term": "MCP",
+      "term": "Codex",
       "count": 4
     },
     {
@@ -99,6 +95,14 @@
     },
     {
       "term": "DevOps",
+      "count": 3
+    },
+    {
+      "term": "MCP",
+      "count": 3
+    },
+    {
+      "term": "RAG",
       "count": 3
     },
     {
@@ -114,6 +118,10 @@
       "count": 2
     },
     {
+      "term": "Gemini",
+      "count": 2
+    },
+    {
       "term": "Kubernetes",
       "count": 2
     },
@@ -122,16 +130,12 @@
       "count": 2
     },
     {
-      "term": "RAG",
+      "term": "データ基盤",
       "count": 2
     },
     {
       "term": "プロンプト",
       "count": 2
-    },
-    {
-      "term": "Gemini",
-      "count": 1
     },
     {
       "term": "Iceberg",
@@ -159,10 +163,6 @@
     },
     {
       "term": "Terraform",
-      "count": 1
-    },
-    {
-      "term": "データ基盤",
       "count": 1
     },
     {
