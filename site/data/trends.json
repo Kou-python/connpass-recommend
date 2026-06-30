@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-30T07:16:45+09:00",
+  "updated_at": "2026-06-30T21:39:55+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 227
+      "count": 235
     },
     {
       "term": "AWS",
-      "count": 65
+      "count": 66
     },
     {
       "term": "Go",
@@ -22,11 +22,11 @@
       "count": 25
     },
     {
-      "term": "エージェント",
-      "count": 21
+      "term": "生成AI",
+      "count": 22
     },
     {
-      "term": "生成AI",
+      "term": "エージェント",
       "count": 21
     },
     {
@@ -34,23 +34,23 @@
       "count": 17
     },
     {
+      "term": "LLM",
+      "count": 15
+    },
+    {
       "term": "デザイン",
       "count": 15
     },
     {
-      "term": "LLM",
-      "count": 14
-    },
-    {
       "term": "Ruby",
-      "count": 9
-    },
-    {
-      "term": "UX",
-      "count": 9
+      "count": 11
     },
     {
       "term": "テスト",
+      "count": 10
+    },
+    {
+      "term": "UX",
       "count": 9
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "term": "Azure",
-      "count": 4
+      "count": 5
     },
     {
       "term": "ChatGPT",
