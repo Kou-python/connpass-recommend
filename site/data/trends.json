@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-30T21:39:55+09:00",
+  "updated_at": "2026-07-01T07:20:50+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 235
+      "count": 232
     },
     {
       "term": "AWS",
@@ -15,18 +15,18 @@
     },
     {
       "term": "Claude",
-      "count": 27
-    },
-    {
-      "term": "セキュリティ",
       "count": 25
     },
     {
-      "term": "生成AI",
-      "count": 22
+      "term": "セキュリティ",
+      "count": 24
     },
     {
       "term": "エージェント",
+      "count": 21
+    },
+    {
+      "term": "生成AI",
       "count": 21
     },
     {
@@ -34,23 +34,23 @@
       "count": 17
     },
     {
-      "term": "LLM",
-      "count": 15
-    },
-    {
       "term": "デザイン",
-      "count": 15
+      "count": 16
     },
     {
-      "term": "Ruby",
-      "count": 11
+      "term": "LLM",
+      "count": 13
+    },
+    {
+      "term": "UX",
+      "count": 10
     },
     {
       "term": "テスト",
       "count": 10
     },
     {
-      "term": "UX",
+      "term": "Ruby",
       "count": 9
     },
     {
@@ -70,15 +70,15 @@
       "count": 6
     },
     {
+      "term": "Azure",
+      "count": 5
+    },
+    {
       "term": "SRE",
-      "count": 6
+      "count": 5
     },
     {
       "term": "フロントエンド",
-      "count": 6
-    },
-    {
-      "term": "Azure",
       "count": 5
     },
     {
@@ -86,12 +86,12 @@
       "count": 4
     },
     {
-      "term": "Codex",
+      "term": "React",
       "count": 4
     },
     {
-      "term": "React",
-      "count": 4
+      "term": "Codex",
+      "count": 3
     },
     {
       "term": "DevOps",
@@ -103,10 +103,6 @@
     },
     {
       "term": "RAG",
-      "count": 3
-    },
-    {
-      "term": "TypeScript",
       "count": 3
     },
     {
@@ -122,11 +118,11 @@
       "count": 2
     },
     {
-      "term": "Kubernetes",
+      "term": "Next.js",
       "count": 2
     },
     {
-      "term": "Next.js",
+      "term": "TypeScript",
       "count": 2
     },
     {
@@ -138,6 +134,10 @@
       "count": 2
     },
     {
+      "term": "Databricks",
+      "count": 1
+    },
+    {
       "term": "Iceberg",
       "count": 1
     },
@@ -146,15 +146,15 @@
       "count": 1
     },
     {
+      "term": "Kubernetes",
+      "count": 1
+    },
+    {
       "term": "PdM",
       "count": 1
     },
     {
       "term": "Rust",
-      "count": 1
-    },
-    {
-      "term": "Snowflake",
       "count": 1
     },
     {
