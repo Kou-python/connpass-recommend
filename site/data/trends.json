@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-01T07:20:50+09:00",
+  "updated_at": "2026-07-02T07:24:21+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 232
+      "count": 233
     },
     {
       "term": "AWS",
-      "count": 66
+      "count": 67
     },
     {
       "term": "Go",
-      "count": 34
+      "count": 37
     },
     {
       "term": "Claude",
-      "count": 25
+      "count": 28
     },
     {
       "term": "セキュリティ",
-      "count": 24
+      "count": 25
     },
     {
       "term": "エージェント",
@@ -27,31 +27,27 @@
     },
     {
       "term": "生成AI",
-      "count": 21
-    },
-    {
-      "term": "Web",
-      "count": 17
+      "count": 20
     },
     {
       "term": "デザイン",
+      "count": 17
+    },
+    {
+      "term": "Web",
       "count": 16
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 15
+    },
+    {
+      "term": "テスト",
+      "count": 12
     },
     {
       "term": "UX",
       "count": 10
-    },
-    {
-      "term": "テスト",
-      "count": 10
-    },
-    {
-      "term": "Ruby",
-      "count": 9
     },
     {
       "term": "Java",
@@ -63,6 +59,10 @@
     },
     {
       "term": "Python",
+      "count": 7
+    },
+    {
+      "term": "Ruby",
       "count": 7
     },
     {
@@ -90,10 +90,6 @@
       "count": 4
     },
     {
-      "term": "Codex",
-      "count": 3
-    },
-    {
       "term": "DevOps",
       "count": 3
     },
@@ -110,15 +106,19 @@
       "count": 3
     },
     {
+      "term": "Codex",
+      "count": 2
+    },
+    {
       "term": "Cursor",
       "count": 2
     },
     {
-      "term": "Gemini",
+      "term": "Next.js",
       "count": 2
     },
     {
-      "term": "Next.js",
+      "term": "Rust",
       "count": 2
     },
     {
@@ -138,6 +138,10 @@
       "count": 1
     },
     {
+      "term": "Gemini",
+      "count": 1
+    },
+    {
       "term": "Iceberg",
       "count": 1
     },
@@ -151,10 +155,6 @@
     },
     {
       "term": "PdM",
-      "count": 1
-    },
-    {
-      "term": "Rust",
       "count": 1
     },
     {
