@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-02T07:24:21+09:00",
+  "updated_at": "2026-07-03T07:15:25+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 233
+      "count": 229
     },
     {
       "term": "AWS",
@@ -15,7 +15,7 @@
     },
     {
       "term": "Claude",
-      "count": 28
+      "count": 30
     },
     {
       "term": "セキュリティ",
@@ -23,11 +23,11 @@
     },
     {
       "term": "エージェント",
-      "count": 21
+      "count": 22
     },
     {
       "term": "生成AI",
-      "count": 20
+      "count": 19
     },
     {
       "term": "デザイン",
@@ -47,7 +47,7 @@
     },
     {
       "term": "UX",
-      "count": 10
+      "count": 11
     },
     {
       "term": "Java",
@@ -66,19 +66,23 @@
       "count": 7
     },
     {
-      "term": "Copilot",
+      "term": "Azure",
       "count": 6
     },
     {
-      "term": "Azure",
+      "term": "フロントエンド",
+      "count": 6
+    },
+    {
+      "term": "Copilot",
+      "count": 5
+    },
+    {
+      "term": "DevOps",
       "count": 5
     },
     {
       "term": "SRE",
-      "count": 5
-    },
-    {
-      "term": "フロントエンド",
       "count": 5
     },
     {
@@ -90,15 +94,11 @@
       "count": 4
     },
     {
-      "term": "DevOps",
-      "count": 3
-    },
-    {
       "term": "MCP",
       "count": 3
     },
     {
-      "term": "RAG",
+      "term": "データ基盤",
       "count": 3
     },
     {
@@ -118,15 +118,15 @@
       "count": 2
     },
     {
+      "term": "RAG",
+      "count": 2
+    },
+    {
       "term": "Rust",
       "count": 2
     },
     {
       "term": "TypeScript",
-      "count": 2
-    },
-    {
-      "term": "データ基盤",
       "count": 2
     },
     {
