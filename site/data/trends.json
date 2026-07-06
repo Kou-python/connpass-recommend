@@ -1,53 +1,57 @@
 {
-  "updated_at": "2026-07-06T07:09:18+09:00",
+  "updated_at": "2026-07-07T07:20:55+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 228
+      "count": 240
     },
     {
       "term": "AWS",
-      "count": 68
+      "count": 74
     },
     {
       "term": "Go",
-      "count": 36
+      "count": 38
     },
     {
       "term": "Claude",
-      "count": 29
+      "count": 31
     },
     {
       "term": "エージェント",
-      "count": 24
+      "count": 26
     },
     {
       "term": "セキュリティ",
       "count": 24
     },
     {
-      "term": "Web",
-      "count": 17
-    },
-    {
       "term": "生成AI",
-      "count": 17
+      "count": 19
     },
     {
       "term": "デザイン",
+      "count": 18
+    },
+    {
+      "term": "Web",
       "count": 16
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 15
+    },
+    {
+      "term": "UX",
+      "count": 12
     },
     {
       "term": "テスト",
       "count": 12
     },
     {
-      "term": "UX",
-      "count": 11
+      "term": "Python",
+      "count": 7
     },
     {
       "term": "QA",
@@ -70,20 +74,16 @@
       "count": 6
     },
     {
-      "term": "Python",
-      "count": 6
-    },
-    {
       "term": "SRE",
       "count": 6
     },
     {
-      "term": "Azure",
+      "term": "DevOps",
       "count": 5
     },
     {
-      "term": "DevOps",
-      "count": 5
+      "term": "Azure",
+      "count": 4
     },
     {
       "term": "ChatGPT",
@@ -95,6 +95,10 @@
     },
     {
       "term": "MCP",
+      "count": 3
+    },
+    {
+      "term": "RAG",
       "count": 3
     },
     {
@@ -114,7 +118,7 @@
       "count": 2
     },
     {
-      "term": "RAG",
+      "term": "PdM",
       "count": 2
     },
     {
@@ -143,10 +147,6 @@
     },
     {
       "term": "Kubernetes",
-      "count": 1
-    },
-    {
-      "term": "PdM",
       "count": 1
     },
     {
