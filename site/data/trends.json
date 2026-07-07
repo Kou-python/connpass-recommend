@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-07T07:20:55+09:00",
+  "updated_at": "2026-07-07T09:48:04+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 240
+      "count": 243
     },
     {
       "term": "AWS",
@@ -19,7 +19,7 @@
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 28
     },
     {
       "term": "セキュリティ",
@@ -34,12 +34,12 @@
       "count": 18
     },
     {
-      "term": "Web",
+      "term": "LLM",
       "count": 16
     },
     {
-      "term": "LLM",
-      "count": 15
+      "term": "Web",
+      "count": 16
     },
     {
       "term": "UX",
@@ -78,6 +78,10 @@
       "count": 6
     },
     {
+      "term": "ChatGPT",
+      "count": 5
+    },
+    {
       "term": "DevOps",
       "count": 5
     },
@@ -86,11 +90,11 @@
       "count": 4
     },
     {
-      "term": "ChatGPT",
+      "term": "React",
       "count": 4
     },
     {
-      "term": "React",
+      "term": "データ基盤",
       "count": 4
     },
     {
@@ -99,10 +103,6 @@
     },
     {
       "term": "RAG",
-      "count": 3
-    },
-    {
-      "term": "データ基盤",
       "count": 3
     },
     {
