@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-07-07T09:48:04+09:00",
+  "updated_at": "2026-07-08T07:18:47+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 243
+      "count": 245
     },
     {
       "term": "AWS",
-      "count": 74
+      "count": 73
     },
     {
       "term": "Go",
-      "count": 38
+      "count": 39
     },
     {
       "term": "Claude",
-      "count": 31
+      "count": 32
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 29
     },
     {
       "term": "セキュリティ",
-      "count": 24
-    },
-    {
-      "term": "生成AI",
-      "count": 19
-    },
-    {
-      "term": "デザイン",
-      "count": 18
+      "count": 25
     },
     {
       "term": "LLM",
-      "count": 16
+      "count": 17
+    },
+    {
+      "term": "デザイン",
+      "count": 17
+    },
+    {
+      "term": "生成AI",
+      "count": 17
     },
     {
       "term": "Web",
@@ -43,11 +43,11 @@
     },
     {
       "term": "UX",
-      "count": 12
+      "count": 11
     },
     {
       "term": "テスト",
-      "count": 12
+      "count": 9
     },
     {
       "term": "Python",
@@ -90,27 +90,27 @@
       "count": 4
     },
     {
+      "term": "MCP",
+      "count": 4
+    },
+    {
       "term": "React",
       "count": 4
-    },
-    {
-      "term": "データ基盤",
-      "count": 4
-    },
-    {
-      "term": "MCP",
-      "count": 3
     },
     {
       "term": "RAG",
       "count": 3
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "データ基盤",
       "count": 3
     },
     {
       "term": "Codex",
+      "count": 2
+    },
+    {
+      "term": "Iceberg",
       "count": 2
     },
     {
@@ -142,10 +142,6 @@
       "count": 1
     },
     {
-      "term": "Iceberg",
-      "count": 1
-    },
-    {
       "term": "Kubernetes",
       "count": 1
     },
@@ -154,11 +150,11 @@
       "count": 1
     },
     {
-      "term": "Terraform",
+      "term": "TypeScript",
       "count": 1
     },
     {
-      "term": "TypeScript",
+      "term": "プロダクトマネジメント",
       "count": 1
     },
     {
