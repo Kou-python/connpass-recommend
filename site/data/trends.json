@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-07-08T07:18:47+09:00",
+  "updated_at": "2026-07-09T07:14:25+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 245
+      "count": 249
     },
     {
       "term": "AWS",
-      "count": 73
+      "count": 60
     },
     {
       "term": "Go",
-      "count": 39
+      "count": 40
     },
     {
       "term": "Claude",
-      "count": 32
+      "count": 31
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 27
     },
     {
       "term": "セキュリティ",
-      "count": 25
+      "count": 20
     },
     {
       "term": "LLM",
-      "count": 17
+      "count": 19
+    },
+    {
+      "term": "生成AI",
+      "count": 18
     },
     {
       "term": "デザイン",
       "count": 17
     },
     {
-      "term": "生成AI",
-      "count": 17
-    },
-    {
       "term": "Web",
-      "count": 16
+      "count": 14
     },
     {
       "term": "UX",
-      "count": 11
+      "count": 10
     },
     {
       "term": "テスト",
@@ -66,7 +66,7 @@
       "count": 7
     },
     {
-      "term": "Copilot",
+      "term": "DevOps",
       "count": 6
     },
     {
@@ -78,16 +78,16 @@
       "count": 6
     },
     {
+      "term": "Azure",
+      "count": 5
+    },
+    {
       "term": "ChatGPT",
       "count": 5
     },
     {
-      "term": "DevOps",
+      "term": "Copilot",
       "count": 5
-    },
-    {
-      "term": "Azure",
-      "count": 4
     },
     {
       "term": "MCP",
@@ -98,16 +98,16 @@
       "count": 4
     },
     {
+      "term": "Codex",
+      "count": 3
+    },
+    {
       "term": "RAG",
       "count": 3
     },
     {
       "term": "データ基盤",
       "count": 3
-    },
-    {
-      "term": "Codex",
-      "count": 2
     },
     {
       "term": "Iceberg",
@@ -139,6 +139,10 @@
     },
     {
       "term": "Gemini",
+      "count": 1
+    },
+    {
+      "term": "Kotlin",
       "count": 1
     },
     {
