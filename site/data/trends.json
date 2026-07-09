@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T07:14:25+09:00",
+  "updated_at": "2026-07-10T07:39:11+09:00",
   "trends": [
     {
       "term": "AI",
@@ -7,31 +7,31 @@
     },
     {
       "term": "AWS",
-      "count": 60
+      "count": 62
     },
     {
       "term": "Go",
-      "count": 40
+      "count": 41
     },
     {
       "term": "Claude",
-      "count": 31
+      "count": 32
     },
     {
       "term": "エージェント",
-      "count": 27
+      "count": 26
     },
     {
       "term": "セキュリティ",
-      "count": 20
+      "count": 22
     },
     {
       "term": "LLM",
-      "count": 19
+      "count": 20
     },
     {
       "term": "生成AI",
-      "count": 18
+      "count": 20
     },
     {
       "term": "デザイン",
@@ -39,7 +39,7 @@
     },
     {
       "term": "Web",
-      "count": 14
+      "count": 16
     },
     {
       "term": "UX",
@@ -47,7 +47,7 @@
     },
     {
       "term": "テスト",
-      "count": 9
+      "count": 10
     },
     {
       "term": "Python",
@@ -62,10 +62,6 @@
       "count": 7
     },
     {
-      "term": "フロントエンド",
-      "count": 7
-    },
-    {
       "term": "DevOps",
       "count": 6
     },
@@ -75,6 +71,10 @@
     },
     {
       "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "フロントエンド",
       "count": 6
     },
     {
@@ -91,14 +91,18 @@
     },
     {
       "term": "MCP",
-      "count": 4
+      "count": 5
     },
     {
       "term": "React",
-      "count": 4
+      "count": 5
     },
     {
       "term": "Codex",
+      "count": 3
+    },
+    {
+      "term": "Next.js",
       "count": 3
     },
     {
@@ -111,10 +115,6 @@
     },
     {
       "term": "Iceberg",
-      "count": 2
-    },
-    {
-      "term": "Next.js",
       "count": 2
     },
     {
