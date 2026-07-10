@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-07-10T07:39:11+09:00",
+  "updated_at": "2026-07-11T07:12:40+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 249
+      "count": 257
     },
     {
       "term": "AWS",
-      "count": 62
+      "count": 64
     },
     {
       "term": "Go",
-      "count": 41
+      "count": 40
     },
     {
       "term": "Claude",
-      "count": 32
+      "count": 28
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 25
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 23
     },
     {
       "term": "LLM",
-      "count": 20
-    },
-    {
-      "term": "生成AI",
-      "count": 20
+      "count": 21
     },
     {
       "term": "デザイン",
-      "count": 17
+      "count": 19
+    },
+    {
+      "term": "生成AI",
+      "count": 18
     },
     {
       "term": "Web",
@@ -50,19 +50,15 @@
       "count": 10
     },
     {
-      "term": "Python",
-      "count": 7
-    },
-    {
       "term": "QA",
-      "count": 7
+      "count": 8
     },
     {
       "term": "Ruby",
-      "count": 7
+      "count": 8
     },
     {
-      "term": "DevOps",
+      "term": "ChatGPT",
       "count": 6
     },
     {
@@ -70,11 +66,11 @@
       "count": 6
     },
     {
-      "term": "SRE",
+      "term": "Python",
       "count": 6
     },
     {
-      "term": "フロントエンド",
+      "term": "React",
       "count": 6
     },
     {
@@ -82,11 +78,11 @@
       "count": 5
     },
     {
-      "term": "ChatGPT",
+      "term": "Copilot",
       "count": 5
     },
     {
-      "term": "Copilot",
+      "term": "DevOps",
       "count": 5
     },
     {
@@ -94,8 +90,16 @@
       "count": 5
     },
     {
-      "term": "React",
+      "term": "SRE",
       "count": 5
+    },
+    {
+      "term": "フロントエンド",
+      "count": 5
+    },
+    {
+      "term": "RAG",
+      "count": 4
     },
     {
       "term": "Codex",
@@ -103,10 +107,6 @@
     },
     {
       "term": "Next.js",
-      "count": 3
-    },
-    {
-      "term": "RAG",
       "count": 3
     },
     {
@@ -126,7 +126,7 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
+      "term": "TypeScript",
       "count": 2
     },
     {
@@ -154,11 +154,11 @@
       "count": 1
     },
     {
-      "term": "TypeScript",
+      "term": "プロダクトマネジメント",
       "count": 1
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "プロンプト",
       "count": 1
     },
     {
