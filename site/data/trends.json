@@ -1,56 +1,56 @@
 {
-  "updated_at": "2026-07-12T06:58:14+09:00",
+  "updated_at": "2026-07-13T06:59:14+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 257
+      "count": 246
     },
     {
       "term": "AWS",
-      "count": 57
+      "count": 61
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 30
     },
     {
       "term": "Claude",
       "count": 27
     },
     {
-      "term": "セキュリティ",
+      "term": "エージェント",
       "count": 24
     },
     {
-      "term": "エージェント",
-      "count": 23
+      "term": "セキュリティ",
+      "count": 24
     },
     {
       "term": "LLM",
       "count": 20
     },
     {
-      "term": "生成AI",
-      "count": 18
+      "term": "Web",
+      "count": 17
     },
     {
-      "term": "Web",
-      "count": 16
+      "term": "生成AI",
+      "count": 17
     },
     {
       "term": "デザイン",
-      "count": 15
+      "count": 14
     },
     {
       "term": "テスト",
+      "count": 10
+    },
+    {
+      "term": "UX",
       "count": 9
     },
     {
       "term": "QA",
-      "count": 8
-    },
-    {
-      "term": "UX",
       "count": 8
     },
     {
@@ -59,10 +59,6 @@
     },
     {
       "term": "Java",
-      "count": 6
-    },
-    {
-      "term": "Python",
       "count": 6
     },
     {
@@ -86,11 +82,7 @@
       "count": 5
     },
     {
-      "term": "React",
-      "count": 5
-    },
-    {
-      "term": "SRE",
+      "term": "Python",
       "count": 5
     },
     {
@@ -99,6 +91,14 @@
     },
     {
       "term": "RAG",
+      "count": 4
+    },
+    {
+      "term": "React",
+      "count": 4
+    },
+    {
+      "term": "SRE",
       "count": 4
     },
     {
