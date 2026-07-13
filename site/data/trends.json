@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-13T06:59:14+09:00",
+  "updated_at": "2026-07-14T07:03:07+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 246
+      "count": 253
     },
     {
       "term": "AWS",
-      "count": 61
+      "count": 64
     },
     {
       "term": "Go",
@@ -15,11 +15,11 @@
     },
     {
       "term": "Claude",
-      "count": 27
+      "count": 28
     },
     {
       "term": "エージェント",
-      "count": 24
+      "count": 28
     },
     {
       "term": "セキュリティ",
@@ -27,7 +27,7 @@
     },
     {
       "term": "LLM",
-      "count": 20
+      "count": 21
     },
     {
       "term": "Web",
@@ -42,11 +42,11 @@
       "count": 14
     },
     {
-      "term": "テスト",
+      "term": "UX",
       "count": 10
     },
     {
-      "term": "UX",
+      "term": "テスト",
       "count": 9
     },
     {
@@ -55,10 +55,6 @@
     },
     {
       "term": "Ruby",
-      "count": 7
-    },
-    {
-      "term": "Java",
       "count": 6
     },
     {
@@ -75,6 +71,10 @@
     },
     {
       "term": "DevOps",
+      "count": 5
+    },
+    {
+      "term": "Java",
       "count": 5
     },
     {
@@ -110,6 +110,10 @@
       "count": 3
     },
     {
+      "term": "Gemini",
+      "count": 2
+    },
+    {
       "term": "Iceberg",
       "count": 2
     },
@@ -135,10 +139,6 @@
     },
     {
       "term": "Docker",
-      "count": 1
-    },
-    {
-      "term": "Gemini",
       "count": 1
     },
     {
