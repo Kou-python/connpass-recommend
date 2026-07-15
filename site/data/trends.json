@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-15T07:06:38+09:00",
+  "updated_at": "2026-07-16T07:09:27+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 250
+      "count": 253
     },
     {
       "term": "AWS",
-      "count": 62
+      "count": 58
     },
     {
       "term": "Go",
-      "count": 30
+      "count": 31
     },
     {
       "term": "Claude",
@@ -19,23 +19,23 @@
     },
     {
       "term": "エージェント",
-      "count": 25
+      "count": 27
+    },
+    {
+      "term": "LLM",
+      "count": 24
     },
     {
       "term": "セキュリティ",
       "count": 24
     },
     {
-      "term": "LLM",
-      "count": 22
-    },
-    {
       "term": "生成AI",
-      "count": 16
+      "count": 17
     },
     {
       "term": "Web",
-      "count": 15
+      "count": 13
     },
     {
       "term": "デザイン",
@@ -46,28 +46,28 @@
       "count": 12
     },
     {
-      "term": "テスト",
-      "count": 8
-    },
-    {
       "term": "QA",
       "count": 7
+    },
+    {
+      "term": "Azure",
+      "count": 6
     },
     {
       "term": "Copilot",
       "count": 6
     },
     {
-      "term": "Ruby",
+      "term": "RAG",
+      "count": 6
+    },
+    {
+      "term": "テスト",
       "count": 6
     },
     {
       "term": "フロントエンド",
       "count": 6
-    },
-    {
-      "term": "Azure",
-      "count": 5
     },
     {
       "term": "ChatGPT",
@@ -86,7 +86,7 @@
       "count": 5
     },
     {
-      "term": "RAG",
+      "term": "Ruby",
       "count": 5
     },
     {
@@ -107,11 +107,7 @@
     },
     {
       "term": "Gemini",
-      "count": 3
-    },
-    {
-      "term": "データ基盤",
-      "count": 3
+      "count": 2
     },
     {
       "term": "Iceberg",
@@ -126,11 +122,11 @@
       "count": 2
     },
     {
-      "term": "Rust",
+      "term": "TypeScript",
       "count": 2
     },
     {
-      "term": "TypeScript",
+      "term": "データ基盤",
       "count": 2
     },
     {
@@ -147,6 +143,10 @@
     },
     {
       "term": "Kubernetes",
+      "count": 1
+    },
+    {
+      "term": "Rust",
       "count": 1
     },
     {
