@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-20T07:00:23+09:00",
+  "updated_at": "2026-07-21T07:08:28+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 237
+      "count": 243
     },
     {
       "term": "AWS",
@@ -11,18 +11,14 @@
     },
     {
       "term": "Claude",
-      "count": 31
+      "count": 34
     },
     {
       "term": "Go",
-      "count": 28
+      "count": 31
     },
     {
       "term": "LLM",
-      "count": 24
-    },
-    {
-      "term": "セキュリティ",
       "count": 24
     },
     {
@@ -30,36 +26,32 @@
       "count": 23
     },
     {
+      "term": "セキュリティ",
+      "count": 23
+    },
+    {
       "term": "Web",
-      "count": 15
+      "count": 16
+    },
+    {
+      "term": "生成AI",
+      "count": 16
     },
     {
       "term": "デザイン",
       "count": 15
     },
     {
-      "term": "生成AI",
-      "count": 15
+      "term": "UX",
+      "count": 10
     },
     {
-      "term": "UX",
-      "count": 11
+      "term": "RAG",
+      "count": 8
     },
     {
       "term": "Azure",
       "count": 7
-    },
-    {
-      "term": "RAG",
-      "count": 7
-    },
-    {
-      "term": "QA",
-      "count": 6
-    },
-    {
-      "term": "テスト",
-      "count": 6
     },
     {
       "term": "フロントエンド",
@@ -78,6 +70,22 @@
       "count": 5
     },
     {
+      "term": "QA",
+      "count": 5
+    },
+    {
+      "term": "テスト",
+      "count": 5
+    },
+    {
+      "term": "Codex",
+      "count": 4
+    },
+    {
+      "term": "DevOps",
+      "count": 4
+    },
+    {
       "term": "Java",
       "count": 4
     },
@@ -86,15 +94,15 @@
       "count": 4
     },
     {
+      "term": "Ruby",
+      "count": 4
+    },
+    {
       "term": "SRE",
       "count": 4
     },
     {
-      "term": "Codex",
-      "count": 3
-    },
-    {
-      "term": "DevOps",
+      "term": "Gemini",
       "count": 3
     },
     {
@@ -106,19 +114,11 @@
       "count": 2
     },
     {
-      "term": "Gemini",
-      "count": 2
-    },
-    {
       "term": "Next.js",
       "count": 2
     },
     {
       "term": "PdM",
-      "count": 2
-    },
-    {
-      "term": "Ruby",
       "count": 2
     },
     {
