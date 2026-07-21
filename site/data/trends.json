@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-07-21T07:08:28+09:00",
+  "updated_at": "2026-07-22T07:09:05+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 243
+      "count": 247
     },
     {
       "term": "AWS",
-      "count": 48
+      "count": 49
     },
     {
       "term": "Claude",
-      "count": 34
+      "count": 32
     },
     {
       "term": "Go",
@@ -19,15 +19,19 @@
     },
     {
       "term": "LLM",
-      "count": 24
-    },
-    {
-      "term": "エージェント",
       "count": 23
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 22
+    },
+    {
+      "term": "エージェント",
+      "count": 20
+    },
+    {
+      "term": "デザイン",
+      "count": 17
     },
     {
       "term": "Web",
@@ -35,23 +39,27 @@
     },
     {
       "term": "生成AI",
-      "count": 16
-    },
-    {
-      "term": "デザイン",
       "count": 15
     },
     {
       "term": "UX",
-      "count": 10
-    },
-    {
-      "term": "RAG",
-      "count": 8
+      "count": 11
     },
     {
       "term": "Azure",
       "count": 7
+    },
+    {
+      "term": "RAG",
+      "count": 7
+    },
+    {
+      "term": "MCP",
+      "count": 6
+    },
+    {
+      "term": "テスト",
+      "count": 6
     },
     {
       "term": "フロントエンド",
@@ -66,15 +74,11 @@
       "count": 5
     },
     {
-      "term": "MCP",
+      "term": "Python",
       "count": 5
     },
     {
       "term": "QA",
-      "count": 5
-    },
-    {
-      "term": "テスト",
       "count": 5
     },
     {
@@ -87,10 +91,6 @@
     },
     {
       "term": "Java",
-      "count": 4
-    },
-    {
-      "term": "Python",
       "count": 4
     },
     {
