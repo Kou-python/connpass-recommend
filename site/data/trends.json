@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-07-23T07:12:36+09:00",
+  "updated_at": "2026-07-24T07:10:36+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 241
+      "count": 238
     },
     {
       "term": "AWS",
-      "count": 50
-    },
-    {
-      "term": "Claude",
-      "count": 31
+      "count": 53
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 30
+    },
+    {
+      "term": "Claude",
+      "count": 26
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 22
     },
     {
       "term": "LLM",
-      "count": 22
+      "count": 20
     },
     {
       "term": "エージェント",
@@ -31,38 +31,42 @@
     },
     {
       "term": "Web",
-      "count": 16
+      "count": 17
     },
     {
       "term": "生成AI",
-      "count": 16
-    },
-    {
-      "term": "デザイン",
       "count": 14
     },
     {
+      "term": "デザイン",
+      "count": 13
+    },
+    {
       "term": "UX",
-      "count": 12
+      "count": 10
+    },
+    {
+      "term": "MCP",
+      "count": 8
     },
     {
       "term": "Azure",
       "count": 7
     },
     {
-      "term": "MCP",
-      "count": 7
-    },
-    {
-      "term": "RAG",
-      "count": 7
-    },
-    {
       "term": "テスト",
+      "count": 7
+    },
+    {
+      "term": "Codex",
       "count": 6
     },
     {
-      "term": "ChatGPT",
+      "term": "RAG",
+      "count": 6
+    },
+    {
+      "term": "Copilot",
       "count": 5
     },
     {
@@ -70,11 +74,11 @@
       "count": 5
     },
     {
-      "term": "Codex",
-      "count": 4
+      "term": "React",
+      "count": 5
     },
     {
-      "term": "Copilot",
+      "term": "ChatGPT",
       "count": 4
     },
     {
@@ -90,15 +94,7 @@
       "count": 4
     },
     {
-      "term": "React",
-      "count": 4
-    },
-    {
       "term": "Ruby",
-      "count": 4
-    },
-    {
-      "term": "SRE",
       "count": 4
     },
     {
@@ -110,27 +106,23 @@
       "count": 3
     },
     {
+      "term": "Next.js",
+      "count": 3
+    },
+    {
+      "term": "SRE",
+      "count": 3
+    },
+    {
+      "term": "TypeScript",
+      "count": 3
+    },
+    {
       "term": "データ基盤",
       "count": 3
     },
     {
-      "term": "GCP",
-      "count": 2
-    },
-    {
-      "term": "Next.js",
-      "count": 2
-    },
-    {
-      "term": "PdM",
-      "count": 2
-    },
-    {
       "term": "Rust",
-      "count": 2
-    },
-    {
-      "term": "TypeScript",
       "count": 2
     },
     {
@@ -146,6 +138,10 @@
       "count": 1
     },
     {
+      "term": "GCP",
+      "count": 1
+    },
+    {
       "term": "Iceberg",
       "count": 1
     },
@@ -158,11 +154,11 @@
       "count": 1
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "PdM",
       "count": 1
     },
     {
-      "term": "脆弱性",
+      "term": "プロダクトマネジメント",
       "count": 1
     }
   ]
