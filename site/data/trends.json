@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-24T07:10:36+09:00",
+  "updated_at": "2026-07-25T07:13:12+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 238
+      "count": 220
     },
     {
       "term": "AWS",
-      "count": 53
+      "count": 49
     },
     {
       "term": "Go",
@@ -15,22 +15,22 @@
     },
     {
       "term": "Claude",
-      "count": 26
+      "count": 27
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 25
     },
     {
       "term": "LLM",
-      "count": 20
-    },
-    {
-      "term": "エージェント",
-      "count": 18
+      "count": 21
     },
     {
       "term": "Web",
+      "count": 17
+    },
+    {
+      "term": "エージェント",
       "count": 17
     },
     {
@@ -43,19 +43,15 @@
     },
     {
       "term": "UX",
-      "count": 10
+      "count": 11
     },
     {
       "term": "MCP",
-      "count": 8
+      "count": 9
     },
     {
       "term": "Azure",
-      "count": 7
-    },
-    {
-      "term": "テスト",
-      "count": 7
+      "count": 6
     },
     {
       "term": "Codex",
@@ -66,7 +62,23 @@
       "count": 6
     },
     {
+      "term": "テスト",
+      "count": 6
+    },
+    {
+      "term": "ChatGPT",
+      "count": 5
+    },
+    {
       "term": "Copilot",
+      "count": 5
+    },
+    {
+      "term": "Java",
+      "count": 5
+    },
+    {
+      "term": "Python",
       "count": 5
     },
     {
@@ -74,23 +86,11 @@
       "count": 5
     },
     {
-      "term": "React",
-      "count": 5
-    },
-    {
-      "term": "ChatGPT",
-      "count": 4
-    },
-    {
       "term": "DevOps",
       "count": 4
     },
     {
-      "term": "Java",
-      "count": 4
-    },
-    {
-      "term": "Python",
+      "term": "React",
       "count": 4
     },
     {
@@ -118,11 +118,11 @@
       "count": 3
     },
     {
-      "term": "データ基盤",
-      "count": 3
+      "term": "Rust",
+      "count": 2
     },
     {
-      "term": "Rust",
+      "term": "データ基盤",
       "count": 2
     },
     {
