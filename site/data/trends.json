@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-07-25T07:13:12+09:00",
+  "updated_at": "2026-07-26T07:02:20+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 220
+      "count": 210
     },
     {
       "term": "AWS",
-      "count": 49
+      "count": 45
     },
     {
       "term": "Go",
-      "count": 30
+      "count": 32
     },
     {
       "term": "Claude",
-      "count": 27
-    },
-    {
-      "term": "セキュリティ",
       "count": 25
     },
     {
+      "term": "セキュリティ",
+      "count": 22
+    },
+    {
       "term": "LLM",
-      "count": 21
+      "count": 20
     },
     {
       "term": "Web",
-      "count": 17
+      "count": 18
     },
     {
       "term": "エージェント",
@@ -38,11 +38,11 @@
       "count": 14
     },
     {
-      "term": "デザイン",
-      "count": 13
+      "term": "UX",
+      "count": 11
     },
     {
-      "term": "UX",
+      "term": "デザイン",
       "count": 11
     },
     {
@@ -50,11 +50,7 @@
       "count": 9
     },
     {
-      "term": "Azure",
-      "count": 6
-    },
-    {
-      "term": "Codex",
+      "term": "Python",
       "count": 6
     },
     {
@@ -66,7 +62,7 @@
       "count": 6
     },
     {
-      "term": "ChatGPT",
+      "term": "Codex",
       "count": 5
     },
     {
@@ -78,19 +74,15 @@
       "count": 5
     },
     {
-      "term": "Python",
-      "count": 5
-    },
-    {
       "term": "QA",
       "count": 5
     },
     {
-      "term": "DevOps",
+      "term": "Azure",
       "count": 4
     },
     {
-      "term": "React",
+      "term": "ChatGPT",
       "count": 4
     },
     {
@@ -98,15 +90,15 @@
       "count": 4
     },
     {
-      "term": "フロントエンド",
-      "count": 4
+      "term": "DevOps",
+      "count": 3
     },
     {
       "term": "Gemini",
       "count": 3
     },
     {
-      "term": "Next.js",
+      "term": "React",
       "count": 3
     },
     {
@@ -118,6 +110,18 @@
       "count": 3
     },
     {
+      "term": "フロントエンド",
+      "count": 3
+    },
+    {
+      "term": "Docker",
+      "count": 2
+    },
+    {
+      "term": "Next.js",
+      "count": 2
+    },
+    {
       "term": "Rust",
       "count": 2
     },
@@ -126,15 +130,7 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
       "term": "Databricks",
-      "count": 1
-    },
-    {
-      "term": "Docker",
       "count": 1
     },
     {
@@ -158,7 +154,15 @@
       "count": 1
     },
     {
+      "term": "Snowflake",
+      "count": 1
+    },
+    {
       "term": "プロダクトマネジメント",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
       "count": 1
     }
   ]
