@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-07-26T07:02:20+09:00",
+  "updated_at": "2026-07-27T07:06:17+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 210
+      "count": 211
     },
     {
       "term": "AWS",
-      "count": 45
+      "count": 46
     },
     {
       "term": "Go",
-      "count": 32
+      "count": 29
     },
     {
       "term": "Claude",
-      "count": 25
+      "count": 26
     },
     {
       "term": "セキュリティ",
@@ -27,30 +27,30 @@
     },
     {
       "term": "Web",
-      "count": 18
+      "count": 20
     },
     {
       "term": "エージェント",
-      "count": 17
+      "count": 19
     },
     {
       "term": "生成AI",
-      "count": 14
-    },
-    {
-      "term": "UX",
-      "count": 11
+      "count": 15
     },
     {
       "term": "デザイン",
       "count": 11
     },
     {
+      "term": "UX",
+      "count": 10
+    },
+    {
       "term": "MCP",
       "count": 9
     },
     {
-      "term": "Python",
+      "term": "Copilot",
       "count": 6
     },
     {
@@ -62,11 +62,11 @@
       "count": 6
     },
     {
-      "term": "Codex",
+      "term": "Azure",
       "count": 5
     },
     {
-      "term": "Copilot",
+      "term": "Codex",
       "count": 5
     },
     {
@@ -74,12 +74,12 @@
       "count": 5
     },
     {
-      "term": "QA",
+      "term": "Python",
       "count": 5
     },
     {
-      "term": "Azure",
-      "count": 4
+      "term": "QA",
+      "count": 5
     },
     {
       "term": "ChatGPT",
@@ -102,7 +102,7 @@
       "count": 3
     },
     {
-      "term": "SRE",
+      "term": "Snowflake",
       "count": 3
     },
     {
@@ -112,6 +112,10 @@
     {
       "term": "フロントエンド",
       "count": 3
+    },
+    {
+      "term": "Databricks",
+      "count": 2
     },
     {
       "term": "Docker",
@@ -126,12 +130,12 @@
       "count": 2
     },
     {
-      "term": "データ基盤",
+      "term": "SRE",
       "count": 2
     },
     {
-      "term": "Databricks",
-      "count": 1
+      "term": "データ基盤",
+      "count": 2
     },
     {
       "term": "GCP",
@@ -151,10 +155,6 @@
     },
     {
       "term": "PdM",
-      "count": 1
-    },
-    {
-      "term": "Snowflake",
       "count": 1
     },
     {
