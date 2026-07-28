@@ -1,48 +1,48 @@
 {
-  "updated_at": "2026-07-28T07:14:08+09:00",
+  "updated_at": "2026-07-29T07:12:22+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 223
+      "count": 212
     },
     {
       "term": "AWS",
-      "count": 46
-    },
-    {
-      "term": "Claude",
-      "count": 30
+      "count": 47
     },
     {
       "term": "Go",
+      "count": 31
+    },
+    {
+      "term": "Claude",
       "count": 29
     },
     {
       "term": "エージェント",
-      "count": 22
-    },
-    {
-      "term": "Web",
-      "count": 20
+      "count": 25
     },
     {
       "term": "セキュリティ",
       "count": 20
     },
     {
-      "term": "LLM",
-      "count": 18
+      "term": "Web",
+      "count": 19
     },
     {
       "term": "生成AI",
-      "count": 17
+      "count": 16
+    },
+    {
+      "term": "LLM",
+      "count": 14
     },
     {
       "term": "UX",
       "count": 11
     },
     {
-      "term": "MCP",
+      "term": "Python",
       "count": 9
     },
     {
@@ -50,23 +50,19 @@
       "count": 9
     },
     {
-      "term": "Codex",
-      "count": 7
-    },
-    {
-      "term": "RAG",
-      "count": 7
-    },
-    {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
-      "term": "QA",
-      "count": 6
+      "term": "MCP",
+      "count": 8
     },
     {
       "term": "テスト",
+      "count": 7
+    },
+    {
+      "term": "Codex",
+      "count": 6
+    },
+    {
+      "term": "Copilot",
       "count": 6
     },
     {
@@ -82,11 +78,15 @@
       "count": 5
     },
     {
-      "term": "Python",
+      "term": "QA",
       "count": 5
     },
     {
-      "term": "DevOps",
+      "term": "RAG",
+      "count": 5
+    },
+    {
+      "term": "Ruby",
       "count": 4
     },
     {
@@ -94,19 +94,15 @@
       "count": 3
     },
     {
-      "term": "Ruby",
-      "count": 3
-    },
-    {
       "term": "SRE",
       "count": 3
     },
     {
-      "term": "Snowflake",
+      "term": "TypeScript",
       "count": 3
     },
     {
-      "term": "TypeScript",
+      "term": "データ基盤",
       "count": 3
     },
     {
@@ -118,7 +114,7 @@
       "count": 2
     },
     {
-      "term": "Gemini",
+      "term": "DevOps",
       "count": 2
     },
     {
@@ -134,7 +130,7 @@
       "count": 2
     },
     {
-      "term": "データ基盤",
+      "term": "Snowflake",
       "count": 2
     },
     {
@@ -147,6 +143,10 @@
     },
     {
       "term": "GCP",
+      "count": 1
+    },
+    {
+      "term": "Gemini",
       "count": 1
     },
     {
