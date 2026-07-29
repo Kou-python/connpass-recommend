@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T07:12:22+09:00",
+  "updated_at": "2026-07-30T07:06:52+09:00",
   "trends": [
     {
       "term": "AI",
@@ -7,15 +7,15 @@
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 48
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 32
     },
     {
       "term": "Claude",
-      "count": 29
+      "count": 27
     },
     {
       "term": "エージェント",
@@ -31,47 +31,39 @@
     },
     {
       "term": "生成AI",
-      "count": 16
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 13
     },
     {
       "term": "UX",
-      "count": 11
-    },
-    {
-      "term": "Python",
-      "count": 9
+      "count": 12
     },
     {
       "term": "デザイン",
-      "count": 9
+      "count": 11
     },
     {
       "term": "MCP",
       "count": 8
     },
     {
+      "term": "Python",
+      "count": 8
+    },
+    {
+      "term": "Codex",
+      "count": 7
+    },
+    {
       "term": "テスト",
       "count": 7
     },
     {
-      "term": "Codex",
-      "count": 6
-    },
-    {
       "term": "Copilot",
       "count": 6
-    },
-    {
-      "term": "Azure",
-      "count": 5
-    },
-    {
-      "term": "ChatGPT",
-      "count": 5
     },
     {
       "term": "Java",
@@ -82,15 +74,27 @@
       "count": 5
     },
     {
-      "term": "RAG",
-      "count": 5
-    },
-    {
-      "term": "Ruby",
+      "term": "Azure",
       "count": 4
     },
     {
+      "term": "ChatGPT",
+      "count": 4
+    },
+    {
+      "term": "Kubernetes",
+      "count": 3
+    },
+    {
+      "term": "RAG",
+      "count": 3
+    },
+    {
       "term": "React",
+      "count": 3
+    },
+    {
+      "term": "Ruby",
       "count": 3
     },
     {
@@ -99,14 +103,6 @@
     },
     {
       "term": "TypeScript",
-      "count": 3
-    },
-    {
-      "term": "データ基盤",
-      "count": 3
-    },
-    {
-      "term": "フロントエンド",
       "count": 3
     },
     {
@@ -134,6 +130,14 @@
       "count": 2
     },
     {
+      "term": "データ基盤",
+      "count": 2
+    },
+    {
+      "term": "フロントエンド",
+      "count": 2
+    },
+    {
       "term": "プロンプト",
       "count": 2
     },
@@ -142,23 +146,11 @@
       "count": 1
     },
     {
-      "term": "GCP",
-      "count": 1
-    },
-    {
       "term": "Gemini",
       "count": 1
     },
     {
       "term": "Iceberg",
-      "count": 1
-    },
-    {
-      "term": "Kotlin",
-      "count": 1
-    },
-    {
-      "term": "Kubernetes",
       "count": 1
     },
     {
