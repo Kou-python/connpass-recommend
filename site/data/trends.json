@@ -1,52 +1,48 @@
 {
-  "updated_at": "2026-07-30T07:06:52+09:00",
+  "updated_at": "2026-07-31T07:14:49+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 212
+      "count": 197
     },
     {
       "term": "AWS",
-      "count": 48
+      "count": 45
     },
     {
       "term": "Go",
-      "count": 32
+      "count": 31
     },
     {
       "term": "Claude",
+      "count": 28
+    },
+    {
+      "term": "セキュリティ",
       "count": 27
     },
     {
       "term": "エージェント",
-      "count": 25
-    },
-    {
-      "term": "セキュリティ",
-      "count": 20
+      "count": 24
     },
     {
       "term": "Web",
-      "count": 19
+      "count": 18
     },
     {
       "term": "生成AI",
-      "count": 17
+      "count": 16
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 12
     },
     {
       "term": "UX",
       "count": 12
     },
     {
-      "term": "デザイン",
-      "count": 11
-    },
-    {
-      "term": "MCP",
+      "term": "Codex",
       "count": 8
     },
     {
@@ -54,23 +50,31 @@
       "count": 8
     },
     {
-      "term": "Codex",
-      "count": 7
-    },
-    {
       "term": "テスト",
+      "count": 8
+    },
+    {
+      "term": "デザイン",
+      "count": 8
+    },
+    {
+      "term": "MCP",
       "count": 7
-    },
-    {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
-      "term": "Java",
-      "count": 5
     },
     {
       "term": "QA",
+      "count": 6
+    },
+    {
+      "term": "ChatGPT",
+      "count": 5
+    },
+    {
+      "term": "Copilot",
+      "count": 5
+    },
+    {
+      "term": "Java",
       "count": 5
     },
     {
@@ -78,7 +82,7 @@
       "count": 4
     },
     {
-      "term": "ChatGPT",
+      "term": "React",
       "count": 4
     },
     {
@@ -87,10 +91,6 @@
     },
     {
       "term": "RAG",
-      "count": 3
-    },
-    {
-      "term": "React",
       "count": 3
     },
     {
@@ -106,19 +106,11 @@
       "count": 3
     },
     {
-      "term": "Databricks",
-      "count": 2
-    },
-    {
       "term": "DevOps",
       "count": 2
     },
     {
       "term": "Next.js",
-      "count": 2
-    },
-    {
-      "term": "PdM",
       "count": 2
     },
     {
@@ -142,6 +134,10 @@
       "count": 2
     },
     {
+      "term": "Databricks",
+      "count": 1
+    },
+    {
       "term": "Docker",
       "count": 1
     },
@@ -154,7 +150,15 @@
       "count": 1
     },
     {
+      "term": "PdM",
+      "count": 1
+    },
+    {
       "term": "プロダクトマネジメント",
+      "count": 1
+    },
+    {
+      "term": "脆弱性",
       "count": 1
     }
   ]
