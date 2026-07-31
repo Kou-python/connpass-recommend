@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-07-31T07:14:49+09:00",
+  "updated_at": "2026-08-01T07:12:35+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 197
+      "count": 210
     },
     {
       "term": "AWS",
-      "count": 45
-    },
-    {
-      "term": "Go",
-      "count": 31
+      "count": 42
     },
     {
       "term": "Claude",
       "count": 28
     },
     {
+      "term": "Go",
+      "count": 26
+    },
+    {
       "term": "セキュリティ",
-      "count": 27
+      "count": 26
     },
     {
       "term": "エージェント",
-      "count": 24
+      "count": 22
     },
     {
       "term": "Web",
@@ -31,34 +31,34 @@
     },
     {
       "term": "生成AI",
-      "count": 16
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 12
+      "count": 13
     },
     {
       "term": "UX",
-      "count": 12
+      "count": 13
+    },
+    {
+      "term": "テスト",
+      "count": 10
+    },
+    {
+      "term": "Python",
+      "count": 9
     },
     {
       "term": "Codex",
       "count": 8
     },
     {
-      "term": "Python",
-      "count": 8
-    },
-    {
-      "term": "テスト",
-      "count": 8
+      "term": "MCP",
+      "count": 7
     },
     {
       "term": "デザイン",
-      "count": 8
-    },
-    {
-      "term": "MCP",
       "count": 7
     },
     {
@@ -98,15 +98,11 @@
       "count": 3
     },
     {
-      "term": "SRE",
-      "count": 3
-    },
-    {
-      "term": "TypeScript",
-      "count": 3
-    },
-    {
       "term": "DevOps",
+      "count": 2
+    },
+    {
+      "term": "Gemini",
       "count": 2
     },
     {
@@ -118,7 +114,15 @@
       "count": 2
     },
     {
+      "term": "SRE",
+      "count": 2
+    },
+    {
       "term": "Snowflake",
+      "count": 2
+    },
+    {
+      "term": "TypeScript",
       "count": 2
     },
     {
@@ -130,19 +134,11 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
       "term": "Databricks",
       "count": 1
     },
     {
       "term": "Docker",
-      "count": 1
-    },
-    {
-      "term": "Gemini",
       "count": 1
     },
     {
@@ -155,6 +151,10 @@
     },
     {
       "term": "プロダクトマネジメント",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
       "count": 1
     },
     {
