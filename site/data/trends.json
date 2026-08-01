@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-01T07:12:35+09:00",
+  "updated_at": "2026-08-02T07:02:49+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 210
+      "count": 226
     },
     {
       "term": "AWS",
-      "count": 42
+      "count": 43
     },
     {
       "term": "Claude",
-      "count": 28
+      "count": 26
     },
     {
       "term": "Go",
-      "count": 26
+      "count": 25
     },
     {
       "term": "セキュリティ",
-      "count": 26
+      "count": 24
     },
     {
       "term": "エージェント",
@@ -27,26 +27,26 @@
     },
     {
       "term": "Web",
-      "count": 18
+      "count": 17
     },
     {
       "term": "生成AI",
       "count": 17
     },
     {
+      "term": "UX",
+      "count": 14
+    },
+    {
       "term": "LLM",
       "count": 13
     },
     {
-      "term": "UX",
-      "count": 13
+      "term": "Python",
+      "count": 9
     },
     {
       "term": "テスト",
-      "count": 10
-    },
-    {
-      "term": "Python",
       "count": 9
     },
     {
@@ -75,15 +75,15 @@
     },
     {
       "term": "Java",
-      "count": 5
-    },
-    {
-      "term": "Azure",
       "count": 4
     },
     {
       "term": "React",
       "count": 4
+    },
+    {
+      "term": "Azure",
+      "count": 3
     },
     {
       "term": "Kubernetes",
@@ -107,10 +107,6 @@
     },
     {
       "term": "Next.js",
-      "count": 2
-    },
-    {
-      "term": "Rust",
       "count": 2
     },
     {
@@ -147,6 +143,10 @@
     },
     {
       "term": "PdM",
+      "count": 1
+    },
+    {
+      "term": "Rust",
       "count": 1
     },
     {
