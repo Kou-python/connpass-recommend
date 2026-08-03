@@ -1,80 +1,76 @@
 {
-  "updated_at": "2026-08-03T07:02:43+09:00",
+  "updated_at": "2026-08-04T07:14:11+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 228
+      "count": 213
     },
     {
       "term": "AWS",
-      "count": 43
-    },
-    {
-      "term": "Claude",
-      "count": 24
-    },
-    {
-      "term": "Go",
-      "count": 24
-    },
-    {
-      "term": "セキュリティ",
-      "count": 23
+      "count": 44
     },
     {
       "term": "エージェント",
-      "count": 22
+      "count": 26
+    },
+    {
+      "term": "Claude",
+      "count": 25
+    },
+    {
+      "term": "Go",
+      "count": 25
+    },
+    {
+      "term": "セキュリティ",
+      "count": 25
     },
     {
       "term": "生成AI",
-      "count": 19
+      "count": 20
     },
     {
       "term": "Web",
-      "count": 17
-    },
-    {
-      "term": "UX",
-      "count": 14
+      "count": 18
     },
     {
       "term": "LLM",
+      "count": 13
+    },
+    {
+      "term": "UX",
+      "count": 13
+    },
+    {
+      "term": "テスト",
       "count": 12
+    },
+    {
+      "term": "Codex",
+      "count": 9
     },
     {
       "term": "Python",
       "count": 9
     },
     {
-      "term": "テスト",
-      "count": 9
-    },
-    {
-      "term": "Codex",
-      "count": 8
-    },
-    {
       "term": "MCP",
       "count": 7
-    },
-    {
-      "term": "デザイン",
-      "count": 7
-    },
-    {
-      "term": "QA",
-      "count": 6
     },
     {
       "term": "React",
       "count": 6
     },
     {
-      "term": "ChatGPT",
-      "count": 5
+      "term": "デザイン",
+      "count": 6
     },
     {
       "term": "Copilot",
+      "count": 5
+    },
+    {
+      "term": "QA",
       "count": 5
     },
     {
@@ -82,11 +78,15 @@
       "count": 4
     },
     {
+      "term": "ChatGPT",
+      "count": 4
+    },
+    {
       "term": "Java",
       "count": 4
     },
     {
-      "term": "Ruby",
+      "term": "SRE",
       "count": 4
     },
     {
@@ -95,6 +95,10 @@
     },
     {
       "term": "RAG",
+      "count": 3
+    },
+    {
+      "term": "Ruby",
       "count": 3
     },
     {
@@ -114,7 +118,7 @@
       "count": 2
     },
     {
-      "term": "SRE",
+      "term": "PdM",
       "count": 2
     },
     {
@@ -146,11 +150,11 @@
       "count": 1
     },
     {
-      "term": "PdM",
+      "term": "Rust",
       "count": 1
     },
     {
-      "term": "Rust",
+      "term": "dbt",
       "count": 1
     },
     {
