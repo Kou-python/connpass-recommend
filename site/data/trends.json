@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-08-04T07:14:11+09:00",
+  "updated_at": "2026-08-05T07:19:16+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 213
+      "count": 225
     },
     {
       "term": "AWS",
-      "count": 44
+      "count": 45
+    },
+    {
+      "term": "Go",
+      "count": 31
     },
     {
       "term": "エージェント",
+      "count": 31
+    },
+    {
+      "term": "セキュリティ",
       "count": 26
     },
     {
       "term": "Claude",
-      "count": 25
-    },
-    {
-      "term": "Go",
-      "count": 25
-    },
-    {
-      "term": "セキュリティ",
-      "count": 25
+      "count": 23
     },
     {
       "term": "生成AI",
-      "count": 20
+      "count": 19
     },
     {
       "term": "Web",
-      "count": 18
+      "count": 16
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 12
     },
     {
       "term": "UX",
-      "count": 13
+      "count": 12
     },
     {
       "term": "テスト",
-      "count": 12
+      "count": 11
     },
     {
       "term": "Codex",
@@ -54,15 +54,15 @@
       "count": 9
     },
     {
+      "term": "デザイン",
+      "count": 8
+    },
+    {
       "term": "MCP",
       "count": 7
     },
     {
       "term": "React",
-      "count": 6
-    },
-    {
-      "term": "デザイン",
       "count": 6
     },
     {
@@ -86,19 +86,27 @@
       "count": 4
     },
     {
+      "term": "Ruby",
+      "count": 4
+    },
+    {
       "term": "SRE",
       "count": 4
+    },
+    {
+      "term": "Gemini",
+      "count": 3
     },
     {
       "term": "Kubernetes",
       "count": 3
     },
     {
-      "term": "RAG",
+      "term": "Next.js",
       "count": 3
     },
     {
-      "term": "Ruby",
+      "term": "Snowflake",
       "count": 3
     },
     {
@@ -110,19 +118,11 @@
       "count": 2
     },
     {
-      "term": "Gemini",
-      "count": 2
-    },
-    {
-      "term": "Next.js",
-      "count": 2
-    },
-    {
       "term": "PdM",
       "count": 2
     },
     {
-      "term": "Snowflake",
+      "term": "RAG",
       "count": 2
     },
     {
@@ -147,10 +147,6 @@
     },
     {
       "term": "Iceberg",
-      "count": 1
-    },
-    {
-      "term": "Rust",
       "count": 1
     },
     {
