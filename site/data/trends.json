@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-05T07:19:16+09:00",
+  "updated_at": "2026-08-06T07:17:29+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 225
+      "count": 237
     },
     {
       "term": "AWS",
-      "count": 45
-    },
-    {
-      "term": "Go",
-      "count": 31
+      "count": 43
     },
     {
       "term": "エージェント",
       "count": 31
     },
     {
+      "term": "Go",
+      "count": 30
+    },
+    {
       "term": "セキュリティ",
-      "count": 26
+      "count": 27
     },
     {
       "term": "Claude",
@@ -27,15 +27,11 @@
     },
     {
       "term": "生成AI",
-      "count": 19
+      "count": 23
     },
     {
       "term": "Web",
-      "count": 16
-    },
-    {
-      "term": "LLM",
-      "count": 12
+      "count": 17
     },
     {
       "term": "UX",
@@ -43,19 +39,27 @@
     },
     {
       "term": "テスト",
-      "count": 11
+      "count": 12
     },
     {
       "term": "Codex",
-      "count": 9
+      "count": 10
+    },
+    {
+      "term": "LLM",
+      "count": 10
     },
     {
       "term": "Python",
-      "count": 9
+      "count": 8
     },
     {
       "term": "デザイン",
       "count": 8
+    },
+    {
+      "term": "Copilot",
+      "count": 7
     },
     {
       "term": "MCP",
@@ -63,14 +67,10 @@
     },
     {
       "term": "React",
-      "count": 6
-    },
-    {
-      "term": "Copilot",
       "count": 5
     },
     {
-      "term": "QA",
+      "term": "SRE",
       "count": 5
     },
     {
@@ -82,20 +82,16 @@
       "count": 4
     },
     {
+      "term": "Gemini",
+      "count": 4
+    },
+    {
       "term": "Java",
       "count": 4
     },
     {
-      "term": "Ruby",
+      "term": "QA",
       "count": 4
-    },
-    {
-      "term": "SRE",
-      "count": 4
-    },
-    {
-      "term": "Gemini",
-      "count": 3
     },
     {
       "term": "Kubernetes",
@@ -103,10 +99,6 @@
     },
     {
       "term": "Next.js",
-      "count": 3
-    },
-    {
-      "term": "Snowflake",
       "count": 3
     },
     {
@@ -123,6 +115,14 @@
     },
     {
       "term": "RAG",
+      "count": 2
+    },
+    {
+      "term": "Ruby",
+      "count": 2
+    },
+    {
+      "term": "Snowflake",
       "count": 2
     },
     {
