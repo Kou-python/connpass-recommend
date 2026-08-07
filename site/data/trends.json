@@ -1,41 +1,37 @@
 {
-  "updated_at": "2026-08-06T07:17:29+09:00",
+  "updated_at": "2026-08-07T10:02:10+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 237
+      "count": 245
     },
     {
       "term": "AWS",
-      "count": 43
-    },
-    {
-      "term": "エージェント",
-      "count": 31
+      "count": 46
     },
     {
       "term": "Go",
-      "count": 30
+      "count": 34
+    },
+    {
+      "term": "エージェント",
+      "count": 32
     },
     {
       "term": "セキュリティ",
-      "count": 27
+      "count": 30
+    },
+    {
+      "term": "生成AI",
+      "count": 24
     },
     {
       "term": "Claude",
       "count": 23
     },
     {
-      "term": "生成AI",
-      "count": 23
-    },
-    {
       "term": "Web",
       "count": 17
-    },
-    {
-      "term": "UX",
-      "count": 12
     },
     {
       "term": "テスト",
@@ -46,24 +42,36 @@
       "count": 10
     },
     {
-      "term": "LLM",
+      "term": "UX",
       "count": 10
+    },
+    {
+      "term": "LLM",
+      "count": 9
+    },
+    {
+      "term": "デザイン",
+      "count": 9
     },
     {
       "term": "Python",
       "count": 8
     },
     {
-      "term": "デザイン",
-      "count": 8
+      "term": "Copilot",
+      "count": 6
     },
     {
-      "term": "Copilot",
-      "count": 7
+      "term": "QA",
+      "count": 6
+    },
+    {
+      "term": "Java",
+      "count": 5
     },
     {
       "term": "MCP",
-      "count": 7
+      "count": 5
     },
     {
       "term": "React",
@@ -74,10 +82,6 @@
       "count": 5
     },
     {
-      "term": "Azure",
-      "count": 4
-    },
-    {
       "term": "ChatGPT",
       "count": 4
     },
@@ -86,12 +90,16 @@
       "count": 4
     },
     {
-      "term": "Java",
+      "term": "RAG",
       "count": 4
     },
     {
-      "term": "QA",
+      "term": "Ruby",
       "count": 4
+    },
+    {
+      "term": "Azure",
+      "count": 3
     },
     {
       "term": "Kubernetes",
@@ -102,23 +110,15 @@
       "count": 3
     },
     {
+      "term": "PdM",
+      "count": 3
+    },
+    {
       "term": "Databricks",
       "count": 2
     },
     {
       "term": "DevOps",
-      "count": 2
-    },
-    {
-      "term": "PdM",
-      "count": 2
-    },
-    {
-      "term": "RAG",
-      "count": 2
-    },
-    {
-      "term": "Ruby",
       "count": 2
     },
     {
@@ -138,15 +138,11 @@
       "count": 2
     },
     {
-      "term": "Docker",
-      "count": 1
-    },
-    {
       "term": "GCP",
       "count": 1
     },
     {
-      "term": "Iceberg",
+      "term": "Vue",
       "count": 1
     },
     {
