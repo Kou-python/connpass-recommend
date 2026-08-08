@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-08T06:49:01+09:00",
+  "updated_at": "2026-08-09T06:38:38+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 246
+      "count": 243
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 41
     },
     {
       "term": "Go",
-      "count": 32
+      "count": 34
     },
     {
       "term": "エージェント",
-      "count": 30
+      "count": 31
     },
     {
       "term": "セキュリティ",
-      "count": 29
-    },
-    {
-      "term": "生成AI",
-      "count": 23
+      "count": 30
     },
     {
       "term": "Claude",
+      "count": 23
+    },
+    {
+      "term": "生成AI",
       "count": 22
     },
     {
       "term": "Web",
-      "count": 16
+      "count": 13
     },
     {
       "term": "テスト",
@@ -39,26 +39,26 @@
     },
     {
       "term": "Codex",
-      "count": 10
+      "count": 9
     },
     {
       "term": "LLM",
-      "count": 10
+      "count": 9
     },
     {
       "term": "UX",
-      "count": 10
+      "count": 9
     },
     {
       "term": "デザイン",
       "count": 8
     },
     {
-      "term": "Python",
+      "term": "Copilot",
       "count": 7
     },
     {
-      "term": "Copilot",
+      "term": "Python",
       "count": 6
     },
     {
@@ -66,7 +66,7 @@
       "count": 6
     },
     {
-      "term": "React",
+      "term": "Gemini",
       "count": 5
     },
     {
@@ -78,14 +78,6 @@
       "count": 4
     },
     {
-      "term": "Gemini",
-      "count": 4
-    },
-    {
-      "term": "Java",
-      "count": 4
-    },
-    {
       "term": "MCP",
       "count": 4
     },
@@ -94,15 +86,19 @@
       "count": 4
     },
     {
-      "term": "Azure",
+      "term": "React",
+      "count": 4
+    },
+    {
+      "term": "DevOps",
+      "count": 3
+    },
+    {
+      "term": "Java",
       "count": 3
     },
     {
       "term": "Kubernetes",
-      "count": 3
-    },
-    {
-      "term": "Next.js",
       "count": 3
     },
     {
@@ -118,11 +114,15 @@
       "count": 3
     },
     {
+      "term": "Azure",
+      "count": 2
+    },
+    {
       "term": "Databricks",
       "count": 2
     },
     {
-      "term": "DevOps",
+      "term": "Next.js",
       "count": 2
     },
     {
@@ -138,11 +138,19 @@
       "count": 2
     },
     {
+      "term": "脆弱性",
+      "count": 2
+    },
+    {
       "term": "Cursor",
       "count": 1
     },
     {
       "term": "GCP",
+      "count": 1
+    },
+    {
+      "term": "Terraform",
       "count": 1
     },
     {
@@ -159,10 +167,6 @@
     },
     {
       "term": "プロンプト",
-      "count": 1
-    },
-    {
-      "term": "脆弱性",
       "count": 1
     }
   ]
