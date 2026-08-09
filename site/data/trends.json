@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-09T06:38:38+09:00",
+  "updated_at": "2026-08-10T06:40:50+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 243
+      "count": 249
     },
     {
       "term": "AWS",
@@ -15,19 +15,19 @@
     },
     {
       "term": "エージェント",
-      "count": 31
+      "count": 32
     },
     {
       "term": "セキュリティ",
-      "count": 30
+      "count": 31
+    },
+    {
+      "term": "生成AI",
+      "count": 24
     },
     {
       "term": "Claude",
       "count": 23
-    },
-    {
-      "term": "生成AI",
-      "count": 22
     },
     {
       "term": "Web",
@@ -35,11 +35,11 @@
     },
     {
       "term": "テスト",
-      "count": 12
+      "count": 11
     },
     {
       "term": "Codex",
-      "count": 9
+      "count": 10
     },
     {
       "term": "LLM",
@@ -90,6 +90,10 @@
       "count": 4
     },
     {
+      "term": "Ruby",
+      "count": 4
+    },
+    {
       "term": "DevOps",
       "count": 3
     },
@@ -103,10 +107,6 @@
     },
     {
       "term": "PdM",
-      "count": 3
-    },
-    {
-      "term": "Ruby",
       "count": 3
     },
     {
