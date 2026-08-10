@@ -1,13 +1,17 @@
 {
-  "updated_at": "2026-08-10T06:40:50+09:00",
+  "updated_at": "2026-08-11T06:51:35+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 249
+      "count": 257
     },
     {
       "term": "AWS",
-      "count": 41
+      "count": 43
+    },
+    {
+      "term": "セキュリティ",
+      "count": 36
     },
     {
       "term": "Go",
@@ -15,15 +19,11 @@
     },
     {
       "term": "エージェント",
-      "count": 32
-    },
-    {
-      "term": "セキュリティ",
-      "count": 31
+      "count": 33
     },
     {
       "term": "生成AI",
-      "count": 24
+      "count": 26
     },
     {
       "term": "Claude",
@@ -31,7 +31,7 @@
     },
     {
       "term": "Web",
-      "count": 13
+      "count": 14
     },
     {
       "term": "テスト",
@@ -51,7 +51,7 @@
     },
     {
       "term": "デザイン",
-      "count": 8
+      "count": 9
     },
     {
       "term": "Copilot",
@@ -70,15 +70,15 @@
       "count": 5
     },
     {
+      "term": "MCP",
+      "count": 5
+    },
+    {
       "term": "SRE",
       "count": 5
     },
     {
       "term": "ChatGPT",
-      "count": 4
-    },
-    {
-      "term": "MCP",
       "count": 4
     },
     {
@@ -92,6 +92,14 @@
     {
       "term": "Ruby",
       "count": 4
+    },
+    {
+      "term": "データ基盤",
+      "count": 4
+    },
+    {
+      "term": "Azure",
+      "count": 3
     },
     {
       "term": "DevOps",
@@ -108,14 +116,6 @@
     {
       "term": "PdM",
       "count": 3
-    },
-    {
-      "term": "データ基盤",
-      "count": 3
-    },
-    {
-      "term": "Azure",
-      "count": 2
     },
     {
       "term": "Databricks",
@@ -147,6 +147,10 @@
     },
     {
       "term": "GCP",
+      "count": 1
+    },
+    {
+      "term": "Kotlin",
       "count": 1
     },
     {
