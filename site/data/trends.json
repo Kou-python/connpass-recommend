@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-11T06:51:35+09:00",
+  "updated_at": "2026-08-12T06:57:26+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 257
+      "count": 261
     },
     {
       "term": "AWS",
-      "count": 43
+      "count": 47
     },
     {
       "term": "セキュリティ",
-      "count": 36
+      "count": 37
     },
     {
       "term": "Go",
@@ -19,7 +19,7 @@
     },
     {
       "term": "エージェント",
-      "count": 33
+      "count": 34
     },
     {
       "term": "生成AI",
@@ -27,11 +27,11 @@
     },
     {
       "term": "Claude",
-      "count": 23
+      "count": 25
     },
     {
       "term": "Web",
-      "count": 14
+      "count": 13
     },
     {
       "term": "テスト",
@@ -58,6 +58,10 @@
       "count": 7
     },
     {
+      "term": "MCP",
+      "count": 6
+    },
+    {
       "term": "Python",
       "count": 6
     },
@@ -70,7 +74,7 @@
       "count": 5
     },
     {
-      "term": "MCP",
+      "term": "Ruby",
       "count": 5
     },
     {
@@ -87,10 +91,6 @@
     },
     {
       "term": "React",
-      "count": 4
-    },
-    {
-      "term": "Ruby",
       "count": 4
     },
     {
