@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-12T06:57:26+09:00",
+  "updated_at": "2026-08-13T06:55:45+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 261
+      "count": 270
     },
     {
       "term": "AWS",
       "count": 47
     },
     {
+      "term": "Go",
+      "count": 40
+    },
+    {
       "term": "セキュリティ",
       "count": 37
     },
     {
-      "term": "Go",
-      "count": 34
-    },
-    {
       "term": "エージェント",
-      "count": 34
+      "count": 33
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 27
     },
     {
       "term": "Claude",
-      "count": 25
+      "count": 26
     },
     {
       "term": "Web",
-      "count": 13
+      "count": 15
     },
     {
       "term": "テスト",
@@ -43,14 +43,14 @@
     },
     {
       "term": "LLM",
-      "count": 9
-    },
-    {
-      "term": "UX",
-      "count": 9
+      "count": 10
     },
     {
       "term": "デザイン",
+      "count": 10
+    },
+    {
+      "term": "UX",
       "count": 9
     },
     {
@@ -59,10 +59,14 @@
     },
     {
       "term": "MCP",
-      "count": 6
+      "count": 7
     },
     {
       "term": "Python",
+      "count": 7
+    },
+    {
+      "term": "Gemini",
       "count": 6
     },
     {
@@ -70,15 +74,11 @@
       "count": 6
     },
     {
-      "term": "Gemini",
-      "count": 5
-    },
-    {
-      "term": "Ruby",
-      "count": 5
-    },
-    {
       "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "RAG",
       "count": 5
     },
     {
@@ -86,15 +86,19 @@
       "count": 4
     },
     {
-      "term": "RAG",
-      "count": 4
-    },
-    {
       "term": "React",
       "count": 4
     },
     {
+      "term": "Ruby",
+      "count": 4
+    },
+    {
       "term": "データ基盤",
+      "count": 4
+    },
+    {
+      "term": "フロントエンド",
       "count": 4
     },
     {
@@ -114,27 +118,15 @@
       "count": 3
     },
     {
+      "term": "Next.js",
+      "count": 3
+    },
+    {
       "term": "PdM",
       "count": 3
     },
     {
-      "term": "Databricks",
-      "count": 2
-    },
-    {
-      "term": "Next.js",
-      "count": 2
-    },
-    {
-      "term": "Snowflake",
-      "count": 2
-    },
-    {
       "term": "TypeScript",
-      "count": 2
-    },
-    {
-      "term": "フロントエンド",
       "count": 2
     },
     {
@@ -146,11 +138,15 @@
       "count": 1
     },
     {
-      "term": "GCP",
+      "term": "Databricks",
       "count": 1
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Snowflake",
       "count": 1
     },
     {
