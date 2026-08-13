@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-13T06:55:45+09:00",
+  "updated_at": "2026-08-14T06:55:29+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 270
+      "count": 274
     },
     {
       "term": "AWS",
@@ -11,27 +11,35 @@
     },
     {
       "term": "Go",
-      "count": 40
+      "count": 41
     },
     {
       "term": "セキュリティ",
-      "count": 37
+      "count": 38
     },
     {
       "term": "エージェント",
-      "count": 33
-    },
-    {
-      "term": "生成AI",
-      "count": 27
+      "count": 32
     },
     {
       "term": "Claude",
+      "count": 29
+    },
+    {
+      "term": "生成AI",
       "count": 26
     },
     {
       "term": "Web",
       "count": 15
+    },
+    {
+      "term": "デザイン",
+      "count": 12
+    },
+    {
+      "term": "LLM",
+      "count": 11
     },
     {
       "term": "テスト",
@@ -42,16 +50,12 @@
       "count": 10
     },
     {
-      "term": "LLM",
-      "count": 10
-    },
-    {
-      "term": "デザイン",
-      "count": 10
-    },
-    {
       "term": "UX",
       "count": 9
+    },
+    {
+      "term": "Python",
+      "count": 8
     },
     {
       "term": "Copilot",
@@ -59,10 +63,6 @@
     },
     {
       "term": "MCP",
-      "count": 7
-    },
-    {
-      "term": "Python",
       "count": 7
     },
     {
@@ -82,15 +82,23 @@
       "count": 5
     },
     {
+      "term": "Ruby",
+      "count": 5
+    },
+    {
       "term": "ChatGPT",
       "count": 4
     },
     {
-      "term": "React",
+      "term": "Java",
       "count": 4
     },
     {
-      "term": "Ruby",
+      "term": "Kubernetes",
+      "count": 4
+    },
+    {
+      "term": "React",
       "count": 4
     },
     {
@@ -110,14 +118,6 @@
       "count": 3
     },
     {
-      "term": "Java",
-      "count": 3
-    },
-    {
-      "term": "Kubernetes",
-      "count": 3
-    },
-    {
       "term": "Next.js",
       "count": 3
     },
@@ -127,6 +127,10 @@
     },
     {
       "term": "TypeScript",
+      "count": 2
+    },
+    {
+      "term": "Vue",
       "count": 2
     },
     {
@@ -146,15 +150,15 @@
       "count": 1
     },
     {
+      "term": "Rust",
+      "count": 1
+    },
+    {
       "term": "Snowflake",
       "count": 1
     },
     {
       "term": "Terraform",
-      "count": 1
-    },
-    {
-      "term": "Vue",
       "count": 1
     },
     {
