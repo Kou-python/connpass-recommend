@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-08-15T06:33:15+09:00",
+  "updated_at": "2026-08-16T06:28:52+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 269
+      "count": 267
     },
     {
       "term": "AWS",
-      "count": 49
+      "count": 46
     },
     {
       "term": "Go",
-      "count": 42
+      "count": 41
     },
     {
       "term": "セキュリティ",
-      "count": 39
+      "count": 38
     },
     {
       "term": "エージェント",
-      "count": 35
-    },
-    {
-      "term": "Claude",
-      "count": 29
+      "count": 33
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 26
+    },
+    {
+      "term": "Claude",
+      "count": 25
     },
     {
       "term": "Web",
-      "count": 15
+      "count": 14
+    },
+    {
+      "term": "LLM",
+      "count": 13
+    },
+    {
+      "term": "テスト",
+      "count": 12
     },
     {
       "term": "デザイン",
       "count": 12
     },
     {
-      "term": "LLM",
-      "count": 11
-    },
-    {
-      "term": "テスト",
-      "count": 11
-    },
-    {
-      "term": "Codex",
-      "count": 10
-    },
-    {
       "term": "Python",
       "count": 10
     },
     {
-      "term": "MCP",
+      "term": "Codex",
+      "count": 8
+    },
+    {
+      "term": "QA",
       "count": 8
     },
     {
@@ -62,23 +62,27 @@
       "count": 8
     },
     {
-      "term": "Copilot",
+      "term": "MCP",
       "count": 7
-    },
-    {
-      "term": "Gemini",
-      "count": 6
-    },
-    {
-      "term": "QA",
-      "count": 6
     },
     {
       "term": "SRE",
       "count": 6
     },
     {
+      "term": "Copilot",
+      "count": 5
+    },
+    {
+      "term": "Gemini",
+      "count": 5
+    },
+    {
       "term": "RAG",
+      "count": 5
+    },
+    {
+      "term": "React",
       "count": 5
     },
     {
@@ -86,19 +90,7 @@
       "count": 5
     },
     {
-      "term": "ChatGPT",
-      "count": 4
-    },
-    {
-      "term": "Java",
-      "count": 4
-    },
-    {
       "term": "Kubernetes",
-      "count": 4
-    },
-    {
-      "term": "React",
       "count": 4
     },
     {
@@ -110,7 +102,15 @@
       "count": 4
     },
     {
+      "term": "ChatGPT",
+      "count": 3
+    },
+    {
       "term": "DevOps",
+      "count": 3
+    },
+    {
+      "term": "Java",
       "count": 3
     },
     {
