@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-16T06:28:52+09:00",
+  "updated_at": "2026-08-17T06:27:59+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 267
+      "count": 270
     },
     {
       "term": "AWS",
-      "count": 46
+      "count": 45
     },
     {
       "term": "Go",
-      "count": 41
+      "count": 44
     },
     {
       "term": "セキュリティ",
@@ -19,19 +19,19 @@
     },
     {
       "term": "エージェント",
-      "count": 33
+      "count": 35
+    },
+    {
+      "term": "Claude",
+      "count": 27
     },
     {
       "term": "生成AI",
       "count": 26
     },
     {
-      "term": "Claude",
-      "count": 25
-    },
-    {
       "term": "Web",
-      "count": 14
+      "count": 15
     },
     {
       "term": "LLM",
@@ -50,6 +50,10 @@
       "count": 10
     },
     {
+      "term": "UX",
+      "count": 9
+    },
+    {
       "term": "Codex",
       "count": 8
     },
@@ -58,8 +62,8 @@
       "count": 8
     },
     {
-      "term": "UX",
-      "count": 8
+      "term": "Copilot",
+      "count": 7
     },
     {
       "term": "MCP",
@@ -70,10 +74,6 @@
       "count": 6
     },
     {
-      "term": "Copilot",
-      "count": 5
-    },
-    {
       "term": "Gemini",
       "count": 5
     },
@@ -82,15 +82,15 @@
       "count": 5
     },
     {
-      "term": "React",
-      "count": 5
-    },
-    {
       "term": "Ruby",
       "count": 5
     },
     {
       "term": "Kubernetes",
+      "count": 4
+    },
+    {
+      "term": "React",
       "count": 4
     },
     {
@@ -122,15 +122,15 @@
       "count": 3
     },
     {
+      "term": "Vue",
+      "count": 3
+    },
+    {
       "term": "Azure",
       "count": 2
     },
     {
       "term": "TypeScript",
-      "count": 2
-    },
-    {
-      "term": "Vue",
       "count": 2
     },
     {
