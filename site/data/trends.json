@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-17T06:27:59+09:00",
+  "updated_at": "2026-08-18T06:33:17+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 270
+      "count": 283
     },
     {
       "term": "AWS",
-      "count": 45
+      "count": 51
     },
     {
       "term": "Go",
-      "count": 44
+      "count": 48
     },
     {
       "term": "セキュリティ",
-      "count": 38
+      "count": 40
     },
     {
       "term": "エージェント",
-      "count": 35
+      "count": 37
     },
     {
       "term": "Claude",
@@ -27,11 +27,11 @@
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 25
     },
     {
       "term": "Web",
-      "count": 15
+      "count": 16
     },
     {
       "term": "LLM",
@@ -58,12 +58,12 @@
       "count": 8
     },
     {
-      "term": "QA",
+      "term": "Copilot",
       "count": 8
     },
     {
-      "term": "Copilot",
-      "count": 7
+      "term": "QA",
+      "count": 8
     },
     {
       "term": "MCP",
@@ -86,6 +86,10 @@
       "count": 5
     },
     {
+      "term": "DevOps",
+      "count": 4
+    },
+    {
       "term": "Kubernetes",
       "count": 4
     },
@@ -103,10 +107,6 @@
     },
     {
       "term": "ChatGPT",
-      "count": 3
-    },
-    {
-      "term": "DevOps",
       "count": 3
     },
     {
@@ -143,6 +143,14 @@
     },
     {
       "term": "Databricks",
+      "count": 1
+    },
+    {
+      "term": "Docker",
+      "count": 1
+    },
+    {
+      "term": "GCP",
       "count": 1
     },
     {
