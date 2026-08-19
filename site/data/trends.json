@@ -1,56 +1,60 @@
 {
-  "updated_at": "2026-08-19T06:31:45+09:00",
+  "updated_at": "2026-08-20T06:33:17+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 295
+      "count": 300
     },
     {
       "term": "AWS",
-      "count": 48
+      "count": 55
     },
     {
       "term": "Go",
-      "count": 48
+      "count": 53
     },
     {
       "term": "エージェント",
-      "count": 39
+      "count": 41
     },
     {
       "term": "セキュリティ",
-      "count": 39
-    },
-    {
-      "term": "Claude",
-      "count": 29
+      "count": 38
     },
     {
       "term": "生成AI",
+      "count": 32
+    },
+    {
+      "term": "Claude",
       "count": 28
     },
     {
       "term": "Web",
-      "count": 16
+      "count": 17
+    },
+    {
+      "term": "テスト",
+      "count": 14
     },
     {
       "term": "LLM",
       "count": 13
     },
     {
-      "term": "テスト",
-      "count": 13
-    },
-    {
       "term": "デザイン",
-      "count": 13
+      "count": 12
     },
     {
       "term": "UX",
-      "count": 10
+      "count": 11
     },
     {
       "term": "Python",
+      "count": 9
+    },
+    {
+      "term": "SRE",
       "count": 9
     },
     {
@@ -58,19 +62,11 @@
       "count": 8
     },
     {
-      "term": "Codex",
-      "count": 7
-    },
-    {
       "term": "Copilot",
       "count": 7
     },
     {
-      "term": "SRE",
-      "count": 7
-    },
-    {
-      "term": "MCP",
+      "term": "Codex",
       "count": 6
     },
     {
@@ -82,15 +78,23 @@
       "count": 5
     },
     {
-      "term": "RAG",
-      "count": 5
-    },
-    {
       "term": "データ基盤",
       "count": 5
     },
     {
-      "term": "DevOps",
+      "term": "Kubernetes",
+      "count": 4
+    },
+    {
+      "term": "MCP",
+      "count": 4
+    },
+    {
+      "term": "PdM",
+      "count": 4
+    },
+    {
+      "term": "RAG",
       "count": 4
     },
     {
@@ -110,19 +114,11 @@
       "count": 3
     },
     {
+      "term": "DevOps",
+      "count": 3
+    },
+    {
       "term": "Java",
-      "count": 3
-    },
-    {
-      "term": "Kubernetes",
-      "count": 3
-    },
-    {
-      "term": "Next.js",
-      "count": 3
-    },
-    {
-      "term": "PdM",
       "count": 3
     },
     {
@@ -134,7 +130,15 @@
       "count": 2
     },
     {
+      "term": "Next.js",
+      "count": 2
+    },
+    {
       "term": "TypeScript",
+      "count": 2
+    },
+    {
+      "term": "プロンプト",
       "count": 2
     },
     {
@@ -175,10 +179,6 @@
     },
     {
       "term": "プロダクトマネジメント",
-      "count": 1
-    },
-    {
-      "term": "プロンプト",
       "count": 1
     }
   ]
