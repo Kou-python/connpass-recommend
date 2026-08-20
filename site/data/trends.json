@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-20T06:33:17+09:00",
+  "updated_at": "2026-08-21T06:36:03+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 300
+      "count": 303
     },
     {
       "term": "AWS",
@@ -11,19 +11,19 @@
     },
     {
       "term": "Go",
-      "count": 53
+      "count": 54
     },
     {
       "term": "エージェント",
-      "count": 41
+      "count": 42
     },
     {
       "term": "セキュリティ",
-      "count": 38
+      "count": 37
     },
     {
       "term": "生成AI",
-      "count": 32
+      "count": 31
     },
     {
       "term": "Claude",
@@ -31,42 +31,42 @@
     },
     {
       "term": "Web",
-      "count": 17
-    },
-    {
-      "term": "テスト",
-      "count": 14
+      "count": 18
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 12
+    },
+    {
+      "term": "UX",
+      "count": 12
+    },
+    {
+      "term": "テスト",
+      "count": 12
     },
     {
       "term": "デザイン",
       "count": 12
     },
     {
-      "term": "UX",
-      "count": 11
-    },
-    {
       "term": "Python",
-      "count": 9
+      "count": 10
     },
     {
       "term": "SRE",
-      "count": 9
+      "count": 10
+    },
+    {
+      "term": "Copilot",
+      "count": 8
     },
     {
       "term": "QA",
       "count": 8
     },
     {
-      "term": "Copilot",
-      "count": 7
-    },
-    {
-      "term": "Codex",
+      "term": "RAG",
       "count": 6
     },
     {
@@ -74,12 +74,20 @@
       "count": 6
     },
     {
+      "term": "データ基盤",
+      "count": 6
+    },
+    {
+      "term": "Codex",
+      "count": 5
+    },
+    {
       "term": "Gemini",
       "count": 5
     },
     {
-      "term": "データ基盤",
-      "count": 5
+      "term": "Java",
+      "count": 4
     },
     {
       "term": "Kubernetes",
@@ -94,15 +102,7 @@
       "count": 4
     },
     {
-      "term": "RAG",
-      "count": 4
-    },
-    {
       "term": "React",
-      "count": 4
-    },
-    {
-      "term": "フロントエンド",
       "count": 4
     },
     {
@@ -110,15 +110,7 @@
       "count": 3
     },
     {
-      "term": "ChatGPT",
-      "count": 3
-    },
-    {
       "term": "DevOps",
-      "count": 3
-    },
-    {
-      "term": "Java",
       "count": 3
     },
     {
@@ -126,11 +118,27 @@
       "count": 3
     },
     {
+      "term": "フロントエンド",
+      "count": 3
+    },
+    {
+      "term": "ChatGPT",
+      "count": 2
+    },
+    {
+      "term": "Databricks",
+      "count": 2
+    },
+    {
       "term": "GCP",
       "count": 2
     },
     {
       "term": "Next.js",
+      "count": 2
+    },
+    {
+      "term": "Snowflake",
       "count": 2
     },
     {
@@ -150,10 +158,6 @@
       "count": 1
     },
     {
-      "term": "Databricks",
-      "count": 1
-    },
-    {
       "term": "Docker",
       "count": 1
     },
@@ -163,10 +167,6 @@
     },
     {
       "term": "Rust",
-      "count": 1
-    },
-    {
-      "term": "Snowflake",
       "count": 1
     },
     {
