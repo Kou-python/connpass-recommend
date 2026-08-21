@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-21T06:36:03+09:00",
+  "updated_at": "2026-08-22T06:32:21+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 303
+      "count": 297
     },
     {
       "term": "AWS",
-      "count": 55
+      "count": 56
     },
     {
       "term": "Go",
@@ -15,54 +15,54 @@
     },
     {
       "term": "エージェント",
-      "count": 42
+      "count": 43
     },
     {
       "term": "セキュリティ",
-      "count": 37
-    },
-    {
-      "term": "生成AI",
-      "count": 31
+      "count": 36
     },
     {
       "term": "Claude",
-      "count": 28
+      "count": 30
+    },
+    {
+      "term": "生成AI",
+      "count": 29
     },
     {
       "term": "Web",
-      "count": 18
-    },
-    {
-      "term": "LLM",
-      "count": 12
-    },
-    {
-      "term": "UX",
-      "count": 12
-    },
-    {
-      "term": "テスト",
-      "count": 12
+      "count": 19
     },
     {
       "term": "デザイン",
-      "count": 12
+      "count": 15
+    },
+    {
+      "term": "LLM",
+      "count": 13
+    },
+    {
+      "term": "UX",
+      "count": 11
+    },
+    {
+      "term": "テスト",
+      "count": 11
     },
     {
       "term": "Python",
       "count": 10
     },
     {
+      "term": "QA",
+      "count": 9
+    },
+    {
       "term": "SRE",
-      "count": 10
+      "count": 9
     },
     {
       "term": "Copilot",
-      "count": 8
-    },
-    {
-      "term": "QA",
       "count": 8
     },
     {
@@ -74,16 +74,16 @@
       "count": 6
     },
     {
-      "term": "データ基盤",
-      "count": 6
-    },
-    {
       "term": "Codex",
       "count": 5
     },
     {
-      "term": "Gemini",
+      "term": "データ基盤",
       "count": 5
+    },
+    {
+      "term": "Gemini",
+      "count": 4
     },
     {
       "term": "Java",
@@ -106,6 +106,14 @@
       "count": 4
     },
     {
+      "term": "Vue",
+      "count": 4
+    },
+    {
+      "term": "フロントエンド",
+      "count": 4
+    },
+    {
       "term": "Azure",
       "count": 3
     },
@@ -114,11 +122,7 @@
       "count": 3
     },
     {
-      "term": "Vue",
-      "count": 3
-    },
-    {
-      "term": "フロントエンド",
+      "term": "Next.js",
       "count": 3
     },
     {
@@ -134,28 +138,12 @@
       "count": 2
     },
     {
-      "term": "Next.js",
-      "count": 2
-    },
-    {
       "term": "Snowflake",
       "count": 2
     },
     {
       "term": "TypeScript",
       "count": 2
-    },
-    {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
-      "term": "脆弱性",
-      "count": 2
-    },
-    {
-      "term": "Cursor",
-      "count": 1
     },
     {
       "term": "Docker",
@@ -178,7 +166,11 @@
       "count": 1
     },
     {
-      "term": "プロダクトマネジメント",
+      "term": "プロンプト",
+      "count": 1
+    },
+    {
+      "term": "脆弱性",
       "count": 1
     }
   ]
