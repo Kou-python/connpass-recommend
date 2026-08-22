@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-08-22T06:32:21+09:00",
+  "updated_at": "2026-08-23T06:29:40+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 297
+      "count": 292
     },
     {
       "term": "AWS",
-      "count": 56
+      "count": 52
     },
     {
       "term": "Go",
-      "count": 54
+      "count": 52
     },
     {
       "term": "エージェント",
-      "count": 43
+      "count": 44
     },
     {
       "term": "セキュリティ",
-      "count": 36
+      "count": 35
     },
     {
       "term": "Claude",
@@ -27,31 +27,27 @@
     },
     {
       "term": "生成AI",
-      "count": 29
+      "count": 27
     },
     {
       "term": "Web",
-      "count": 19
+      "count": 16
     },
     {
       "term": "デザイン",
-      "count": 15
+      "count": 14
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 12
     },
     {
       "term": "UX",
-      "count": 11
-    },
-    {
-      "term": "テスト",
-      "count": 11
+      "count": 10
     },
     {
       "term": "Python",
-      "count": 10
+      "count": 9
     },
     {
       "term": "QA",
@@ -59,6 +55,10 @@
     },
     {
       "term": "SRE",
+      "count": 9
+    },
+    {
+      "term": "テスト",
       "count": 9
     },
     {
@@ -74,12 +74,12 @@
       "count": 6
     },
     {
-      "term": "Codex",
+      "term": "データ基盤",
       "count": 5
     },
     {
-      "term": "データ基盤",
-      "count": 5
+      "term": "Codex",
+      "count": 4
     },
     {
       "term": "Gemini",
@@ -94,15 +94,7 @@
       "count": 4
     },
     {
-      "term": "MCP",
-      "count": 4
-    },
-    {
       "term": "PdM",
-      "count": 4
-    },
-    {
-      "term": "React",
       "count": 4
     },
     {
@@ -122,12 +114,12 @@
       "count": 3
     },
     {
-      "term": "Next.js",
+      "term": "MCP",
       "count": 3
     },
     {
-      "term": "ChatGPT",
-      "count": 2
+      "term": "React",
+      "count": 3
     },
     {
       "term": "Databricks",
@@ -138,12 +130,24 @@
       "count": 2
     },
     {
+      "term": "Next.js",
+      "count": 2
+    },
+    {
       "term": "Snowflake",
       "count": 2
     },
     {
       "term": "TypeScript",
       "count": 2
+    },
+    {
+      "term": "脆弱性",
+      "count": 2
+    },
+    {
+      "term": "ChatGPT",
+      "count": 1
     },
     {
       "term": "Docker",
@@ -158,19 +162,11 @@
       "count": 1
     },
     {
-      "term": "Terraform",
-      "count": 1
-    },
-    {
       "term": "dbt",
       "count": 1
     },
     {
       "term": "プロンプト",
-      "count": 1
-    },
-    {
-      "term": "脆弱性",
       "count": 1
     }
   ]
