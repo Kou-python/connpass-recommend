@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T06:29:40+09:00",
+  "updated_at": "2026-08-24T06:28:52+09:00",
   "trends": [
     {
       "term": "AI",
@@ -7,27 +7,27 @@
     },
     {
       "term": "AWS",
-      "count": 52
+      "count": 53
     },
     {
       "term": "Go",
-      "count": 52
+      "count": 50
     },
     {
       "term": "エージェント",
-      "count": 44
+      "count": 43
     },
     {
       "term": "セキュリティ",
-      "count": 35
+      "count": 34
     },
     {
       "term": "Claude",
-      "count": 30
+      "count": 31
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 28
     },
     {
       "term": "Web",
@@ -35,19 +35,15 @@
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 13
     },
     {
       "term": "LLM",
-      "count": 12
+      "count": 11
     },
     {
-      "term": "UX",
+      "term": "テスト",
       "count": 10
-    },
-    {
-      "term": "Python",
-      "count": 9
     },
     {
       "term": "QA",
@@ -58,11 +54,15 @@
       "count": 9
     },
     {
-      "term": "テスト",
+      "term": "UX",
       "count": 9
     },
     {
       "term": "Copilot",
+      "count": 8
+    },
+    {
+      "term": "Python",
       "count": 8
     },
     {
@@ -76,6 +76,10 @@
     {
       "term": "データ基盤",
       "count": 5
+    },
+    {
+      "term": "Azure",
+      "count": 4
     },
     {
       "term": "Codex",
@@ -94,6 +98,10 @@
       "count": 4
     },
     {
+      "term": "MCP",
+      "count": 4
+    },
+    {
       "term": "PdM",
       "count": 4
     },
@@ -106,15 +114,7 @@
       "count": 4
     },
     {
-      "term": "Azure",
-      "count": 3
-    },
-    {
       "term": "DevOps",
-      "count": 3
-    },
-    {
-      "term": "MCP",
       "count": 3
     },
     {
