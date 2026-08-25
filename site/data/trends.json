@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-25T06:37:01+09:00",
+  "updated_at": "2026-08-26T06:36:32+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 290
+      "count": 278
     },
     {
       "term": "AWS",
-      "count": 57
+      "count": 56
     },
     {
       "term": "Go",
-      "count": 46
+      "count": 45
     },
     {
       "term": "エージェント",
-      "count": 41
+      "count": 38
     },
     {
       "term": "セキュリティ",
@@ -27,7 +27,7 @@
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 24
     },
     {
       "term": "Web",
@@ -42,11 +42,11 @@
       "count": 11
     },
     {
-      "term": "テスト",
-      "count": 11
+      "term": "UX",
+      "count": 10
     },
     {
-      "term": "UX",
+      "term": "テスト",
       "count": 10
     },
     {
@@ -54,24 +54,24 @@
       "count": 9
     },
     {
-      "term": "Python",
-      "count": 9
-    },
-    {
       "term": "QA",
       "count": 9
     },
     {
-      "term": "Copilot",
+      "term": "Python",
       "count": 7
     },
     {
-      "term": "RAG",
+      "term": "Copilot",
       "count": 6
     },
     {
       "term": "Ruby",
       "count": 6
+    },
+    {
+      "term": "RAG",
+      "count": 5
     },
     {
       "term": "データ基盤",
@@ -110,11 +110,7 @@
       "count": 3
     },
     {
-      "term": "DevOps",
-      "count": 3
-    },
-    {
-      "term": "Next.js",
+      "term": "Databricks",
       "count": 3
     },
     {
@@ -126,7 +122,11 @@
       "count": 3
     },
     {
-      "term": "Databricks",
+      "term": "脆弱性",
+      "count": 3
+    },
+    {
+      "term": "DevOps",
       "count": 2
     },
     {
@@ -134,7 +134,7 @@
       "count": 2
     },
     {
-      "term": "Snowflake",
+      "term": "Next.js",
       "count": 2
     },
     {
@@ -142,7 +142,7 @@
       "count": 2
     },
     {
-      "term": "脆弱性",
+      "term": "プロンプト",
       "count": 2
     },
     {
@@ -158,7 +158,7 @@
       "count": 1
     },
     {
-      "term": "プロンプト",
+      "term": "Snowflake",
       "count": 1
     }
   ]
