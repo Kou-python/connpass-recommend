@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-26T06:36:32+09:00",
+  "updated_at": "2026-08-27T09:38:42+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 278
+      "count": 277
     },
     {
       "term": "AWS",
-      "count": 56
+      "count": 58
     },
     {
       "term": "Go",
-      "count": 45
+      "count": 43
     },
     {
       "term": "エージェント",
-      "count": 38
+      "count": 37
     },
     {
       "term": "セキュリティ",
-      "count": 35
+      "count": 34
     },
     {
       "term": "Claude",
-      "count": 31
+      "count": 30
     },
     {
       "term": "生成AI",
-      "count": 24
+      "count": 27
     },
     {
       "term": "Web",
-      "count": 15
+      "count": 17
     },
     {
       "term": "デザイン",
@@ -42,10 +42,6 @@
       "count": 11
     },
     {
-      "term": "UX",
-      "count": 10
-    },
-    {
       "term": "テスト",
       "count": 10
     },
@@ -54,36 +50,28 @@
       "count": 9
     },
     {
-      "term": "QA",
+      "term": "UX",
       "count": 9
+    },
+    {
+      "term": "Copilot",
+      "count": 7
     },
     {
       "term": "Python",
       "count": 7
     },
     {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
-      "term": "Ruby",
-      "count": 6
-    },
-    {
-      "term": "RAG",
+      "term": "QA",
       "count": 5
     },
     {
-      "term": "データ基盤",
+      "term": "Ruby",
       "count": 5
     },
     {
       "term": "フロントエンド",
       "count": 5
-    },
-    {
-      "term": "Codex",
-      "count": 4
     },
     {
       "term": "Gemini",
@@ -102,7 +90,11 @@
       "count": 4
     },
     {
-      "term": "PdM",
+      "term": "RAG",
+      "count": 4
+    },
+    {
+      "term": "データ基盤",
       "count": 4
     },
     {
@@ -110,11 +102,11 @@
       "count": 3
     },
     {
-      "term": "Databricks",
+      "term": "Codex",
       "count": 3
     },
     {
-      "term": "React",
+      "term": "Databricks",
       "count": 3
     },
     {
@@ -126,15 +118,15 @@
       "count": 3
     },
     {
-      "term": "DevOps",
-      "count": 2
-    },
-    {
       "term": "GCP",
       "count": 2
     },
     {
-      "term": "Next.js",
+      "term": "PdM",
+      "count": 2
+    },
+    {
+      "term": "React",
       "count": 2
     },
     {
@@ -150,11 +142,19 @@
       "count": 1
     },
     {
+      "term": "DevOps",
+      "count": 1
+    },
+    {
       "term": "Docker",
       "count": 1
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Next.js",
       "count": 1
     },
     {
