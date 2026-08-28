@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-27T09:38:42+09:00",
+  "updated_at": "2026-08-28T14:12:57+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 277
+      "count": 266
     },
     {
       "term": "AWS",
@@ -11,23 +11,23 @@
     },
     {
       "term": "Go",
-      "count": 43
+      "count": 41
     },
     {
       "term": "エージェント",
-      "count": 37
+      "count": 36
     },
     {
       "term": "セキュリティ",
-      "count": 34
+      "count": 33
     },
     {
       "term": "Claude",
-      "count": 30
+      "count": 31
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 26
     },
     {
       "term": "Web",
@@ -35,23 +35,23 @@
     },
     {
       "term": "デザイン",
-      "count": 15
-    },
-    {
-      "term": "SRE",
-      "count": 11
+      "count": 16
     },
     {
       "term": "テスト",
+      "count": 11
+    },
+    {
+      "term": "SRE",
       "count": 10
     },
     {
       "term": "LLM",
-      "count": 9
+      "count": 8
     },
     {
       "term": "UX",
-      "count": 9
+      "count": 8
     },
     {
       "term": "Copilot",
@@ -59,10 +59,14 @@
     },
     {
       "term": "Python",
-      "count": 7
+      "count": 6
     },
     {
-      "term": "QA",
+      "term": "Gemini",
+      "count": 5
+    },
+    {
+      "term": "Java",
       "count": 5
     },
     {
@@ -74,19 +78,7 @@
       "count": 5
     },
     {
-      "term": "Gemini",
-      "count": 4
-    },
-    {
-      "term": "Java",
-      "count": 4
-    },
-    {
-      "term": "Kubernetes",
-      "count": 4
-    },
-    {
-      "term": "MCP",
+      "term": "QA",
       "count": 4
     },
     {
@@ -94,19 +86,23 @@
       "count": 4
     },
     {
-      "term": "データ基盤",
+      "term": "React",
       "count": 4
     },
     {
-      "term": "Azure",
-      "count": 3
-    },
-    {
-      "term": "Codex",
-      "count": 3
-    },
-    {
       "term": "Databricks",
+      "count": 3
+    },
+    {
+      "term": "Kubernetes",
+      "count": 3
+    },
+    {
+      "term": "MCP",
+      "count": 3
+    },
+    {
+      "term": "TypeScript",
       "count": 3
     },
     {
@@ -118,7 +114,23 @@
       "count": 3
     },
     {
+      "term": "Azure",
+      "count": 2
+    },
+    {
+      "term": "ChatGPT",
+      "count": 2
+    },
+    {
       "term": "GCP",
+      "count": 2
+    },
+    {
+      "term": "Kotlin",
+      "count": 2
+    },
+    {
+      "term": "Next.js",
       "count": 2
     },
     {
@@ -126,19 +138,11 @@
       "count": 2
     },
     {
-      "term": "React",
+      "term": "データ基盤",
       "count": 2
     },
     {
-      "term": "TypeScript",
-      "count": 2
-    },
-    {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
-      "term": "ChatGPT",
+      "term": "Codex",
       "count": 1
     },
     {
@@ -150,15 +154,11 @@
       "count": 1
     },
     {
-      "term": "Kotlin",
-      "count": 1
-    },
-    {
-      "term": "Next.js",
-      "count": 1
-    },
-    {
       "term": "Snowflake",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
       "count": 1
     }
   ]
