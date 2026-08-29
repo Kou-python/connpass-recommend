@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-29T12:08:33+09:00",
+  "updated_at": "2026-08-30T08:13:11+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 250
+      "count": 237
     },
     {
       "term": "AWS",
-      "count": 58
+      "count": 54
     },
     {
       "term": "Go",
-      "count": 39
+      "count": 38
     },
     {
       "term": "エージェント",
@@ -19,15 +19,15 @@
     },
     {
       "term": "セキュリティ",
-      "count": 34
-    },
-    {
-      "term": "Claude",
       "count": 27
     },
     {
-      "term": "生成AI",
+      "term": "Claude",
       "count": 25
+    },
+    {
+      "term": "生成AI",
+      "count": 24
     },
     {
       "term": "Web",
@@ -35,7 +35,7 @@
     },
     {
       "term": "デザイン",
-      "count": 17
+      "count": 16
     },
     {
       "term": "SRE",
@@ -47,11 +47,11 @@
     },
     {
       "term": "Copilot",
-      "count": 8
+      "count": 7
     },
     {
       "term": "LLM",
-      "count": 8
+      "count": 7
     },
     {
       "term": "UX",
@@ -94,10 +94,6 @@
       "count": 3
     },
     {
-      "term": "Kubernetes",
-      "count": 3
-    },
-    {
       "term": "MCP",
       "count": 3
     },
@@ -106,7 +102,7 @@
       "count": 3
     },
     {
-      "term": "Vue",
+      "term": "データ基盤",
       "count": 3
     },
     {
@@ -114,11 +110,15 @@
       "count": 3
     },
     {
-      "term": "Azure",
+      "term": "ChatGPT",
       "count": 2
     },
     {
       "term": "GCP",
+      "count": 2
+    },
+    {
+      "term": "Kubernetes",
       "count": 2
     },
     {
@@ -130,7 +130,7 @@
       "count": 2
     },
     {
-      "term": "データ基盤",
+      "term": "Vue",
       "count": 2
     },
     {
@@ -138,11 +138,7 @@
       "count": 2
     },
     {
-      "term": "ChatGPT",
-      "count": 1
-    },
-    {
-      "term": "DevOps",
+      "term": "Azure",
       "count": 1
     },
     {
