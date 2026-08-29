@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-28T14:12:57+09:00",
+  "updated_at": "2026-08-29T12:08:33+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 266
+      "count": 250
     },
     {
       "term": "AWS",
@@ -11,23 +11,23 @@
     },
     {
       "term": "Go",
-      "count": 41
+      "count": 39
     },
     {
       "term": "エージェント",
-      "count": 36
+      "count": 35
     },
     {
       "term": "セキュリティ",
-      "count": 33
+      "count": 34
     },
     {
       "term": "Claude",
-      "count": 31
+      "count": 27
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 25
     },
     {
       "term": "Web",
@@ -35,15 +35,19 @@
     },
     {
       "term": "デザイン",
-      "count": 16
-    },
-    {
-      "term": "テスト",
-      "count": 11
+      "count": 17
     },
     {
       "term": "SRE",
       "count": 10
+    },
+    {
+      "term": "テスト",
+      "count": 9
+    },
+    {
+      "term": "Copilot",
+      "count": 8
     },
     {
       "term": "LLM",
@@ -51,19 +55,11 @@
     },
     {
       "term": "UX",
-      "count": 8
-    },
-    {
-      "term": "Copilot",
       "count": 7
     },
     {
       "term": "Python",
       "count": 6
-    },
-    {
-      "term": "Gemini",
-      "count": 5
     },
     {
       "term": "Java",
@@ -74,15 +70,11 @@
       "count": 5
     },
     {
-      "term": "フロントエンド",
-      "count": 5
-    },
-    {
-      "term": "QA",
+      "term": "Gemini",
       "count": 4
     },
     {
-      "term": "RAG",
+      "term": "QA",
       "count": 4
     },
     {
@@ -90,7 +82,15 @@
       "count": 4
     },
     {
+      "term": "フロントエンド",
+      "count": 4
+    },
+    {
       "term": "Databricks",
+      "count": 3
+    },
+    {
+      "term": "Kotlin",
       "count": 3
     },
     {
@@ -102,7 +102,7 @@
       "count": 3
     },
     {
-      "term": "TypeScript",
+      "term": "RAG",
       "count": 3
     },
     {
@@ -118,15 +118,7 @@
       "count": 2
     },
     {
-      "term": "ChatGPT",
-      "count": 2
-    },
-    {
       "term": "GCP",
-      "count": 2
-    },
-    {
-      "term": "Kotlin",
       "count": 2
     },
     {
@@ -134,7 +126,7 @@
       "count": 2
     },
     {
-      "term": "PdM",
+      "term": "TypeScript",
       "count": 2
     },
     {
@@ -142,7 +134,11 @@
       "count": 2
     },
     {
-      "term": "Codex",
+      "term": "プロンプト",
+      "count": 2
+    },
+    {
+      "term": "ChatGPT",
       "count": 1
     },
     {
@@ -154,11 +150,15 @@
       "count": 1
     },
     {
-      "term": "Snowflake",
+      "term": "PdM",
       "count": 1
     },
     {
-      "term": "プロンプト",
+      "term": "Rust",
+      "count": 1
+    },
+    {
+      "term": "Snowflake",
       "count": 1
     }
   ]
