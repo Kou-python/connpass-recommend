@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-08-31T08:22:48+09:00",
+  "updated_at": "2026-09-01T09:32:32+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 250
+      "count": 259
     },
     {
       "term": "AWS",
-      "count": 53
-    },
-    {
-      "term": "Go",
-      "count": 37
+      "count": 54
     },
     {
       "term": "エージェント",
-      "count": 37
+      "count": 40
+    },
+    {
+      "term": "Go",
+      "count": 39
+    },
+    {
+      "term": "生成AI",
+      "count": 30
+    },
+    {
+      "term": "セキュリティ",
+      "count": 28
     },
     {
       "term": "Claude",
       "count": 27
-    },
-    {
-      "term": "セキュリティ",
-      "count": 27
-    },
-    {
-      "term": "生成AI",
-      "count": 26
     },
     {
       "term": "Web",
@@ -35,11 +35,11 @@
     },
     {
       "term": "デザイン",
-      "count": 16
+      "count": 17
     },
     {
       "term": "SRE",
-      "count": 10
+      "count": 11
     },
     {
       "term": "LLM",
@@ -54,12 +54,20 @@
       "count": 8
     },
     {
+      "term": "Python",
+      "count": 7
+    },
+    {
       "term": "Ruby",
       "count": 7
     },
     {
       "term": "UX",
       "count": 7
+    },
+    {
+      "term": "React",
+      "count": 6
     },
     {
       "term": "Gemini",
@@ -70,11 +78,7 @@
       "count": 5
     },
     {
-      "term": "Python",
-      "count": 5
-    },
-    {
-      "term": "React",
+      "term": "フロントエンド",
       "count": 5
     },
     {
@@ -102,10 +106,6 @@
       "count": 3
     },
     {
-      "term": "フロントエンド",
-      "count": 3
-    },
-    {
       "term": "プロンプト",
       "count": 3
     },
@@ -122,6 +122,10 @@
       "count": 2
     },
     {
+      "term": "DevOps",
+      "count": 2
+    },
+    {
       "term": "GCP",
       "count": 2
     },
@@ -130,11 +134,11 @@
       "count": 2
     },
     {
-      "term": "Vue",
+      "term": "TypeScript",
       "count": 2
     },
     {
-      "term": "DevOps",
+      "term": "BigQuery",
       "count": 1
     },
     {
@@ -162,7 +166,7 @@
       "count": 1
     },
     {
-      "term": "TypeScript",
+      "term": "Vue",
       "count": 1
     }
   ]
