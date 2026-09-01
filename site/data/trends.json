@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-09-01T09:32:32+09:00",
+  "updated_at": "2026-09-02T08:14:22+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 259
+      "count": 265
     },
     {
       "term": "AWS",
       "count": 54
     },
     {
+      "term": "Go",
+      "count": 40
+    },
+    {
       "term": "エージェント",
       "count": 40
     },
     {
-      "term": "Go",
-      "count": 39
+      "term": "セキュリティ",
+      "count": 29
     },
     {
       "term": "生成AI",
-      "count": 30
-    },
-    {
-      "term": "セキュリティ",
-      "count": 28
+      "count": 29
     },
     {
       "term": "Claude",
-      "count": 27
+      "count": 28
     },
     {
       "term": "Web",
@@ -43,11 +43,11 @@
     },
     {
       "term": "LLM",
-      "count": 9
+      "count": 10
     },
     {
       "term": "テスト",
-      "count": 9
+      "count": 10
     },
     {
       "term": "Copilot",
@@ -55,14 +55,14 @@
     },
     {
       "term": "Python",
-      "count": 7
-    },
-    {
-      "term": "Ruby",
-      "count": 7
+      "count": 8
     },
     {
       "term": "UX",
+      "count": 8
+    },
+    {
+      "term": "Ruby",
       "count": 7
     },
     {
@@ -78,19 +78,19 @@
       "count": 5
     },
     {
+      "term": "QA",
+      "count": 5
+    },
+    {
+      "term": "データ基盤",
+      "count": 5
+    },
+    {
       "term": "フロントエンド",
       "count": 5
     },
     {
-      "term": "QA",
-      "count": 4
-    },
-    {
-      "term": "データ基盤",
-      "count": 4
-    },
-    {
-      "term": "Databricks",
+      "term": "Azure",
       "count": 3
     },
     {
@@ -114,11 +114,11 @@
       "count": 3
     },
     {
-      "term": "Azure",
+      "term": "ChatGPT",
       "count": 2
     },
     {
-      "term": "ChatGPT",
+      "term": "Databricks",
       "count": 2
     },
     {
@@ -134,11 +134,19 @@
       "count": 2
     },
     {
+      "term": "Rust",
+      "count": 2
+    },
+    {
       "term": "TypeScript",
       "count": 2
     },
     {
       "term": "BigQuery",
+      "count": 1
+    },
+    {
+      "term": "Codex",
       "count": 1
     },
     {
@@ -155,10 +163,6 @@
     },
     {
       "term": "PdM",
-      "count": 1
-    },
-    {
-      "term": "Rust",
       "count": 1
     },
     {
