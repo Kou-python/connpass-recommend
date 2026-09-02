@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-09-02T08:14:22+09:00",
+  "updated_at": "2026-09-03T08:14:28+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 265
+      "count": 275
     },
     {
       "term": "AWS",
-      "count": 54
+      "count": 58
     },
     {
       "term": "Go",
-      "count": 40
+      "count": 39
     },
     {
       "term": "エージェント",
-      "count": 40
-    },
-    {
-      "term": "セキュリティ",
-      "count": 29
+      "count": 39
     },
     {
       "term": "生成AI",
-      "count": 29
+      "count": 32
+    },
+    {
+      "term": "セキュリティ",
+      "count": 30
     },
     {
       "term": "Claude",
-      "count": 28
+      "count": 26
     },
     {
       "term": "Web",
@@ -35,10 +35,10 @@
     },
     {
       "term": "デザイン",
-      "count": 17
+      "count": 16
     },
     {
-      "term": "SRE",
+      "term": "テスト",
       "count": 11
     },
     {
@@ -46,7 +46,7 @@
       "count": 10
     },
     {
-      "term": "テスト",
+      "term": "SRE",
       "count": 10
     },
     {
@@ -94,6 +94,10 @@
       "count": 3
     },
     {
+      "term": "Databricks",
+      "count": 3
+    },
+    {
       "term": "Kotlin",
       "count": 3
     },
@@ -106,19 +110,11 @@
       "count": 3
     },
     {
-      "term": "プロンプト",
-      "count": 3
-    },
-    {
       "term": "脆弱性",
       "count": 3
     },
     {
       "term": "ChatGPT",
-      "count": 2
-    },
-    {
-      "term": "Databricks",
       "count": 2
     },
     {
@@ -131,6 +127,10 @@
     },
     {
       "term": "Kubernetes",
+      "count": 2
+    },
+    {
+      "term": "PdM",
       "count": 2
     },
     {
@@ -150,10 +150,6 @@
       "count": 1
     },
     {
-      "term": "Docker",
-      "count": 1
-    },
-    {
       "term": "Iceberg",
       "count": 1
     },
@@ -162,15 +158,15 @@
       "count": 1
     },
     {
-      "term": "PdM",
-      "count": 1
-    },
-    {
       "term": "Snowflake",
       "count": 1
     },
     {
       "term": "Vue",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
       "count": 1
     }
   ]
