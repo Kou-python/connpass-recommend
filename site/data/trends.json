@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-04T08:12:28+09:00",
+  "updated_at": "2026-09-05T07:58:12+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 273
+      "count": 276
     },
     {
       "term": "AWS",
@@ -11,46 +11,46 @@
     },
     {
       "term": "Go",
-      "count": 37
+      "count": 39
     },
     {
       "term": "エージェント",
-      "count": 37
-    },
-    {
-      "term": "セキュリティ",
-      "count": 32
+      "count": 35
     },
     {
       "term": "生成AI",
       "count": 32
     },
     {
+      "term": "セキュリティ",
+      "count": 31
+    },
+    {
       "term": "Claude",
-      "count": 24
+      "count": 26
     },
     {
       "term": "Web",
-      "count": 18
+      "count": 16
     },
     {
       "term": "デザイン",
       "count": 16
     },
     {
+      "term": "テスト",
+      "count": 12
+    },
+    {
       "term": "LLM",
       "count": 11
     },
     {
-      "term": "テスト",
-      "count": 11
+      "term": "Python",
+      "count": 9
     },
     {
       "term": "SRE",
-      "count": 10
-    },
-    {
-      "term": "Python",
       "count": 9
     },
     {
@@ -86,6 +86,10 @@
       "count": 5
     },
     {
+      "term": "MCP",
+      "count": 4
+    },
+    {
       "term": "Azure",
       "count": 3
     },
@@ -98,15 +102,15 @@
       "count": 3
     },
     {
-      "term": "MCP",
-      "count": 3
-    },
-    {
       "term": "QA",
       "count": 3
     },
     {
       "term": "RAG",
+      "count": 3
+    },
+    {
+      "term": "TypeScript",
       "count": 3
     },
     {
@@ -138,7 +142,7 @@
       "count": 2
     },
     {
-      "term": "TypeScript",
+      "term": "プロンプト",
       "count": 2
     },
     {
@@ -163,10 +167,6 @@
     },
     {
       "term": "Vue",
-      "count": 1
-    },
-    {
-      "term": "プロンプト",
       "count": 1
     }
   ]
