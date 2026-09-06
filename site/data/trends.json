@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-06T07:46:50+09:00",
+  "updated_at": "2026-09-07T07:52:02+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 277
+      "count": 280
     },
     {
       "term": "AWS",
-      "count": 57
+      "count": 53
     },
     {
       "term": "Go",
@@ -15,34 +15,34 @@
     },
     {
       "term": "エージェント",
-      "count": 35
+      "count": 36
     },
     {
       "term": "生成AI",
       "count": 31
     },
     {
-      "term": "セキュリティ",
-      "count": 29
+      "term": "Claude",
+      "count": 27
     },
     {
-      "term": "Claude",
-      "count": 28
+      "term": "セキュリティ",
+      "count": 27
     },
     {
       "term": "デザイン",
-      "count": 17
+      "count": 19
     },
     {
       "term": "Web",
-      "count": 16
-    },
-    {
-      "term": "LLM",
-      "count": 12
+      "count": 15
     },
     {
       "term": "テスト",
+      "count": 13
+    },
+    {
+      "term": "LLM",
       "count": 12
     },
     {
@@ -78,6 +78,10 @@
       "count": 5
     },
     {
+      "term": "MCP",
+      "count": 5
+    },
+    {
       "term": "フロントエンド",
       "count": 5
     },
@@ -87,10 +91,6 @@
     },
     {
       "term": "Gemini",
-      "count": 4
-    },
-    {
-      "term": "MCP",
       "count": 4
     },
     {
@@ -106,6 +106,10 @@
       "count": 3
     },
     {
+      "term": "Kubernetes",
+      "count": 3
+    },
+    {
       "term": "QA",
       "count": 3
     },
@@ -118,19 +122,11 @@
       "count": 3
     },
     {
-      "term": "脆弱性",
-      "count": 3
-    },
-    {
       "term": "DevOps",
       "count": 2
     },
     {
       "term": "GCP",
-      "count": 2
-    },
-    {
-      "term": "Kubernetes",
       "count": 2
     },
     {
@@ -143,6 +139,10 @@
     },
     {
       "term": "プロンプト",
+      "count": 2
+    },
+    {
+      "term": "脆弱性",
       "count": 2
     },
     {
