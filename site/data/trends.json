@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-09-07T07:52:02+09:00",
+  "updated_at": "2026-09-08T08:25:44+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 280
+      "count": 299
     },
     {
       "term": "AWS",
-      "count": 53
+      "count": 57
+    },
+    {
+      "term": "エージェント",
+      "count": 40
     },
     {
       "term": "Go",
       "count": 36
     },
     {
-      "term": "エージェント",
-      "count": 36
-    },
-    {
       "term": "生成AI",
-      "count": 31
-    },
-    {
-      "term": "Claude",
-      "count": 27
+      "count": 33
     },
     {
       "term": "セキュリティ",
       "count": 27
     },
     {
+      "term": "Claude",
+      "count": 26
+    },
+    {
       "term": "デザイン",
-      "count": 19
+      "count": 20
     },
     {
       "term": "Web",
+      "count": 16
+    },
+    {
+      "term": "LLM",
       "count": 15
     },
     {
       "term": "テスト",
-      "count": 13
-    },
-    {
-      "term": "LLM",
-      "count": 12
+      "count": 15
     },
     {
       "term": "Python",
@@ -74,6 +74,14 @@
       "count": 6
     },
     {
+      "term": "フロントエンド",
+      "count": 6
+    },
+    {
+      "term": "Gemini",
+      "count": 5
+    },
+    {
       "term": "Java",
       "count": 5
     },
@@ -82,23 +90,23 @@
       "count": 5
     },
     {
-      "term": "フロントエンド",
-      "count": 5
-    },
-    {
       "term": "Azure",
       "count": 4
     },
     {
-      "term": "Gemini",
+      "term": "ChatGPT",
       "count": 4
     },
     {
-      "term": "ChatGPT",
-      "count": 3
+      "term": "QA",
+      "count": 4
     },
     {
       "term": "Databricks",
+      "count": 3
+    },
+    {
+      "term": "DevOps",
       "count": 3
     },
     {
@@ -110,10 +118,6 @@
       "count": 3
     },
     {
-      "term": "QA",
-      "count": 3
-    },
-    {
       "term": "RAG",
       "count": 3
     },
@@ -122,7 +126,11 @@
       "count": 3
     },
     {
-      "term": "DevOps",
+      "term": "プロンプト",
+      "count": 3
+    },
+    {
+      "term": "Codex",
       "count": 2
     },
     {
@@ -138,7 +146,7 @@
       "count": 2
     },
     {
-      "term": "プロンプト",
+      "term": "Vue",
       "count": 2
     },
     {
@@ -150,23 +158,11 @@
       "count": 1
     },
     {
-      "term": "Codex",
-      "count": 1
-    },
-    {
       "term": "Iceberg",
       "count": 1
     },
     {
       "term": "Next.js",
-      "count": 1
-    },
-    {
-      "term": "Snowflake",
-      "count": 1
-    },
-    {
-      "term": "Vue",
       "count": 1
     }
   ]
