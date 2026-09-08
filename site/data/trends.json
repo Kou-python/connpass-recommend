@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-08T08:25:44+09:00",
+  "updated_at": "2026-09-09T08:18:34+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 299
+      "count": 296
     },
     {
       "term": "AWS",
@@ -11,35 +11,35 @@
     },
     {
       "term": "エージェント",
-      "count": 40
+      "count": 38
     },
     {
       "term": "Go",
-      "count": 36
+      "count": 34
     },
     {
       "term": "生成AI",
-      "count": 33
+      "count": 30
     },
     {
       "term": "セキュリティ",
-      "count": 27
+      "count": 25
     },
     {
       "term": "Claude",
-      "count": 26
+      "count": 24
     },
     {
       "term": "デザイン",
-      "count": 20
+      "count": 21
     },
     {
       "term": "Web",
-      "count": 16
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 15
+      "count": 16
     },
     {
       "term": "テスト",
@@ -55,6 +55,10 @@
     },
     {
       "term": "Copilot",
+      "count": 8
+    },
+    {
+      "term": "Ruby",
       "count": 7
     },
     {
@@ -62,11 +66,11 @@
       "count": 7
     },
     {
-      "term": "React",
+      "term": "MCP",
       "count": 6
     },
     {
-      "term": "Ruby",
+      "term": "React",
       "count": 6
     },
     {
@@ -78,15 +82,7 @@
       "count": 6
     },
     {
-      "term": "Gemini",
-      "count": 5
-    },
-    {
       "term": "Java",
-      "count": 5
-    },
-    {
-      "term": "MCP",
       "count": 5
     },
     {
@@ -98,19 +94,19 @@
       "count": 4
     },
     {
+      "term": "Gemini",
+      "count": 4
+    },
+    {
       "term": "QA",
       "count": 4
     },
     {
-      "term": "Databricks",
-      "count": 3
+      "term": "Rust",
+      "count": 4
     },
     {
       "term": "DevOps",
-      "count": 3
-    },
-    {
-      "term": "Kotlin",
       "count": 3
     },
     {
@@ -134,15 +130,19 @@
       "count": 2
     },
     {
+      "term": "Databricks",
+      "count": 2
+    },
+    {
       "term": "GCP",
       "count": 2
     },
     {
-      "term": "PdM",
+      "term": "Kotlin",
       "count": 2
     },
     {
-      "term": "Rust",
+      "term": "PdM",
       "count": 2
     },
     {
