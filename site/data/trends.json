@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-09T08:18:34+09:00",
+  "updated_at": "2026-09-10T08:09:21+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 296
+      "count": 297
     },
     {
       "term": "AWS",
-      "count": 57
+      "count": 56
     },
     {
       "term": "エージェント",
-      "count": 38
+      "count": 35
     },
     {
       "term": "Go",
@@ -19,31 +19,31 @@
     },
     {
       "term": "生成AI",
-      "count": 30
-    },
-    {
-      "term": "セキュリティ",
-      "count": 25
+      "count": 27
     },
     {
       "term": "Claude",
-      "count": 24
+      "count": 25
+    },
+    {
+      "term": "セキュリティ",
+      "count": 23
     },
     {
       "term": "デザイン",
-      "count": 21
+      "count": 20
     },
     {
       "term": "Web",
       "count": 17
     },
     {
-      "term": "LLM",
-      "count": 16
+      "term": "テスト",
+      "count": 17
     },
     {
-      "term": "テスト",
-      "count": 15
+      "term": "LLM",
+      "count": 16
     },
     {
       "term": "Python",
@@ -62,19 +62,15 @@
       "count": 7
     },
     {
-      "term": "UX",
+      "term": "データ基盤",
       "count": 7
-    },
-    {
-      "term": "MCP",
-      "count": 6
     },
     {
       "term": "React",
       "count": 6
     },
     {
-      "term": "データ基盤",
+      "term": "UX",
       "count": 6
     },
     {
@@ -82,12 +78,16 @@
       "count": 6
     },
     {
+      "term": "Azure",
+      "count": 5
+    },
+    {
       "term": "Java",
       "count": 5
     },
     {
-      "term": "Azure",
-      "count": 4
+      "term": "RAG",
+      "count": 5
     },
     {
       "term": "ChatGPT",
@@ -106,6 +106,10 @@
       "count": 4
     },
     {
+      "term": "Databricks",
+      "count": 3
+    },
+    {
       "term": "DevOps",
       "count": 3
     },
@@ -114,7 +118,7 @@
       "count": 3
     },
     {
-      "term": "RAG",
+      "term": "MCP",
       "count": 3
     },
     {
@@ -127,10 +131,6 @@
     },
     {
       "term": "Codex",
-      "count": 2
-    },
-    {
-      "term": "Databricks",
       "count": 2
     },
     {
