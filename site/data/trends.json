@@ -1,21 +1,25 @@
 {
-  "updated_at": "2026-09-11T08:04:28+09:00",
+  "updated_at": "2026-09-12T08:10:55+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 296
+      "count": 294
     },
     {
       "term": "AWS",
-      "count": 59
-    },
-    {
-      "term": "Go",
-      "count": 38
+      "count": 60
     },
     {
       "term": "エージェント",
       "count": 35
+    },
+    {
+      "term": "Go",
+      "count": 32
+    },
+    {
+      "term": "セキュリティ",
+      "count": 27
     },
     {
       "term": "生成AI",
@@ -23,18 +27,10 @@
     },
     {
       "term": "Claude",
-      "count": 24
-    },
-    {
-      "term": "セキュリティ",
-      "count": 24
+      "count": 23
     },
     {
       "term": "Web",
-      "count": 18
-    },
-    {
-      "term": "デザイン",
       "count": 18
     },
     {
@@ -42,15 +38,23 @@
       "count": 17
     },
     {
-      "term": "テスト",
+      "term": "デザイン",
       "count": 17
     },
     {
-      "term": "SRE",
-      "count": 9
+      "term": "テスト",
+      "count": 15
     },
     {
       "term": "Python",
+      "count": 8
+    },
+    {
+      "term": "SRE",
+      "count": 8
+    },
+    {
+      "term": "UX",
       "count": 8
     },
     {
@@ -59,15 +63,11 @@
     },
     {
       "term": "React",
-      "count": 7
+      "count": 6
     },
     {
       "term": "Ruby",
-      "count": 7
-    },
-    {
-      "term": "UX",
-      "count": 7
+      "count": 6
     },
     {
       "term": "データ基盤",
@@ -82,7 +82,15 @@
       "count": 5
     },
     {
+      "term": "Rust",
+      "count": 5
+    },
+    {
       "term": "ChatGPT",
+      "count": 4
+    },
+    {
+      "term": "Codex",
       "count": 4
     },
     {
@@ -90,31 +98,15 @@
       "count": 4
     },
     {
+      "term": "Kubernetes",
+      "count": 4
+    },
+    {
       "term": "RAG",
       "count": 4
     },
     {
-      "term": "Rust",
-      "count": 4
-    },
-    {
-      "term": "フロントエンド",
-      "count": 4
-    },
-    {
-      "term": "Codex",
-      "count": 3
-    },
-    {
       "term": "DevOps",
-      "count": 3
-    },
-    {
-      "term": "Gemini",
-      "count": 3
-    },
-    {
-      "term": "Kubernetes",
       "count": 3
     },
     {
@@ -130,7 +122,15 @@
       "count": 3
     },
     {
+      "term": "フロントエンド",
+      "count": 3
+    },
+    {
       "term": "GCP",
+      "count": 2
+    },
+    {
+      "term": "Gemini",
       "count": 2
     },
     {
