@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-12T08:10:55+09:00",
+  "updated_at": "2026-09-13T07:57:14+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 294
+      "count": 286
     },
     {
       "term": "AWS",
-      "count": 60
+      "count": 58
     },
     {
       "term": "エージェント",
@@ -19,15 +19,15 @@
     },
     {
       "term": "セキュリティ",
-      "count": 27
+      "count": 26
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 26
     },
     {
       "term": "Claude",
-      "count": 23
+      "count": 22
     },
     {
       "term": "Web",
@@ -35,15 +35,15 @@
     },
     {
       "term": "LLM",
-      "count": 17
+      "count": 15
     },
     {
       "term": "デザイン",
-      "count": 17
+      "count": 14
     },
     {
       "term": "テスト",
-      "count": 15
+      "count": 13
     },
     {
       "term": "Python",
@@ -62,6 +62,10 @@
       "count": 7
     },
     {
+      "term": "Java",
+      "count": 6
+    },
+    {
       "term": "React",
       "count": 6
     },
@@ -78,16 +82,8 @@
       "count": 5
     },
     {
-      "term": "Java",
-      "count": 5
-    },
-    {
       "term": "Rust",
       "count": 5
-    },
-    {
-      "term": "ChatGPT",
-      "count": 4
     },
     {
       "term": "Codex",
@@ -106,7 +102,11 @@
       "count": 4
     },
     {
-      "term": "DevOps",
+      "term": "フロントエンド",
+      "count": 4
+    },
+    {
+      "term": "ChatGPT",
       "count": 3
     },
     {
@@ -122,8 +122,8 @@
       "count": 3
     },
     {
-      "term": "フロントエンド",
-      "count": 3
+      "term": "DevOps",
+      "count": 2
     },
     {
       "term": "GCP",
