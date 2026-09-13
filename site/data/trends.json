@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-13T07:57:14+09:00",
+  "updated_at": "2026-09-14T08:05:05+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 286
+      "count": 290
     },
     {
       "term": "AWS",
-      "count": 58
+      "count": 60
     },
     {
       "term": "エージェント",
-      "count": 35
+      "count": 34
     },
     {
       "term": "Go",
@@ -19,19 +19,19 @@
     },
     {
       "term": "セキュリティ",
-      "count": 26
+      "count": 28
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 27
     },
     {
       "term": "Claude",
-      "count": 22
+      "count": 21
     },
     {
       "term": "Web",
-      "count": 18
+      "count": 17
     },
     {
       "term": "LLM",
@@ -39,15 +39,11 @@
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 15
     },
     {
       "term": "テスト",
-      "count": 13
-    },
-    {
-      "term": "Python",
-      "count": 8
+      "count": 14
     },
     {
       "term": "SRE",
@@ -62,11 +58,15 @@
       "count": 7
     },
     {
-      "term": "Java",
-      "count": 6
+      "term": "Python",
+      "count": 7
     },
     {
       "term": "React",
+      "count": 7
+    },
+    {
+      "term": "Java",
       "count": 6
     },
     {
@@ -82,12 +82,8 @@
       "count": 5
     },
     {
-      "term": "Rust",
-      "count": 5
-    },
-    {
       "term": "Codex",
-      "count": 4
+      "count": 5
     },
     {
       "term": "Databricks",
@@ -102,11 +98,19 @@
       "count": 4
     },
     {
+      "term": "Rust",
+      "count": 4
+    },
+    {
       "term": "フロントエンド",
       "count": 4
     },
     {
       "term": "ChatGPT",
+      "count": 3
+    },
+    {
+      "term": "DevOps",
       "count": 3
     },
     {
@@ -120,10 +124,6 @@
     {
       "term": "TypeScript",
       "count": 3
-    },
-    {
-      "term": "DevOps",
-      "count": 2
     },
     {
       "term": "GCP",
