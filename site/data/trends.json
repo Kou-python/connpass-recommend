@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-14T08:05:05+09:00",
+  "updated_at": "2026-09-15T08:49:51+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 290
+      "count": 287
     },
     {
       "term": "AWS",
-      "count": 60
-    },
-    {
-      "term": "エージェント",
-      "count": 34
+      "count": 61
     },
     {
       "term": "Go",
-      "count": 32
+      "count": 34
+    },
+    {
+      "term": "エージェント",
+      "count": 31
     },
     {
       "term": "セキュリティ",
@@ -23,42 +23,38 @@
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 28
     },
     {
       "term": "Claude",
-      "count": 21
-    },
-    {
-      "term": "Web",
-      "count": 17
+      "count": 20
     },
     {
       "term": "LLM",
-      "count": 15
+      "count": 16
     },
     {
-      "term": "デザイン",
-      "count": 15
+      "term": "Web",
+      "count": 16
     },
     {
       "term": "テスト",
       "count": 14
     },
     {
+      "term": "デザイン",
+      "count": 14
+    },
+    {
       "term": "SRE",
-      "count": 8
+      "count": 11
     },
     {
       "term": "UX",
-      "count": 8
+      "count": 9
     },
     {
       "term": "Copilot",
-      "count": 7
-    },
-    {
-      "term": "Python",
       "count": 7
     },
     {
@@ -66,7 +62,7 @@
       "count": 7
     },
     {
-      "term": "Java",
+      "term": "Python",
       "count": 6
     },
     {
@@ -86,11 +82,27 @@
       "count": 5
     },
     {
+      "term": "Java",
+      "count": 5
+    },
+    {
+      "term": "Kubernetes",
+      "count": 5
+    },
+    {
+      "term": "Rust",
+      "count": 5
+    },
+    {
+      "term": "フロントエンド",
+      "count": 5
+    },
+    {
       "term": "Databricks",
       "count": 4
     },
     {
-      "term": "Kubernetes",
+      "term": "MCP",
       "count": 4
     },
     {
@@ -98,23 +110,11 @@
       "count": 4
     },
     {
-      "term": "Rust",
-      "count": 4
-    },
-    {
-      "term": "フロントエンド",
-      "count": 4
-    },
-    {
       "term": "ChatGPT",
       "count": 3
     },
     {
-      "term": "DevOps",
-      "count": 3
-    },
-    {
-      "term": "MCP",
+      "term": "Kotlin",
       "count": 3
     },
     {
@@ -126,15 +126,15 @@
       "count": 3
     },
     {
+      "term": "DevOps",
+      "count": 2
+    },
+    {
       "term": "GCP",
       "count": 2
     },
     {
       "term": "Gemini",
-      "count": 2
-    },
-    {
-      "term": "Kotlin",
       "count": 2
     },
     {
@@ -159,6 +159,10 @@
     },
     {
       "term": "BigQuery",
+      "count": 1
+    },
+    {
+      "term": "Docker",
       "count": 1
     },
     {
