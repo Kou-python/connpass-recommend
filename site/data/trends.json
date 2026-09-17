@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-17T08:37:20+09:00",
+  "updated_at": "2026-09-18T08:30:03+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 280
+      "count": 263
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 44
     },
     {
       "term": "Go",
@@ -15,43 +15,39 @@
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 27
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 22
     },
     {
       "term": "生成AI",
-      "count": 23
+      "count": 20
     },
     {
       "term": "Claude",
-      "count": 18
+      "count": 17
     },
     {
       "term": "Web",
-      "count": 16
+      "count": 14
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 13
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 13
     },
     {
       "term": "テスト",
-      "count": 11
-    },
-    {
-      "term": "SRE",
       "count": 10
     },
     {
-      "term": "Copilot",
-      "count": 7
+      "term": "SRE",
+      "count": 9
     },
     {
       "term": "Python",
@@ -63,6 +59,10 @@
     },
     {
       "term": "Azure",
+      "count": 6
+    },
+    {
+      "term": "Copilot",
       "count": 6
     },
     {
@@ -82,19 +82,11 @@
       "count": 5
     },
     {
-      "term": "Java",
-      "count": 5
-    },
-    {
-      "term": "MCP",
-      "count": 5
-    },
-    {
-      "term": "Rust",
-      "count": 5
-    },
-    {
       "term": "Databricks",
+      "count": 4
+    },
+    {
+      "term": "Java",
       "count": 4
     },
     {
@@ -102,7 +94,15 @@
       "count": 4
     },
     {
+      "term": "MCP",
+      "count": 4
+    },
+    {
       "term": "RAG",
+      "count": 4
+    },
+    {
+      "term": "Rust",
       "count": 4
     },
     {
@@ -123,6 +123,10 @@
     },
     {
       "term": "DevOps",
+      "count": 2
+    },
+    {
+      "term": "Gemini",
       "count": 2
     },
     {
@@ -147,14 +151,6 @@
     },
     {
       "term": "Docker",
-      "count": 1
-    },
-    {
-      "term": "GCP",
-      "count": 1
-    },
-    {
-      "term": "Gemini",
       "count": 1
     },
     {
