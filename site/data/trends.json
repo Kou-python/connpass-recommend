@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-18T08:30:03+09:00",
+  "updated_at": "2026-09-19T08:12:03+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 263
+      "count": 260
     },
     {
       "term": "AWS",
-      "count": 44
+      "count": 41
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 26
     },
     {
       "term": "エージェント",
-      "count": 27
+      "count": 25
     },
     {
       "term": "セキュリティ",
@@ -27,11 +27,7 @@
     },
     {
       "term": "Claude",
-      "count": 17
-    },
-    {
-      "term": "Web",
-      "count": 14
+      "count": 18
     },
     {
       "term": "LLM",
@@ -42,12 +38,16 @@
       "count": 13
     },
     {
-      "term": "テスト",
-      "count": 10
+      "term": "Web",
+      "count": 11
     },
     {
-      "term": "SRE",
-      "count": 9
+      "term": "テスト",
+      "count": 11
+    },
+    {
+      "term": "Copilot",
+      "count": 10
     },
     {
       "term": "Python",
@@ -59,14 +59,6 @@
     },
     {
       "term": "Azure",
-      "count": 6
-    },
-    {
-      "term": "Copilot",
-      "count": 6
-    },
-    {
-      "term": "React",
       "count": 6
     },
     {
@@ -82,8 +74,16 @@
       "count": 5
     },
     {
-      "term": "Databricks",
-      "count": 4
+      "term": "MCP",
+      "count": 5
+    },
+    {
+      "term": "React",
+      "count": 5
+    },
+    {
+      "term": "SRE",
+      "count": 5
     },
     {
       "term": "Java",
@@ -94,16 +94,24 @@
       "count": 4
     },
     {
-      "term": "MCP",
-      "count": 4
-    },
-    {
-      "term": "RAG",
-      "count": 4
-    },
-    {
       "term": "Rust",
       "count": 4
+    },
+    {
+      "term": "フロントエンド",
+      "count": 4
+    },
+    {
+      "term": "ChatGPT",
+      "count": 3
+    },
+    {
+      "term": "Databricks",
+      "count": 3
+    },
+    {
+      "term": "DevOps",
+      "count": 3
     },
     {
       "term": "QA",
@@ -112,18 +120,6 @@
     {
       "term": "TypeScript",
       "count": 3
-    },
-    {
-      "term": "フロントエンド",
-      "count": 3
-    },
-    {
-      "term": "ChatGPT",
-      "count": 2
-    },
-    {
-      "term": "DevOps",
-      "count": 2
     },
     {
       "term": "Gemini",
@@ -139,6 +135,10 @@
     },
     {
       "term": "PdM",
+      "count": 2
+    },
+    {
+      "term": "RAG",
       "count": 2
     },
     {
