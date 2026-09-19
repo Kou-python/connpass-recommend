@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-19T08:12:03+09:00",
+  "updated_at": "2026-09-20T07:52:45+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 260
+      "count": 250
     },
     {
       "term": "AWS",
-      "count": 41
-    },
-    {
-      "term": "Go",
-      "count": 26
+      "count": 39
     },
     {
       "term": "エージェント",
-      "count": 25
+      "count": 26
+    },
+    {
+      "term": "Go",
+      "count": 24
     },
     {
       "term": "セキュリティ",
@@ -23,11 +23,11 @@
     },
     {
       "term": "生成AI",
-      "count": 20
+      "count": 18
     },
     {
       "term": "Claude",
-      "count": 18
+      "count": 17
     },
     {
       "term": "LLM",
@@ -38,15 +38,15 @@
       "count": 13
     },
     {
+      "term": "Copilot",
+      "count": 12
+    },
+    {
       "term": "Web",
       "count": 11
     },
     {
       "term": "テスト",
-      "count": 11
-    },
-    {
-      "term": "Copilot",
       "count": 10
     },
     {
@@ -94,6 +94,10 @@
       "count": 4
     },
     {
+      "term": "QA",
+      "count": 4
+    },
+    {
       "term": "Rust",
       "count": 4
     },
@@ -114,7 +118,7 @@
       "count": 3
     },
     {
-      "term": "QA",
+      "term": "RAG",
       "count": 3
     },
     {
@@ -138,14 +142,6 @@
       "count": 2
     },
     {
-      "term": "RAG",
-      "count": 2
-    },
-    {
-      "term": "プロンプト",
-      "count": 2
-    },
-    {
       "term": "BigQuery",
       "count": 1
     },
@@ -163,6 +159,10 @@
     },
     {
       "term": "プロダクトマネジメント",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
       "count": 1
     },
     {
