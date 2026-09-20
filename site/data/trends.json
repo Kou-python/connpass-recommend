@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-20T07:52:45+09:00",
+  "updated_at": "2026-09-21T08:09:34+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 250
+      "count": 249
     },
     {
       "term": "AWS",
@@ -11,7 +11,7 @@
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 25
     },
     {
       "term": "Go",
@@ -19,26 +19,26 @@
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 21
     },
     {
       "term": "生成AI",
-      "count": 18
+      "count": 21
     },
     {
       "term": "Claude",
       "count": 17
     },
     {
+      "term": "Copilot",
+      "count": 12
+    },
+    {
       "term": "LLM",
-      "count": 13
+      "count": 12
     },
     {
       "term": "デザイン",
-      "count": 13
-    },
-    {
-      "term": "Copilot",
       "count": 12
     },
     {
@@ -54,15 +54,19 @@
       "count": 7
     },
     {
-      "term": "UX",
-      "count": 7
-    },
-    {
       "term": "Azure",
       "count": 6
     },
     {
       "term": "Ruby",
+      "count": 6
+    },
+    {
+      "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "UX",
       "count": 6
     },
     {
@@ -79,10 +83,6 @@
     },
     {
       "term": "React",
-      "count": 5
-    },
-    {
-      "term": "SRE",
       "count": 5
     },
     {
@@ -118,7 +118,7 @@
       "count": 3
     },
     {
-      "term": "RAG",
+      "term": "Gemini",
       "count": 3
     },
     {
@@ -126,19 +126,15 @@
       "count": 3
     },
     {
-      "term": "Gemini",
-      "count": 2
-    },
-    {
-      "term": "Kotlin",
-      "count": 2
-    },
-    {
       "term": "Next.js",
       "count": 2
     },
     {
       "term": "PdM",
+      "count": 2
+    },
+    {
+      "term": "RAG",
       "count": 2
     },
     {
@@ -154,6 +150,10 @@
       "count": 1
     },
     {
+      "term": "Kotlin",
+      "count": 1
+    },
+    {
       "term": "Vue",
       "count": 1
     },
@@ -163,10 +163,6 @@
     },
     {
       "term": "プロンプト",
-      "count": 1
-    },
-    {
-      "term": "脆弱性",
       "count": 1
     }
   ]
