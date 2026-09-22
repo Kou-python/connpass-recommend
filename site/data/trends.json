@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-09-21T08:09:34+09:00",
+  "updated_at": "2026-09-22T09:00:18+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 249
+      "count": 260
     },
     {
       "term": "AWS",
-      "count": 39
+      "count": 43
     },
     {
       "term": "エージェント",
-      "count": 25
+      "count": 28
     },
     {
       "term": "Go",
-      "count": 24
+      "count": 26
     },
     {
       "term": "セキュリティ",
-      "count": 21
+      "count": 23
     },
     {
       "term": "生成AI",
-      "count": 21
+      "count": 22
     },
     {
       "term": "Claude",
-      "count": 17
+      "count": 18
+    },
+    {
+      "term": "LLM",
+      "count": 14
+    },
+    {
+      "term": "デザイン",
+      "count": 13
     },
     {
       "term": "Copilot",
       "count": 12
     },
     {
-      "term": "LLM",
-      "count": 12
-    },
-    {
-      "term": "デザイン",
-      "count": 12
-    },
-    {
       "term": "Web",
-      "count": 11
+      "count": 12
     },
     {
       "term": "テスト",
@@ -54,7 +54,19 @@
       "count": 7
     },
     {
+      "term": "UX",
+      "count": 7
+    },
+    {
       "term": "Azure",
+      "count": 6
+    },
+    {
+      "term": "Codex",
+      "count": 6
+    },
+    {
+      "term": "MCP",
       "count": 6
     },
     {
@@ -66,24 +78,20 @@
       "count": 6
     },
     {
-      "term": "UX",
-      "count": 6
-    },
-    {
       "term": "データ基盤",
       "count": 6
     },
     {
-      "term": "Codex",
-      "count": 5
-    },
-    {
-      "term": "MCP",
-      "count": 5
-    },
-    {
       "term": "React",
       "count": 5
+    },
+    {
+      "term": "フロントエンド",
+      "count": 5
+    },
+    {
+      "term": "Databricks",
+      "count": 4
     },
     {
       "term": "Java",
@@ -102,15 +110,7 @@
       "count": 4
     },
     {
-      "term": "フロントエンド",
-      "count": 4
-    },
-    {
       "term": "ChatGPT",
-      "count": 3
-    },
-    {
-      "term": "Databricks",
       "count": 3
     },
     {
@@ -119,6 +119,10 @@
     },
     {
       "term": "Gemini",
+      "count": 3
+    },
+    {
+      "term": "RAG",
       "count": 3
     },
     {
@@ -134,7 +138,11 @@
       "count": 2
     },
     {
-      "term": "RAG",
+      "term": "Vue",
+      "count": 2
+    },
+    {
+      "term": "プロダクトマネジメント",
       "count": 2
     },
     {
@@ -151,14 +159,6 @@
     },
     {
       "term": "Kotlin",
-      "count": 1
-    },
-    {
-      "term": "Vue",
-      "count": 1
-    },
-    {
-      "term": "プロダクトマネジメント",
       "count": 1
     },
     {
