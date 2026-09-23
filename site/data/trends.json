@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-23T08:34:29+09:00",
+  "updated_at": "2026-09-24T08:35:16+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 266
+      "count": 273
     },
     {
       "term": "AWS",
-      "count": 43
+      "count": 42
     },
     {
       "term": "エージェント",
@@ -19,22 +19,22 @@
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 24
     },
     {
       "term": "生成AI",
-      "count": 23
+      "count": 24
     },
     {
       "term": "Claude",
-      "count": 19
-    },
-    {
-      "term": "Copilot",
-      "count": 15
+      "count": 17
     },
     {
       "term": "LLM",
+      "count": 17
+    },
+    {
+      "term": "Copilot",
       "count": 15
     },
     {
@@ -51,11 +51,7 @@
     },
     {
       "term": "Python",
-      "count": 7
-    },
-    {
-      "term": "Ruby",
-      "count": 7
+      "count": 8
     },
     {
       "term": "UX",
@@ -75,6 +71,10 @@
     },
     {
       "term": "MCP",
+      "count": 6
+    },
+    {
+      "term": "Ruby",
       "count": 6
     },
     {
@@ -159,6 +159,10 @@
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Svelte",
       "count": 1
     },
     {
