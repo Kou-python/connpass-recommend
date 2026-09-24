@@ -1,32 +1,36 @@
 {
-  "updated_at": "2026-09-24T08:35:16+09:00",
+  "updated_at": "2026-09-25T08:51:02+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 273
+      "count": 277
     },
     {
       "term": "AWS",
-      "count": 42
+      "count": 45
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 31
+    },
+    {
+      "term": "生成AI",
+      "count": 25
     },
     {
       "term": "Go",
-      "count": 26
+      "count": 24
     },
     {
       "term": "セキュリティ",
       "count": 24
     },
     {
-      "term": "生成AI",
-      "count": 24
+      "term": "Claude",
+      "count": 21
     },
     {
-      "term": "Claude",
+      "term": "Copilot",
       "count": 17
     },
     {
@@ -34,24 +38,24 @@
       "count": 17
     },
     {
-      "term": "Copilot",
+      "term": "デザイン",
       "count": 15
     },
     {
-      "term": "デザイン",
+      "term": "Web",
       "count": 13
     },
     {
-      "term": "Web",
+      "term": "テスト",
       "count": 11
     },
     {
-      "term": "テスト",
+      "term": "Python",
       "count": 10
     },
     {
-      "term": "Python",
-      "count": 8
+      "term": "MCP",
+      "count": 7
     },
     {
       "term": "UX",
@@ -70,7 +74,7 @@
       "count": 6
     },
     {
-      "term": "MCP",
+      "term": "React",
       "count": 6
     },
     {
@@ -82,23 +86,23 @@
       "count": 6
     },
     {
+      "term": "フロントエンド",
+      "count": 6
+    },
+    {
       "term": "ChatGPT",
       "count": 5
     },
     {
-      "term": "React",
+      "term": "DevOps",
       "count": 5
     },
     {
-      "term": "フロントエンド",
+      "term": "Rust",
       "count": 5
     },
     {
       "term": "Databricks",
-      "count": 4
-    },
-    {
-      "term": "DevOps",
       "count": 4
     },
     {
@@ -114,11 +118,7 @@
       "count": 4
     },
     {
-      "term": "Rust",
-      "count": 4
-    },
-    {
-      "term": "RAG",
+      "term": "Next.js",
       "count": 3
     },
     {
@@ -126,11 +126,11 @@
       "count": 3
     },
     {
-      "term": "Gemini",
-      "count": 2
+      "term": "Vue",
+      "count": 3
     },
     {
-      "term": "Next.js",
+      "term": "Gemini",
       "count": 2
     },
     {
@@ -138,7 +138,7 @@
       "count": 2
     },
     {
-      "term": "Vue",
+      "term": "RAG",
       "count": 2
     },
     {
@@ -147,6 +147,10 @@
     },
     {
       "term": "BigQuery",
+      "count": 1
+    },
+    {
+      "term": "Cursor",
       "count": 1
     },
     {
