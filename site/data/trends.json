@@ -1,57 +1,65 @@
 {
-  "updated_at": "2026-09-25T08:51:02+09:00",
+  "updated_at": "2026-09-26T08:55:54+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 277
+      "count": 275
     },
     {
       "term": "AWS",
-      "count": 45
+      "count": 47
     },
     {
       "term": "エージェント",
-      "count": 31
+      "count": 29
+    },
+    {
+      "term": "セキュリティ",
+      "count": 26
     },
     {
       "term": "生成AI",
-      "count": 25
+      "count": 26
     },
     {
       "term": "Go",
       "count": 24
     },
     {
-      "term": "セキュリティ",
-      "count": 24
-    },
-    {
       "term": "Claude",
-      "count": 21
-    },
-    {
-      "term": "Copilot",
-      "count": 17
+      "count": 20
     },
     {
       "term": "LLM",
-      "count": 17
+      "count": 16
+    },
+    {
+      "term": "Web",
+      "count": 16
+    },
+    {
+      "term": "Copilot",
+      "count": 15
     },
     {
       "term": "デザイン",
       "count": 15
     },
     {
-      "term": "Web",
-      "count": 13
-    },
-    {
-      "term": "テスト",
+      "term": "Python",
       "count": 11
     },
     {
-      "term": "Python",
+      "term": "テスト",
       "count": 10
+    },
+    {
+      "term": "データ基盤",
+      "count": 8
+    },
+    {
+      "term": "Azure",
+      "count": 7
     },
     {
       "term": "MCP",
@@ -60,14 +68,6 @@
     {
       "term": "UX",
       "count": 7
-    },
-    {
-      "term": "データ基盤",
-      "count": 7
-    },
-    {
-      "term": "Azure",
-      "count": 6
     },
     {
       "term": "Codex",
@@ -122,6 +122,10 @@
       "count": 3
     },
     {
+      "term": "PdM",
+      "count": 3
+    },
+    {
       "term": "TypeScript",
       "count": 3
     },
@@ -131,10 +135,6 @@
     },
     {
       "term": "Gemini",
-      "count": 2
-    },
-    {
-      "term": "PdM",
       "count": 2
     },
     {
@@ -166,11 +166,15 @@
       "count": 1
     },
     {
+      "term": "Snowflake",
+      "count": 1
+    },
+    {
       "term": "Svelte",
       "count": 1
     },
     {
-      "term": "プロンプト",
+      "term": "脆弱性",
       "count": 1
     }
   ]
