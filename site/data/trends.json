@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-09-26T08:55:54+09:00",
+  "updated_at": "2026-09-27T08:29:35+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 275
+      "count": 266
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 44
     },
     {
       "term": "エージェント",
-      "count": 29
-    },
-    {
-      "term": "セキュリティ",
-      "count": 26
+      "count": 28
     },
     {
       "term": "生成AI",
-      "count": 26
+      "count": 28
+    },
+    {
+      "term": "セキュリティ",
+      "count": 25
     },
     {
       "term": "Go",
@@ -27,39 +27,35 @@
     },
     {
       "term": "Claude",
-      "count": 20
+      "count": 18
     },
     {
       "term": "LLM",
+      "count": 17
+    },
+    {
+      "term": "Copilot",
       "count": 16
     },
     {
       "term": "Web",
-      "count": 16
-    },
-    {
-      "term": "Copilot",
-      "count": 15
+      "count": 14
     },
     {
       "term": "デザイン",
-      "count": 15
-    },
-    {
-      "term": "Python",
-      "count": 11
+      "count": 13
     },
     {
       "term": "テスト",
+      "count": 11
+    },
+    {
+      "term": "Python",
       "count": 10
     },
     {
       "term": "データ基盤",
       "count": 8
-    },
-    {
-      "term": "Azure",
-      "count": 7
     },
     {
       "term": "MCP",
@@ -70,11 +66,11 @@
       "count": 7
     },
     {
-      "term": "Codex",
+      "term": "Azure",
       "count": 6
     },
     {
-      "term": "React",
+      "term": "Codex",
       "count": 6
     },
     {
@@ -94,16 +90,16 @@
       "count": 5
     },
     {
+      "term": "Databricks",
+      "count": 5
+    },
+    {
       "term": "DevOps",
       "count": 5
     },
     {
       "term": "Rust",
       "count": 5
-    },
-    {
-      "term": "Databricks",
-      "count": 4
     },
     {
       "term": "Java",
@@ -118,15 +114,11 @@
       "count": 4
     },
     {
-      "term": "Next.js",
-      "count": 3
+      "term": "React",
+      "count": 4
     },
     {
       "term": "PdM",
-      "count": 3
-    },
-    {
-      "term": "TypeScript",
       "count": 3
     },
     {
@@ -138,11 +130,23 @@
       "count": 2
     },
     {
+      "term": "Next.js",
+      "count": 2
+    },
+    {
       "term": "RAG",
       "count": 2
     },
     {
+      "term": "TypeScript",
+      "count": 2
+    },
+    {
       "term": "プロダクトマネジメント",
+      "count": 2
+    },
+    {
+      "term": "脆弱性",
       "count": 2
     },
     {
@@ -171,10 +175,6 @@
     },
     {
       "term": "Svelte",
-      "count": 1
-    },
-    {
-      "term": "脆弱性",
       "count": 1
     }
   ]
