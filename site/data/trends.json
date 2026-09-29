@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-28T08:45:48+09:00",
+  "updated_at": "2026-09-29T09:56:56+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 262
+      "count": 276
     },
     {
       "term": "AWS",
@@ -14,16 +14,16 @@
       "count": 31
     },
     {
-      "term": "エージェント",
-      "count": 27
+      "term": "セキュリティ",
+      "count": 25
     },
     {
-      "term": "セキュリティ",
-      "count": 27
+      "term": "エージェント",
+      "count": 24
     },
     {
       "term": "Go",
-      "count": 25
+      "count": 23
     },
     {
       "term": "Claude",
@@ -31,19 +31,19 @@
     },
     {
       "term": "Copilot",
-      "count": 17
+      "count": 18
     },
     {
       "term": "LLM",
-      "count": 16
+      "count": 15
     },
     {
       "term": "Web",
-      "count": 16
+      "count": 15
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 15
     },
     {
       "term": "テスト",
@@ -54,23 +54,23 @@
       "count": 10
     },
     {
-      "term": "データ基盤",
-      "count": 8
+      "term": "Codex",
+      "count": 9
     },
     {
-      "term": "Codex",
-      "count": 7
+      "term": "Ruby",
+      "count": 9
     },
     {
       "term": "MCP",
       "count": 7
     },
     {
-      "term": "Ruby",
+      "term": "UX",
       "count": 7
     },
     {
-      "term": "UX",
+      "term": "データ基盤",
       "count": 7
     },
     {
@@ -102,10 +102,6 @@
       "count": 4
     },
     {
-      "term": "Kubernetes",
-      "count": 4
-    },
-    {
       "term": "QA",
       "count": 4
     },
@@ -114,11 +110,7 @@
       "count": 4
     },
     {
-      "term": "Rust",
-      "count": 4
-    },
-    {
-      "term": "Gemini",
+      "term": "Kubernetes",
       "count": 3
     },
     {
@@ -126,8 +118,16 @@
       "count": 3
     },
     {
+      "term": "Rust",
+      "count": 3
+    },
+    {
       "term": "Vue",
       "count": 3
+    },
+    {
+      "term": "Gemini",
+      "count": 2
     },
     {
       "term": "Next.js",
@@ -139,10 +139,6 @@
     },
     {
       "term": "TypeScript",
-      "count": 2
-    },
-    {
-      "term": "プロダクトマネジメント",
       "count": 2
     },
     {
@@ -175,6 +171,10 @@
     },
     {
       "term": "Svelte",
+      "count": 1
+    },
+    {
+      "term": "プロダクトマネジメント",
       "count": 1
     }
   ]
