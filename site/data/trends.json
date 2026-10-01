@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-09-30T09:18:07+09:00",
+  "updated_at": "2026-10-01T09:29:20+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 267
+      "count": 252
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 45
     },
     {
       "term": "生成AI",
-      "count": 27
+      "count": 26
     },
     {
       "term": "Go",
-      "count": 25
-    },
-    {
-      "term": "セキュリティ",
       "count": 23
     },
     {
-      "term": "エージェント",
+      "term": "セキュリティ",
       "count": 22
     },
     {
-      "term": "Claude",
-      "count": 18
+      "term": "エージェント",
+      "count": 19
     },
     {
       "term": "Copilot",
       "count": 17
+    },
+    {
+      "term": "Claude",
+      "count": 16
     },
     {
       "term": "デザイン",
@@ -39,42 +39,34 @@
     },
     {
       "term": "Web",
-      "count": 14
+      "count": 12
     },
     {
       "term": "LLM",
-      "count": 12
+      "count": 11
     },
     {
       "term": "テスト",
-      "count": 12
-    },
-    {
-      "term": "Python",
-      "count": 10
+      "count": 11
     },
     {
       "term": "Codex",
       "count": 9
     },
     {
-      "term": "Ruby",
-      "count": 7
+      "term": "Python",
+      "count": 9
     },
     {
       "term": "UX",
       "count": 7
     },
     {
-      "term": "DevOps",
-      "count": 6
-    },
-    {
       "term": "MCP",
       "count": 6
     },
     {
-      "term": "SRE",
+      "term": "Ruby",
       "count": 6
     },
     {
@@ -86,12 +78,20 @@
       "count": 5
     },
     {
-      "term": "ChatGPT",
+      "term": "SRE",
       "count": 5
     },
     {
       "term": "データ基盤",
       "count": 5
+    },
+    {
+      "term": "ChatGPT",
+      "count": 4
+    },
+    {
+      "term": "DevOps",
+      "count": 4
     },
     {
       "term": "Java",
@@ -103,14 +103,6 @@
     },
     {
       "term": "Databricks",
-      "count": 3
-    },
-    {
-      "term": "Kubernetes",
-      "count": 3
-    },
-    {
-      "term": "PdM",
       "count": 3
     },
     {
@@ -126,6 +118,10 @@
       "count": 3
     },
     {
+      "term": "プロダクトマネジメント",
+      "count": 3
+    },
+    {
       "term": "脆弱性",
       "count": 3
     },
@@ -134,20 +130,20 @@
       "count": 2
     },
     {
+      "term": "Kubernetes",
+      "count": 2
+    },
+    {
       "term": "Next.js",
+      "count": 2
+    },
+    {
+      "term": "PdM",
       "count": 2
     },
     {
       "term": "TypeScript",
       "count": 2
-    },
-    {
-      "term": "プロダクトマネジメント",
-      "count": 2
-    },
-    {
-      "term": "BigQuery",
-      "count": 1
     },
     {
       "term": "Cursor",
