@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-03T09:22:48+09:00",
+  "updated_at": "2026-10-04T08:43:45+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 269
+      "count": 267
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 43
     },
     {
       "term": "生成AI",
-      "count": 29
-    },
-    {
-      "term": "セキュリティ",
-      "count": 25
+      "count": 30
     },
     {
       "term": "Go",
-      "count": 24
+      "count": 25
+    },
+    {
+      "term": "セキュリティ",
+      "count": 21
     },
     {
       "term": "Claude",
-      "count": 20
+      "count": 19
     },
     {
       "term": "エージェント",
@@ -34,23 +34,23 @@
       "count": 19
     },
     {
-      "term": "Copilot",
+      "term": "LLM",
       "count": 14
     },
     {
-      "term": "LLM",
-      "count": 12
-    },
-    {
-      "term": "Web",
-      "count": 12
-    },
-    {
-      "term": "テスト",
-      "count": 12
+      "term": "Copilot",
+      "count": 13
     },
     {
       "term": "Python",
+      "count": 10
+    },
+    {
+      "term": "Web",
+      "count": 10
+    },
+    {
+      "term": "テスト",
       "count": 10
     },
     {
@@ -62,19 +62,11 @@
       "count": 8
     },
     {
-      "term": "MCP",
-      "count": 7
-    },
-    {
       "term": "UX",
       "count": 7
     },
     {
-      "term": "Azure",
-      "count": 6
-    },
-    {
-      "term": "Codex",
+      "term": "MCP",
       "count": 6
     },
     {
@@ -82,7 +74,11 @@
       "count": 6
     },
     {
-      "term": "DevOps",
+      "term": "Azure",
+      "count": 5
+    },
+    {
+      "term": "Codex",
       "count": 5
     },
     {
@@ -94,7 +90,7 @@
       "count": 4
     },
     {
-      "term": "Java",
+      "term": "DevOps",
       "count": 4
     },
     {
@@ -102,11 +98,11 @@
       "count": 4
     },
     {
-      "term": "Rust",
-      "count": 4
+      "term": "Gemini",
+      "count": 3
     },
     {
-      "term": "Gemini",
+      "term": "Rust",
       "count": 3
     },
     {
@@ -120,6 +116,10 @@
     {
       "term": "脆弱性",
       "count": 3
+    },
+    {
+      "term": "Java",
+      "count": 2
     },
     {
       "term": "Kubernetes",
