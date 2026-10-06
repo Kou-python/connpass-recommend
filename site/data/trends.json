@@ -1,24 +1,28 @@
 {
-  "updated_at": "2026-10-05T08:55:44+09:00",
+  "updated_at": "2026-10-06T10:43:42+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 265
+      "count": 283
     },
     {
       "term": "AWS",
-      "count": 43
+      "count": 46
     },
     {
       "term": "生成AI",
-      "count": 29
+      "count": 30
     },
     {
       "term": "Go",
-      "count": 25
+      "count": 27
     },
     {
       "term": "エージェント",
+      "count": 21
+    },
+    {
+      "term": "Claude",
       "count": 19
     },
     {
@@ -30,20 +34,12 @@
       "count": 19
     },
     {
-      "term": "Claude",
-      "count": 18
-    },
-    {
       "term": "LLM",
-      "count": 14
+      "count": 17
     },
     {
       "term": "Copilot",
       "count": 13
-    },
-    {
-      "term": "テスト",
-      "count": 11
     },
     {
       "term": "Python",
@@ -54,7 +50,15 @@
       "count": 10
     },
     {
+      "term": "テスト",
+      "count": 10
+    },
+    {
       "term": "Ruby",
+      "count": 8
+    },
+    {
+      "term": "UX",
       "count": 8
     },
     {
@@ -62,8 +66,8 @@
       "count": 8
     },
     {
-      "term": "UX",
-      "count": 7
+      "term": "Codex",
+      "count": 6
     },
     {
       "term": "MCP",
@@ -74,15 +78,11 @@
       "count": 6
     },
     {
-      "term": "Azure",
-      "count": 5
-    },
-    {
-      "term": "Codex",
-      "count": 5
-    },
-    {
       "term": "データ基盤",
+      "count": 6
+    },
+    {
+      "term": "Azure",
       "count": 5
     },
     {
@@ -99,10 +99,6 @@
     },
     {
       "term": "Gemini",
-      "count": 3
-    },
-    {
-      "term": "Rust",
       "count": 3
     },
     {
@@ -142,6 +138,10 @@
       "count": 2
     },
     {
+      "term": "Rust",
+      "count": 2
+    },
+    {
       "term": "Snowflake",
       "count": 2
     },
@@ -167,6 +167,10 @@
     },
     {
       "term": "Svelte",
+      "count": 1
+    },
+    {
+      "term": "プロンプト",
       "count": 1
     }
   ]
