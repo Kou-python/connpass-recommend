@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-06T10:43:42+09:00",
+  "updated_at": "2026-10-07T09:34:53+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 283
+      "count": 294
     },
     {
       "term": "AWS",
@@ -11,35 +11,35 @@
     },
     {
       "term": "生成AI",
-      "count": 30
+      "count": 29
     },
     {
       "term": "Go",
-      "count": 27
+      "count": 28
     },
     {
       "term": "エージェント",
-      "count": 21
+      "count": 23
+    },
+    {
+      "term": "セキュリティ",
+      "count": 20
     },
     {
       "term": "Claude",
       "count": 19
     },
     {
-      "term": "セキュリティ",
+      "term": "LLM",
       "count": 19
     },
     {
       "term": "デザイン",
-      "count": 19
-    },
-    {
-      "term": "LLM",
-      "count": 17
+      "count": 18
     },
     {
       "term": "Copilot",
-      "count": 13
+      "count": 14
     },
     {
       "term": "Python",
@@ -55,22 +55,26 @@
     },
     {
       "term": "Ruby",
-      "count": 8
+      "count": 9
     },
     {
       "term": "UX",
-      "count": 8
+      "count": 9
     },
     {
       "term": "フロントエンド",
       "count": 8
     },
     {
-      "term": "Codex",
-      "count": 6
+      "term": "MCP",
+      "count": 7
     },
     {
-      "term": "MCP",
+      "term": "データ基盤",
+      "count": 7
+    },
+    {
+      "term": "Codex",
       "count": 6
     },
     {
@@ -78,12 +82,8 @@
       "count": 6
     },
     {
-      "term": "データ基盤",
-      "count": 6
-    },
-    {
       "term": "Azure",
-      "count": 5
+      "count": 4
     },
     {
       "term": "ChatGPT",
@@ -99,6 +99,10 @@
     },
     {
       "term": "Gemini",
+      "count": 3
+    },
+    {
+      "term": "React",
       "count": 3
     },
     {
@@ -118,10 +122,6 @@
       "count": 2
     },
     {
-      "term": "Kubernetes",
-      "count": 2
-    },
-    {
       "term": "Next.js",
       "count": 2
     },
@@ -131,10 +131,6 @@
     },
     {
       "term": "RAG",
-      "count": 2
-    },
-    {
-      "term": "React",
       "count": 2
     },
     {
@@ -163,6 +159,10 @@
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Kubernetes",
       "count": 1
     },
     {
