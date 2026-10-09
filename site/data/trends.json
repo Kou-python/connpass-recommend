@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-08T09:55:35+09:00",
+  "updated_at": "2026-10-09T10:09:52+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 289
+      "count": 288
     },
     {
       "term": "AWS",
@@ -11,22 +11,22 @@
     },
     {
       "term": "生成AI",
-      "count": 32
+      "count": 31
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 29
     },
     {
       "term": "エージェント",
       "count": 26
     },
     {
-      "term": "Claude",
-      "count": 20
+      "term": "セキュリティ",
+      "count": 22
     },
     {
-      "term": "セキュリティ",
+      "term": "Claude",
       "count": 20
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "term": "デザイン",
-      "count": 17
+      "count": 16
     },
     {
       "term": "Copilot",
@@ -43,23 +43,19 @@
     },
     {
       "term": "Web",
-      "count": 12
+      "count": 13
     },
     {
       "term": "Python",
       "count": 10
     },
     {
+      "term": "テスト",
+      "count": 10
+    },
+    {
       "term": "UX",
       "count": 9
-    },
-    {
-      "term": "テスト",
-      "count": 9
-    },
-    {
-      "term": "MCP",
-      "count": 8
     },
     {
       "term": "Ruby",
@@ -70,11 +66,7 @@
       "count": 8
     },
     {
-      "term": "SRE",
-      "count": 7
-    },
-    {
-      "term": "Codex",
+      "term": "MCP",
       "count": 6
     },
     {
@@ -83,7 +75,15 @@
     },
     {
       "term": "Azure",
-      "count": 4
+      "count": 5
+    },
+    {
+      "term": "Codex",
+      "count": 5
+    },
+    {
+      "term": "SRE",
+      "count": 5
     },
     {
       "term": "DevOps",
@@ -91,6 +91,10 @@
     },
     {
       "term": "ChatGPT",
+      "count": 3
+    },
+    {
+      "term": "Java",
       "count": 3
     },
     {
@@ -122,10 +126,6 @@
       "count": 2
     },
     {
-      "term": "Java",
-      "count": 2
-    },
-    {
       "term": "Next.js",
       "count": 2
     },
@@ -135,10 +135,6 @@
     },
     {
       "term": "RAG",
-      "count": 2
-    },
-    {
-      "term": "Rust",
       "count": 2
     },
     {
@@ -163,6 +159,10 @@
     },
     {
       "term": "Kubernetes",
+      "count": 1
+    },
+    {
+      "term": "Rust",
       "count": 1
     },
     {
