@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-10T09:41:38+09:00",
+  "updated_at": "2026-10-11T09:11:58+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 280
+      "count": 276
     },
     {
       "term": "AWS",
-      "count": 46
+      "count": 39
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 30
     },
     {
       "term": "生成AI",
@@ -19,38 +19,34 @@
     },
     {
       "term": "Go",
-      "count": 28
+      "count": 26
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 22
+    },
+    {
+      "term": "Claude",
+      "count": 18
     },
     {
       "term": "LLM",
       "count": 17
     },
     {
-      "term": "Claude",
-      "count": 16
-    },
-    {
       "term": "デザイン",
-      "count": 15
+      "count": 14
     },
     {
       "term": "Copilot",
       "count": 13
     },
     {
-      "term": "Web",
-      "count": 12
-    },
-    {
       "term": "Python",
       "count": 10
     },
     {
-      "term": "UX",
+      "term": "Web",
       "count": 9
     },
     {
@@ -58,12 +54,20 @@
       "count": 9
     },
     {
-      "term": "Ruby",
+      "term": "フロントエンド",
       "count": 8
     },
     {
-      "term": "フロントエンド",
-      "count": 8
+      "term": "Ruby",
+      "count": 7
+    },
+    {
+      "term": "UX",
+      "count": 7
+    },
+    {
+      "term": "Codex",
+      "count": 6
     },
     {
       "term": "MCP",
@@ -75,10 +79,6 @@
     },
     {
       "term": "Azure",
-      "count": 4
-    },
-    {
-      "term": "Codex",
       "count": 4
     },
     {
@@ -102,10 +102,6 @@
       "count": 3
     },
     {
-      "term": "React",
-      "count": 3
-    },
-    {
       "term": "SRE",
       "count": 3
     },
@@ -126,15 +122,15 @@
       "count": 2
     },
     {
-      "term": "Next.js",
-      "count": 2
-    },
-    {
       "term": "PdM",
       "count": 2
     },
     {
       "term": "RAG",
+      "count": 2
+    },
+    {
+      "term": "React",
       "count": 2
     },
     {
@@ -159,6 +155,10 @@
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Next.js",
       "count": 1
     },
     {
