@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-11T09:11:58+09:00",
+  "updated_at": "2026-10-12T09:25:53+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 276
+      "count": 283
     },
     {
       "term": "AWS",
-      "count": 39
-    },
-    {
-      "term": "エージェント",
-      "count": 30
+      "count": 38
     },
     {
       "term": "生成AI",
+      "count": 30
+    },
+    {
+      "term": "エージェント",
       "count": 29
     },
     {
@@ -23,15 +23,15 @@
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 21
     },
     {
       "term": "Claude",
-      "count": 18
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 17
+      "count": 16
     },
     {
       "term": "デザイン",
@@ -44,6 +44,10 @@
     {
       "term": "Python",
       "count": 10
+    },
+    {
+      "term": "UX",
+      "count": 9
     },
     {
       "term": "Web",
@@ -62,14 +66,6 @@
       "count": 7
     },
     {
-      "term": "UX",
-      "count": 7
-    },
-    {
-      "term": "Codex",
-      "count": 6
-    },
-    {
       "term": "MCP",
       "count": 6
     },
@@ -78,7 +74,15 @@
       "count": 6
     },
     {
+      "term": "Codex",
+      "count": 5
+    },
+    {
       "term": "Azure",
+      "count": 4
+    },
+    {
+      "term": "ChatGPT",
       "count": 4
     },
     {
@@ -86,8 +90,12 @@
       "count": 4
     },
     {
-      "term": "ChatGPT",
-      "count": 3
+      "term": "プロンプト",
+      "count": 4
+    },
+    {
+      "term": "脆弱性",
+      "count": 4
     },
     {
       "term": "Java",
@@ -106,16 +114,16 @@
       "count": 3
     },
     {
+      "term": "Vue",
+      "count": 3
+    },
+    {
       "term": "プロダクトマネジメント",
       "count": 3
     },
     {
-      "term": "プロンプト",
-      "count": 3
-    },
-    {
-      "term": "脆弱性",
-      "count": 3
+      "term": "Databricks",
+      "count": 2
     },
     {
       "term": "Gemini",
@@ -130,10 +138,6 @@
       "count": 2
     },
     {
-      "term": "React",
-      "count": 2
-    },
-    {
       "term": "Snowflake",
       "count": 2
     },
@@ -142,15 +146,7 @@
       "count": 2
     },
     {
-      "term": "Vue",
-      "count": 2
-    },
-    {
       "term": "Cursor",
-      "count": 1
-    },
-    {
-      "term": "Databricks",
       "count": 1
     },
     {
@@ -159,6 +155,10 @@
     },
     {
       "term": "Next.js",
+      "count": 1
+    },
+    {
+      "term": "React",
       "count": 1
     },
     {
