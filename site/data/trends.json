@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-12T09:25:53+09:00",
+  "updated_at": "2026-10-14T09:14:29+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 283
+      "count": 301
     },
     {
       "term": "AWS",
-      "count": 38
+      "count": 39
     },
     {
       "term": "生成AI",
-      "count": 30
+      "count": 33
     },
     {
       "term": "エージェント",
@@ -23,23 +23,23 @@
     },
     {
       "term": "セキュリティ",
-      "count": 21
+      "count": 22
     },
     {
       "term": "Claude",
-      "count": 17
-    },
-    {
-      "term": "LLM",
-      "count": 16
+      "count": 21
     },
     {
       "term": "デザイン",
-      "count": 14
+      "count": 16
+    },
+    {
+      "term": "LLM",
+      "count": 15
     },
     {
       "term": "Copilot",
-      "count": 13
+      "count": 12
     },
     {
       "term": "Python",
@@ -54,16 +54,12 @@
       "count": 9
     },
     {
-      "term": "テスト",
-      "count": 9
-    },
-    {
-      "term": "フロントエンド",
+      "term": "Ruby",
       "count": 8
     },
     {
-      "term": "Ruby",
-      "count": 7
+      "term": "テスト",
+      "count": 8
     },
     {
       "term": "MCP",
@@ -78,11 +74,19 @@
       "count": 5
     },
     {
-      "term": "Azure",
-      "count": 4
+      "term": "SRE",
+      "count": 5
     },
     {
-      "term": "ChatGPT",
+      "term": "フロントエンド",
+      "count": 5
+    },
+    {
+      "term": "プロンプト",
+      "count": 5
+    },
+    {
+      "term": "Azure",
       "count": 4
     },
     {
@@ -90,7 +94,7 @@
       "count": 4
     },
     {
-      "term": "プロンプト",
+      "term": "RAG",
       "count": 4
     },
     {
@@ -98,23 +102,19 @@
       "count": 4
     },
     {
+      "term": "ChatGPT",
+      "count": 3
+    },
+    {
+      "term": "Gemini",
+      "count": 3
+    },
+    {
       "term": "Java",
       "count": 3
     },
     {
-      "term": "Kubernetes",
-      "count": 3
-    },
-    {
       "term": "QA",
-      "count": 3
-    },
-    {
-      "term": "SRE",
-      "count": 3
-    },
-    {
-      "term": "Vue",
       "count": 3
     },
     {
@@ -126,15 +126,7 @@
       "count": 2
     },
     {
-      "term": "Gemini",
-      "count": 2
-    },
-    {
       "term": "PdM",
-      "count": 2
-    },
-    {
-      "term": "RAG",
       "count": 2
     },
     {
@@ -142,7 +134,7 @@
       "count": 2
     },
     {
-      "term": "TypeScript",
+      "term": "Vue",
       "count": 2
     },
     {
@@ -151,6 +143,10 @@
     },
     {
       "term": "Kotlin",
+      "count": 1
+    },
+    {
+      "term": "Kubernetes",
       "count": 1
     },
     {
@@ -167,6 +163,10 @@
     },
     {
       "term": "Svelte",
+      "count": 1
+    },
+    {
+      "term": "TypeScript",
       "count": 1
     }
   ]
