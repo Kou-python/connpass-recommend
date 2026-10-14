@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-14T09:14:29+09:00",
+  "updated_at": "2026-10-15T08:51:07+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 301
+      "count": 299
     },
     {
       "term": "AWS",
-      "count": 39
+      "count": 43
     },
     {
       "term": "生成AI",
@@ -15,31 +15,31 @@
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 27
     },
     {
       "term": "Go",
       "count": 26
     },
     {
-      "term": "セキュリティ",
+      "term": "Claude",
       "count": 22
     },
     {
-      "term": "Claude",
+      "term": "セキュリティ",
       "count": 21
     },
     {
       "term": "デザイン",
-      "count": 16
+      "count": 17
     },
     {
       "term": "LLM",
-      "count": 15
+      "count": 14
     },
     {
       "term": "Copilot",
-      "count": 12
+      "count": 11
     },
     {
       "term": "Python",
@@ -47,11 +47,11 @@
     },
     {
       "term": "UX",
-      "count": 9
+      "count": 10
     },
     {
       "term": "Web",
-      "count": 9
+      "count": 10
     },
     {
       "term": "Ruby",
@@ -63,10 +63,10 @@
     },
     {
       "term": "MCP",
-      "count": 6
+      "count": 7
     },
     {
-      "term": "データ基盤",
+      "term": "SRE",
       "count": 6
     },
     {
@@ -74,11 +74,7 @@
       "count": 5
     },
     {
-      "term": "SRE",
-      "count": 5
-    },
-    {
-      "term": "フロントエンド",
+      "term": "データ基盤",
       "count": 5
     },
     {
@@ -90,7 +86,7 @@
       "count": 4
     },
     {
-      "term": "DevOps",
+      "term": "ChatGPT",
       "count": 4
     },
     {
@@ -98,11 +94,15 @@
       "count": 4
     },
     {
+      "term": "フロントエンド",
+      "count": 4
+    },
+    {
       "term": "脆弱性",
       "count": 4
     },
     {
-      "term": "ChatGPT",
+      "term": "DevOps",
       "count": 3
     },
     {
@@ -114,12 +114,16 @@
       "count": 3
     },
     {
-      "term": "QA",
+      "term": "Vue",
       "count": 3
     },
     {
       "term": "プロダクトマネジメント",
       "count": 3
+    },
+    {
+      "term": "Cursor",
+      "count": 2
     },
     {
       "term": "Databricks",
@@ -130,20 +134,12 @@
       "count": 2
     },
     {
-      "term": "Snowflake",
+      "term": "QA",
       "count": 2
     },
     {
-      "term": "Vue",
+      "term": "React",
       "count": 2
-    },
-    {
-      "term": "Cursor",
-      "count": 1
-    },
-    {
-      "term": "Kotlin",
-      "count": 1
     },
     {
       "term": "Kubernetes",
@@ -154,11 +150,7 @@
       "count": 1
     },
     {
-      "term": "React",
-      "count": 1
-    },
-    {
-      "term": "Rust",
+      "term": "Snowflake",
       "count": 1
     },
     {
