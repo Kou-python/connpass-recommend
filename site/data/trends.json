@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-10-15T08:51:07+09:00",
+  "updated_at": "2026-10-16T08:38:43+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 299
+      "count": 295
     },
     {
       "term": "AWS",
-      "count": 43
+      "count": 45
     },
     {
       "term": "生成AI",
       "count": 33
     },
     {
-      "term": "エージェント",
-      "count": 27
+      "term": "Go",
+      "count": 29
     },
     {
-      "term": "Go",
-      "count": 26
+      "term": "エージェント",
+      "count": 29
     },
     {
       "term": "Claude",
-      "count": 22
-    },
-    {
-      "term": "セキュリティ",
       "count": 21
     },
     {
+      "term": "セキュリティ",
+      "count": 20
+    },
+    {
       "term": "デザイン",
-      "count": 17
+      "count": 15
     },
     {
       "term": "LLM",
-      "count": 14
-    },
-    {
-      "term": "Copilot",
-      "count": 11
-    },
-    {
-      "term": "Python",
-      "count": 10
-    },
-    {
-      "term": "UX",
-      "count": 10
+      "count": 13
     },
     {
       "term": "Web",
-      "count": 10
+      "count": 12
     },
     {
       "term": "Ruby",
+      "count": 10
+    },
+    {
+      "term": "Python",
+      "count": 9
+    },
+    {
+      "term": "UX",
+      "count": 9
+    },
+    {
+      "term": "Copilot",
       "count": 8
     },
     {
@@ -90,6 +90,10 @@
       "count": 4
     },
     {
+      "term": "Java",
+      "count": 4
+    },
+    {
       "term": "RAG",
       "count": 4
     },
@@ -110,20 +114,12 @@
       "count": 3
     },
     {
-      "term": "Java",
-      "count": 3
-    },
-    {
       "term": "Vue",
       "count": 3
     },
     {
       "term": "プロダクトマネジメント",
       "count": 3
-    },
-    {
-      "term": "Cursor",
-      "count": 2
     },
     {
       "term": "Databricks",
@@ -140,6 +136,10 @@
     {
       "term": "React",
       "count": 2
+    },
+    {
+      "term": "Cursor",
+      "count": 1
     },
     {
       "term": "Kubernetes",
