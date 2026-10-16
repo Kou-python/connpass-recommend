@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:38:43+09:00",
+  "updated_at": "2026-10-17T08:26:54+09:00",
   "trends": [
     {
       "term": "AI",
@@ -15,38 +15,38 @@
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 31
     },
     {
       "term": "エージェント",
-      "count": 29
+      "count": 26
     },
     {
       "term": "Claude",
-      "count": 21
+      "count": 22
     },
     {
       "term": "セキュリティ",
-      "count": 20
+      "count": 19
+    },
+    {
+      "term": "LLM",
+      "count": 15
     },
     {
       "term": "デザイン",
       "count": 15
     },
     {
-      "term": "LLM",
-      "count": 13
-    },
-    {
       "term": "Web",
-      "count": 12
-    },
-    {
-      "term": "Ruby",
-      "count": 10
+      "count": 11
     },
     {
       "term": "Python",
+      "count": 10
+    },
+    {
+      "term": "Ruby",
       "count": 9
     },
     {
@@ -55,19 +55,23 @@
     },
     {
       "term": "Copilot",
-      "count": 8
-    },
-    {
-      "term": "テスト",
-      "count": 8
+      "count": 7
     },
     {
       "term": "MCP",
       "count": 7
     },
     {
+      "term": "テスト",
+      "count": 7
+    },
+    {
       "term": "SRE",
       "count": 6
+    },
+    {
+      "term": "ChatGPT",
+      "count": 5
     },
     {
       "term": "Codex",
@@ -83,10 +87,6 @@
     },
     {
       "term": "Azure",
-      "count": 4
-    },
-    {
-      "term": "ChatGPT",
       "count": 4
     },
     {
@@ -114,11 +114,7 @@
       "count": 3
     },
     {
-      "term": "Vue",
-      "count": 3
-    },
-    {
-      "term": "プロダクトマネジメント",
+      "term": "React",
       "count": 3
     },
     {
@@ -126,19 +122,19 @@
       "count": 2
     },
     {
-      "term": "PdM",
-      "count": 2
-    },
-    {
       "term": "QA",
       "count": 2
     },
     {
-      "term": "React",
+      "term": "Vue",
       "count": 2
     },
     {
-      "term": "Cursor",
+      "term": "プロダクトマネジメント",
+      "count": 2
+    },
+    {
+      "term": "Kotlin",
       "count": 1
     },
     {
@@ -147,6 +143,10 @@
     },
     {
       "term": "Next.js",
+      "count": 1
+    },
+    {
+      "term": "PdM",
       "count": 1
     },
     {
