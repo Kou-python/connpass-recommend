@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-17T08:26:54+09:00",
+  "updated_at": "2026-10-18T08:00:22+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 295
+      "count": 285
     },
     {
       "term": "AWS",
-      "count": 45
+      "count": 43
     },
     {
       "term": "生成AI",
@@ -15,11 +15,11 @@
     },
     {
       "term": "Go",
-      "count": 31
+      "count": 29
     },
     {
       "term": "エージェント",
-      "count": 26
+      "count": 27
     },
     {
       "term": "Claude",
@@ -27,22 +27,22 @@
     },
     {
       "term": "セキュリティ",
-      "count": 19
-    },
-    {
-      "term": "LLM",
-      "count": 15
+      "count": 20
     },
     {
       "term": "デザイン",
       "count": 15
     },
     {
-      "term": "Web",
-      "count": 11
+      "term": "LLM",
+      "count": 12
     },
     {
       "term": "Python",
+      "count": 10
+    },
+    {
+      "term": "Web",
       "count": 10
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "term": "UX",
-      "count": 9
+      "count": 8
     },
     {
       "term": "Copilot",
@@ -59,14 +59,14 @@
     },
     {
       "term": "MCP",
-      "count": 7
-    },
-    {
-      "term": "テスト",
-      "count": 7
+      "count": 6
     },
     {
       "term": "SRE",
+      "count": 6
+    },
+    {
+      "term": "テスト",
       "count": 6
     },
     {
@@ -86,11 +86,7 @@
       "count": 5
     },
     {
-      "term": "Azure",
-      "count": 4
-    },
-    {
-      "term": "Java",
+      "term": "DevOps",
       "count": 4
     },
     {
@@ -98,15 +94,11 @@
       "count": 4
     },
     {
-      "term": "フロントエンド",
-      "count": 4
-    },
-    {
       "term": "脆弱性",
       "count": 4
     },
     {
-      "term": "DevOps",
+      "term": "Azure",
       "count": 3
     },
     {
@@ -114,7 +106,15 @@
       "count": 3
     },
     {
+      "term": "Java",
+      "count": 3
+    },
+    {
       "term": "React",
+      "count": 3
+    },
+    {
+      "term": "フロントエンド",
       "count": 3
     },
     {
