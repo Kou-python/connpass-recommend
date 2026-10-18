@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:00:22+09:00",
+  "updated_at": "2026-10-19T07:59:11+09:00",
   "trends": [
     {
       "term": "AI",
@@ -7,23 +7,23 @@
     },
     {
       "term": "AWS",
-      "count": 43
+      "count": 42
     },
     {
       "term": "生成AI",
-      "count": 33
-    },
-    {
-      "term": "Go",
-      "count": 29
+      "count": 32
     },
     {
       "term": "エージェント",
-      "count": 27
+      "count": 28
+    },
+    {
+      "term": "Go",
+      "count": 26
     },
     {
       "term": "Claude",
-      "count": 22
+      "count": 21
     },
     {
       "term": "セキュリティ",
@@ -35,26 +35,30 @@
     },
     {
       "term": "LLM",
-      "count": 12
-    },
-    {
-      "term": "Python",
-      "count": 10
-    },
-    {
-      "term": "Web",
-      "count": 10
+      "count": 11
     },
     {
       "term": "Ruby",
+      "count": 10
+    },
+    {
+      "term": "Python",
       "count": 9
     },
     {
-      "term": "UX",
+      "term": "Web",
       "count": 8
     },
     {
       "term": "Copilot",
+      "count": 7
+    },
+    {
+      "term": "UX",
+      "count": 7
+    },
+    {
+      "term": "テスト",
       "count": 7
     },
     {
@@ -66,7 +70,7 @@
       "count": 6
     },
     {
-      "term": "テスト",
+      "term": "データ基盤",
       "count": 6
     },
     {
@@ -75,10 +79,6 @@
     },
     {
       "term": "Codex",
-      "count": 5
-    },
-    {
-      "term": "データ基盤",
       "count": 5
     },
     {
@@ -94,10 +94,6 @@
       "count": 4
     },
     {
-      "term": "脆弱性",
-      "count": 4
-    },
-    {
       "term": "Azure",
       "count": 3
     },
@@ -110,11 +106,7 @@
       "count": 3
     },
     {
-      "term": "React",
-      "count": 3
-    },
-    {
-      "term": "フロントエンド",
+      "term": "脆弱性",
       "count": 3
     },
     {
@@ -126,7 +118,15 @@
       "count": 2
     },
     {
+      "term": "React",
+      "count": 2
+    },
+    {
       "term": "Vue",
+      "count": 2
+    },
+    {
+      "term": "フロントエンド",
       "count": 2
     },
     {
