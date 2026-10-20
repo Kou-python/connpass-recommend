@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:59:11+09:00",
+  "updated_at": "2026-10-20T09:12:50+09:00",
   "trends": [
     {
       "term": "AI",
@@ -7,18 +7,18 @@
     },
     {
       "term": "AWS",
-      "count": 42
+      "count": 48
     },
     {
       "term": "生成AI",
-      "count": 32
-    },
-    {
-      "term": "エージェント",
-      "count": 28
+      "count": 30
     },
     {
       "term": "Go",
+      "count": 26
+    },
+    {
+      "term": "エージェント",
       "count": 26
     },
     {
@@ -27,30 +27,34 @@
     },
     {
       "term": "セキュリティ",
-      "count": 20
+      "count": 19
     },
     {
       "term": "デザイン",
-      "count": 15
+      "count": 16
     },
     {
       "term": "LLM",
-      "count": 11
+      "count": 12
     },
     {
       "term": "Ruby",
       "count": 10
     },
     {
-      "term": "Python",
+      "term": "Web",
       "count": 9
     },
     {
-      "term": "Web",
+      "term": "Python",
       "count": 8
     },
     {
       "term": "Copilot",
+      "count": 7
+    },
+    {
+      "term": "MCP",
       "count": 7
     },
     {
@@ -62,15 +66,15 @@
       "count": 7
     },
     {
-      "term": "MCP",
-      "count": 6
-    },
-    {
       "term": "SRE",
       "count": 6
     },
     {
       "term": "データ基盤",
+      "count": 6
+    },
+    {
+      "term": "プロンプト",
       "count": 6
     },
     {
@@ -82,12 +86,8 @@
       "count": 5
     },
     {
-      "term": "プロンプト",
-      "count": 5
-    },
-    {
       "term": "DevOps",
-      "count": 4
+      "count": 5
     },
     {
       "term": "RAG",
@@ -106,6 +106,10 @@
       "count": 3
     },
     {
+      "term": "Vue",
+      "count": 3
+    },
+    {
       "term": "脆弱性",
       "count": 3
     },
@@ -119,10 +123,6 @@
     },
     {
       "term": "React",
-      "count": 2
-    },
-    {
-      "term": "Vue",
       "count": 2
     },
     {
