@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-10-21T08:47:00+09:00",
+  "updated_at": "2026-10-22T08:59:02+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 290
+      "count": 289
     },
     {
       "term": "AWS",
-      "count": 47
-    },
-    {
-      "term": "生成AI",
-      "count": 27
-    },
-    {
-      "term": "エージェント",
-      "count": 26
+      "count": 45
     },
     {
       "term": "Go",
+      "count": 27
+    },
+    {
+      "term": "生成AI",
       "count": 25
     },
     {
+      "term": "エージェント",
+      "count": 24
+    },
+    {
       "term": "セキュリティ",
-      "count": 22
+      "count": 23
     },
     {
       "term": "Claude",
-      "count": 21
+      "count": 20
     },
     {
       "term": "デザイン",
@@ -35,7 +35,7 @@
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 12
     },
     {
       "term": "Ruby",
@@ -54,6 +54,10 @@
       "count": 8
     },
     {
+      "term": "テスト",
+      "count": 8
+    },
+    {
       "term": "Copilot",
       "count": 7
     },
@@ -64,18 +68,6 @@
     {
       "term": "SRE",
       "count": 7
-    },
-    {
-      "term": "テスト",
-      "count": 7
-    },
-    {
-      "term": "データ基盤",
-      "count": 6
-    },
-    {
-      "term": "プロンプト",
-      "count": 6
     },
     {
       "term": "ChatGPT",
@@ -90,6 +82,18 @@
       "count": 5
     },
     {
+      "term": "データ基盤",
+      "count": 5
+    },
+    {
+      "term": "プロンプト",
+      "count": 5
+    },
+    {
+      "term": "Java",
+      "count": 4
+    },
+    {
       "term": "Azure",
       "count": 3
     },
@@ -98,11 +102,11 @@
       "count": 3
     },
     {
-      "term": "Java",
+      "term": "RAG",
       "count": 3
     },
     {
-      "term": "RAG",
+      "term": "React",
       "count": 3
     },
     {
@@ -114,15 +118,11 @@
       "count": 3
     },
     {
-      "term": "Databricks",
-      "count": 2
-    },
-    {
       "term": "QA",
       "count": 2
     },
     {
-      "term": "React",
+      "term": "TypeScript",
       "count": 2
     },
     {
@@ -130,8 +130,8 @@
       "count": 2
     },
     {
-      "term": "プロダクトマネジメント",
-      "count": 2
+      "term": "Databricks",
+      "count": 1
     },
     {
       "term": "Kotlin",
@@ -150,15 +150,11 @@
       "count": 1
     },
     {
-      "term": "Snowflake",
-      "count": 1
-    },
-    {
       "term": "Svelte",
       "count": 1
     },
     {
-      "term": "TypeScript",
+      "term": "プロダクトマネジメント",
       "count": 1
     }
   ]
