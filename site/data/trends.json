@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:57:35+09:00",
+  "updated_at": "2026-10-24T08:49:19+09:00",
   "trends": [
     {
       "term": "AI",
@@ -7,23 +7,23 @@
     },
     {
       "term": "AWS",
-      "count": 47
+      "count": 45
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 28
     },
     {
       "term": "Claude",
-      "count": 23
-    },
-    {
-      "term": "生成AI",
-      "count": 23
+      "count": 26
     },
     {
       "term": "エージェント",
-      "count": 22
+      "count": 25
+    },
+    {
+      "term": "生成AI",
+      "count": 24
     },
     {
       "term": "セキュリティ",
@@ -38,11 +38,11 @@
       "count": 13
     },
     {
-      "term": "LLM",
-      "count": 11
+      "term": "テスト",
+      "count": 12
     },
     {
-      "term": "Python",
+      "term": "LLM",
       "count": 11
     },
     {
@@ -50,8 +50,8 @@
       "count": 10
     },
     {
-      "term": "テスト",
-      "count": 10
+      "term": "Python",
+      "count": 9
     },
     {
       "term": "MCP",
@@ -86,14 +86,6 @@
       "count": 4
     },
     {
-      "term": "RAG",
-      "count": 4
-    },
-    {
-      "term": "データ基盤",
-      "count": 4
-    },
-    {
       "term": "プロンプト",
       "count": 4
     },
@@ -110,6 +102,10 @@
       "count": 3
     },
     {
+      "term": "RAG",
+      "count": 3
+    },
+    {
       "term": "React",
       "count": 3
     },
@@ -118,15 +114,15 @@
       "count": 3
     },
     {
+      "term": "データ基盤",
+      "count": 3
+    },
+    {
       "term": "QA",
       "count": 2
     },
     {
       "term": "TypeScript",
-      "count": 2
-    },
-    {
-      "term": "フロントエンド",
       "count": 2
     },
     {
@@ -146,7 +142,11 @@
       "count": 1
     },
     {
-      "term": "Svelte",
+      "term": "Terraform",
+      "count": 1
+    },
+    {
+      "term": "フロントエンド",
       "count": 1
     },
     {
