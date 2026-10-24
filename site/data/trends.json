@@ -1,48 +1,40 @@
 {
-  "updated_at": "2026-10-24T08:49:19+09:00",
+  "updated_at": "2026-10-25T08:04:58+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 283
+      "count": 273
     },
     {
       "term": "AWS",
-      "count": 45
+      "count": 43
     },
     {
       "term": "Go",
+      "count": 29
+    },
+    {
+      "term": "エージェント",
       "count": 28
     },
     {
       "term": "Claude",
-      "count": 26
-    },
-    {
-      "term": "エージェント",
-      "count": 25
-    },
-    {
-      "term": "生成AI",
       "count": 24
     },
     {
-      "term": "セキュリティ",
+      "term": "生成AI",
       "count": 22
     },
     {
-      "term": "デザイン",
-      "count": 14
-    },
-    {
-      "term": "Web",
-      "count": 13
-    },
-    {
-      "term": "テスト",
-      "count": 12
+      "term": "セキュリティ",
+      "count": 18
     },
     {
       "term": "LLM",
+      "count": 12
+    },
+    {
+      "term": "Web",
       "count": 11
     },
     {
@@ -50,12 +42,16 @@
       "count": 10
     },
     {
+      "term": "テスト",
+      "count": 10
+    },
+    {
       "term": "Python",
       "count": 9
     },
     {
-      "term": "MCP",
-      "count": 7
+      "term": "デザイン",
+      "count": 9
     },
     {
       "term": "SRE",
@@ -66,20 +62,20 @@
       "count": 7
     },
     {
-      "term": "ChatGPT",
-      "count": 5
-    },
-    {
-      "term": "Codex",
-      "count": 5
-    },
-    {
-      "term": "Copilot",
-      "count": 5
+      "term": "MCP",
+      "count": 6
     },
     {
       "term": "Java",
       "count": 5
+    },
+    {
+      "term": "Codex",
+      "count": 4
+    },
+    {
+      "term": "Copilot",
+      "count": 4
     },
     {
       "term": "DevOps",
@@ -94,7 +90,7 @@
       "count": 4
     },
     {
-      "term": "Azure",
+      "term": "ChatGPT",
       "count": 3
     },
     {
@@ -106,23 +102,27 @@
       "count": 3
     },
     {
-      "term": "React",
-      "count": 3
-    },
-    {
-      "term": "Vue",
-      "count": 3
-    },
-    {
       "term": "データ基盤",
       "count": 3
+    },
+    {
+      "term": "Azure",
+      "count": 2
     },
     {
       "term": "QA",
       "count": 2
     },
     {
+      "term": "React",
+      "count": 2
+    },
+    {
       "term": "TypeScript",
+      "count": 2
+    },
+    {
+      "term": "Vue",
       "count": 2
     },
     {
@@ -135,10 +135,6 @@
     },
     {
       "term": "Kubernetes",
-      "count": 1
-    },
-    {
-      "term": "Next.js",
       "count": 1
     },
     {
