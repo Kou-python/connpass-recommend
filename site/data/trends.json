@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-25T08:04:58+09:00",
+  "updated_at": "2026-10-26T08:09:34+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 273
+      "count": 267
     },
     {
       "term": "AWS",
@@ -15,26 +15,26 @@
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 26
     },
     {
       "term": "Claude",
-      "count": 24
+      "count": 23
     },
     {
       "term": "生成AI",
-      "count": 22
+      "count": 21
     },
     {
       "term": "セキュリティ",
-      "count": 18
+      "count": 16
     },
     {
       "term": "LLM",
       "count": 12
     },
     {
-      "term": "Web",
+      "term": "テスト",
       "count": 11
     },
     {
@@ -42,16 +42,16 @@
       "count": 10
     },
     {
-      "term": "テスト",
+      "term": "Web",
+      "count": 10
+    },
+    {
+      "term": "デザイン",
       "count": 10
     },
     {
       "term": "Python",
-      "count": 9
-    },
-    {
-      "term": "デザイン",
-      "count": 9
+      "count": 7
     },
     {
       "term": "SRE",
@@ -86,15 +86,15 @@
       "count": 4
     },
     {
-      "term": "脆弱性",
-      "count": 4
-    },
-    {
       "term": "ChatGPT",
       "count": 3
     },
     {
       "term": "Gemini",
+      "count": 3
+    },
+    {
+      "term": "QA",
       "count": 3
     },
     {
@@ -106,11 +106,11 @@
       "count": 3
     },
     {
-      "term": "Azure",
-      "count": 2
+      "term": "脆弱性",
+      "count": 3
     },
     {
-      "term": "QA",
+      "term": "Azure",
       "count": 2
     },
     {
