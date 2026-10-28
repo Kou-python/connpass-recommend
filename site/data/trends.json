@@ -1,44 +1,40 @@
 {
-  "updated_at": "2026-10-27T09:21:25+09:00",
+  "updated_at": "2026-10-28T09:24:37+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 279
+      "count": 278
     },
     {
       "term": "AWS",
-      "count": 42
+      "count": 46
     },
     {
       "term": "Go",
-      "count": 28
+      "count": 29
     },
     {
       "term": "エージェント",
-      "count": 28
+      "count": 29
     },
     {
       "term": "Claude",
       "count": 24
     },
     {
+      "term": "セキュリティ",
+      "count": 21
+    },
+    {
       "term": "生成AI",
       "count": 19
     },
     {
-      "term": "セキュリティ",
-      "count": 18
-    },
-    {
-      "term": "Ruby",
-      "count": 12
-    },
-    {
       "term": "LLM",
-      "count": 11
+      "count": 13
     },
     {
-      "term": "テスト",
+      "term": "デザイン",
       "count": 11
     },
     {
@@ -46,15 +42,23 @@
       "count": 10
     },
     {
-      "term": "デザイン",
+      "term": "テスト",
       "count": 10
     },
     {
-      "term": "Python",
-      "count": 7
+      "term": "Ruby",
+      "count": 9
     },
     {
       "term": "SRE",
+      "count": 8
+    },
+    {
+      "term": "Copilot",
+      "count": 7
+    },
+    {
+      "term": "Python",
       "count": 7
     },
     {
@@ -74,15 +78,11 @@
       "count": 5
     },
     {
-      "term": "Codex",
-      "count": 4
-    },
-    {
-      "term": "Copilot",
-      "count": 4
-    },
-    {
       "term": "QA",
+      "count": 5
+    },
+    {
+      "term": "Codex",
       "count": 4
     },
     {
@@ -91,10 +91,6 @@
     },
     {
       "term": "ChatGPT",
-      "count": 3
-    },
-    {
-      "term": "Gemini",
       "count": 3
     },
     {
@@ -111,6 +107,10 @@
     },
     {
       "term": "Azure",
+      "count": 2
+    },
+    {
+      "term": "Gemini",
       "count": 2
     },
     {
@@ -135,6 +135,10 @@
     },
     {
       "term": "Kubernetes",
+      "count": 1
+    },
+    {
+      "term": "Rust",
       "count": 1
     },
     {
