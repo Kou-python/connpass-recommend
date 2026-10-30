@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-10-29T09:45:32+09:00",
+  "updated_at": "2026-10-30T09:46:57+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 276
+      "count": 259
     },
     {
       "term": "AWS",
-      "count": 46
-    },
-    {
-      "term": "エージェント",
-      "count": 28
+      "count": 44
     },
     {
       "term": "Go",
+      "count": 30
+    },
+    {
+      "term": "エージェント",
       "count": 27
     },
     {
       "term": "Claude",
-      "count": 24
+      "count": 23
     },
     {
       "term": "セキュリティ",
-      "count": 22
+      "count": 23
     },
     {
       "term": "生成AI",
-      "count": 19
+      "count": 15
     },
     {
       "term": "LLM",
-      "count": 14
+      "count": 13
     },
     {
       "term": "Web",
@@ -43,6 +43,10 @@
     },
     {
       "term": "Ruby",
+      "count": 9
+    },
+    {
+      "term": "テスト",
       "count": 8
     },
     {
@@ -50,19 +54,15 @@
       "count": 7
     },
     {
+      "term": "Python",
+      "count": 7
+    },
+    {
       "term": "SRE",
-      "count": 7
-    },
-    {
-      "term": "テスト",
-      "count": 7
-    },
-    {
-      "term": "MCP",
       "count": 6
     },
     {
-      "term": "Python",
+      "term": "UX",
       "count": 6
     },
     {
@@ -70,11 +70,15 @@
       "count": 5
     },
     {
-      "term": "UX",
+      "term": "MCP",
       "count": 5
     },
     {
-      "term": "DevOps",
+      "term": "React",
+      "count": 5
+    },
+    {
+      "term": "Codex",
       "count": 4
     },
     {
@@ -82,15 +86,11 @@
       "count": 4
     },
     {
-      "term": "プロンプト",
-      "count": 4
-    },
-    {
       "term": "ChatGPT",
       "count": 3
     },
     {
-      "term": "Codex",
+      "term": "DevOps",
       "count": 3
     },
     {
@@ -98,11 +98,7 @@
       "count": 3
     },
     {
-      "term": "React",
-      "count": 3
-    },
-    {
-      "term": "データ基盤",
+      "term": "プロンプト",
       "count": 3
     },
     {
@@ -114,15 +110,19 @@
       "count": 2
     },
     {
-      "term": "Gemini",
-      "count": 2
-    },
-    {
       "term": "TypeScript",
       "count": 2
     },
     {
+      "term": "データ基盤",
+      "count": 2
+    },
+    {
       "term": "Databricks",
+      "count": 1
+    },
+    {
+      "term": "Gemini",
       "count": 1
     },
     {
@@ -134,23 +134,15 @@
       "count": 1
     },
     {
+      "term": "Next.js",
+      "count": 1
+    },
+    {
       "term": "Rust",
       "count": 1
     },
     {
-      "term": "Terraform",
-      "count": 1
-    },
-    {
       "term": "Vue",
-      "count": 1
-    },
-    {
-      "term": "フロントエンド",
-      "count": 1
-    },
-    {
-      "term": "プロダクトマネジメント",
       "count": 1
     }
   ]
