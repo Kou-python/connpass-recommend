@@ -1,49 +1,53 @@
 {
-  "updated_at": "2026-10-30T09:46:57+09:00",
+  "updated_at": "2026-10-31T09:38:00+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 259
+      "count": 258
     },
     {
       "term": "AWS",
-      "count": 44
-    },
-    {
-      "term": "Go",
-      "count": 30
+      "count": 38
     },
     {
       "term": "エージェント",
-      "count": 27
+      "count": 30
     },
     {
-      "term": "Claude",
-      "count": 23
+      "term": "Go",
+      "count": 28
     },
     {
       "term": "セキュリティ",
-      "count": 23
+      "count": 24
+    },
+    {
+      "term": "Claude",
+      "count": 21
     },
     {
       "term": "生成AI",
-      "count": 15
+      "count": 16
     },
     {
       "term": "LLM",
-      "count": 13
+      "count": 14
     },
     {
       "term": "Web",
-      "count": 11
-    },
-    {
-      "term": "デザイン",
-      "count": 11
+      "count": 12
     },
     {
       "term": "Ruby",
-      "count": 9
+      "count": 10
+    },
+    {
+      "term": "デザイン",
+      "count": 10
+    },
+    {
+      "term": "Python",
+      "count": 8
     },
     {
       "term": "テスト",
@@ -54,7 +58,7 @@
       "count": 7
     },
     {
-      "term": "Python",
+      "term": "UX",
       "count": 7
     },
     {
@@ -62,15 +66,11 @@
       "count": 6
     },
     {
-      "term": "UX",
-      "count": 6
-    },
-    {
-      "term": "Java",
+      "term": "Codex",
       "count": 5
     },
     {
-      "term": "MCP",
+      "term": "Java",
       "count": 5
     },
     {
@@ -78,7 +78,11 @@
       "count": 5
     },
     {
-      "term": "Codex",
+      "term": "ChatGPT",
+      "count": 4
+    },
+    {
+      "term": "MCP",
       "count": 4
     },
     {
@@ -86,19 +90,11 @@
       "count": 4
     },
     {
-      "term": "ChatGPT",
-      "count": 3
-    },
-    {
       "term": "DevOps",
       "count": 3
     },
     {
       "term": "RAG",
-      "count": 3
-    },
-    {
-      "term": "プロンプト",
       "count": 3
     },
     {
@@ -118,15 +114,15 @@
       "count": 2
     },
     {
+      "term": "プロンプト",
+      "count": 2
+    },
+    {
       "term": "Databricks",
       "count": 1
     },
     {
       "term": "Gemini",
-      "count": 1
-    },
-    {
-      "term": "Kotlin",
       "count": 1
     },
     {
@@ -139,10 +135,6 @@
     },
     {
       "term": "Rust",
-      "count": 1
-    },
-    {
-      "term": "Vue",
       "count": 1
     }
   ]
