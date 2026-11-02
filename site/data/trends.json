@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-11-01T09:00:48+09:00",
+  "updated_at": "2026-11-02T09:31:15+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 242
+      "count": 241
     },
     {
       "term": "AWS",
-      "count": 39
-    },
-    {
-      "term": "Go",
-      "count": 30
+      "count": 37
     },
     {
       "term": "エージェント",
-      "count": 30
+      "count": 33
     },
     {
-      "term": "セキュリティ",
-      "count": 24
+      "term": "Go",
+      "count": 29
     },
     {
       "term": "Claude",
-      "count": 19
+      "count": 22
     },
     {
-      "term": "生成AI",
-      "count": 15
+      "term": "セキュリティ",
+      "count": 22
     },
     {
       "term": "Web",
       "count": 13
     },
     {
+      "term": "生成AI",
+      "count": 13
+    },
+    {
+      "term": "Copilot",
+      "count": 10
+    },
+    {
       "term": "LLM",
-      "count": 11
+      "count": 10
     },
     {
       "term": "デザイン",
       "count": 10
     },
     {
-      "term": "Ruby",
-      "count": 9
-    },
-    {
       "term": "テスト",
       "count": 9
     },
     {
-      "term": "Copilot",
+      "term": "Python",
       "count": 7
     },
     {
-      "term": "Python",
+      "term": "Ruby",
       "count": 7
     },
     {
@@ -82,24 +82,20 @@
       "count": 5
     },
     {
-      "term": "ChatGPT",
-      "count": 4
-    },
-    {
       "term": "MCP",
       "count": 4
     },
     {
-      "term": "RAG",
+      "term": "Azure",
+      "count": 3
+    },
+    {
+      "term": "ChatGPT",
       "count": 3
     },
     {
       "term": "脆弱性",
       "count": 3
-    },
-    {
-      "term": "Azure",
-      "count": 2
     },
     {
       "term": "DevOps",
@@ -110,7 +106,7 @@
       "count": 2
     },
     {
-      "term": "TypeScript",
+      "term": "RAG",
       "count": 2
     },
     {
@@ -131,6 +127,10 @@
     },
     {
       "term": "Terraform",
+      "count": 1
+    },
+    {
+      "term": "TypeScript",
       "count": 1
     },
     {
