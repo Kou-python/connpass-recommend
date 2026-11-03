@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-02T09:31:15+09:00",
+  "updated_at": "2026-11-03T11:52:08+09:00",
   "trends": [
     {
       "term": "AI",
-      "count": 241
+      "count": 249
     },
     {
       "term": "AWS",
-      "count": 37
+      "count": 39
     },
     {
       "term": "エージェント",
@@ -15,23 +15,27 @@
     },
     {
       "term": "Go",
-      "count": 29
+      "count": 28
+    },
+    {
+      "term": "セキュリティ",
+      "count": 23
     },
     {
       "term": "Claude",
       "count": 22
     },
     {
-      "term": "セキュリティ",
-      "count": 22
+      "term": "生成AI",
+      "count": 18
     },
     {
       "term": "Web",
-      "count": 13
+      "count": 17
     },
     {
-      "term": "生成AI",
-      "count": 13
+      "term": "デザイン",
+      "count": 11
     },
     {
       "term": "Copilot",
@@ -42,12 +46,12 @@
       "count": 10
     },
     {
-      "term": "デザイン",
-      "count": 10
+      "term": "テスト",
+      "count": 8
     },
     {
-      "term": "テスト",
-      "count": 9
+      "term": "Codex",
+      "count": 7
     },
     {
       "term": "Python",
@@ -60,10 +64,6 @@
     {
       "term": "UX",
       "count": 7
-    },
-    {
-      "term": "Codex",
-      "count": 6
     },
     {
       "term": "SRE",
@@ -90,12 +90,12 @@
       "count": 3
     },
     {
-      "term": "ChatGPT",
+      "term": "脆弱性",
       "count": 3
     },
     {
-      "term": "脆弱性",
-      "count": 3
+      "term": "ChatGPT",
+      "count": 2
     },
     {
       "term": "DevOps",
@@ -115,6 +115,10 @@
     },
     {
       "term": "Databricks",
+      "count": 1
+    },
+    {
+      "term": "Gemini",
       "count": 1
     },
     {
